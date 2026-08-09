@@ -76,26 +76,6 @@
 </div>
 
 <script>
-// ==================== ROUTER ====================
-const params = new URLSearchParams(window.location.search);
-const articleId = params.get('id');
-
-if (articleId) {
-    // Show article view
-    document.getElementById('home-view').style.display = 'none';
-    document.getElementById('article-view').style.display = 'block';
-    loadArticle(articleId);
-} else {
-    // Show homepage
-    document.getElementById('home-view').style.display = 'block';
-    document.getElementById('article-view').style.display = 'none';
-    loadTicker();
-    loadArticles();
-    loadMaineHeadlines();
-    loadNationalHeadlines();
-    loadOpinionPreview();
-}
-
 // ==================== ARTICLE READER ====================
 async function loadArticle(id) {
     const el = document.getElementById('article-content');
@@ -264,6 +244,27 @@ async function loadOpinionPreview() {
     } catch (e) {
         el.innerHTML = '';
     }
+}
+
+// ==================== ROUTER ====================
+// Runs last, after all functions and const feed arrays above are defined.
+const params = new URLSearchParams(window.location.search);
+const articleId = params.get('id');
+
+if (articleId) {
+    // Show article view
+    document.getElementById('home-view').style.display = 'none';
+    document.getElementById('article-view').style.display = 'block';
+    loadArticle(articleId);
+} else {
+    // Show homepage
+    document.getElementById('home-view').style.display = 'block';
+    document.getElementById('article-view').style.display = 'none';
+    loadTicker();
+    loadArticles();
+    loadMaineHeadlines();
+    loadNationalHeadlines();
+    loadOpinionPreview();
 }
 </script>
 
