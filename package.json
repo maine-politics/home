@@ -1,0 +1,11 @@
+{
+  "name": "maine-politics-feeds",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-feeds": "node scripts/fetch-feeds.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}
