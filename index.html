@@ -6,6 +6,7 @@
     <title>Maine Politics — Straight Coverage of Maine Government</title>
     <meta name="description" content="Independent, free coverage of Maine state and local politics. No paywall.">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -32,6 +33,11 @@
         <div class="ticker-scroll">
             <span class="ticker-track" id="ticker-track">Loading live feed…</span>
         </div>
+    </div>
+
+    <div class="roundup-box" id="roundup-box" style="display:none;">
+        <div class="section-title">Maine Roundup</div>
+        <div id="roundup-content" class="story-body"></div>
     </div>
 
     <div class="container">
@@ -106,48 +112,48 @@ async function loadArticle(id) {
     }
 }
 
-// ==================== LIVE WIRE TICKER ====================
-const TICKER_FEEDS = [
-    { url: 'https://www.mainepublic.org/politics.rss', label: 'Maine Public' },
-    { url: 'https://www.bangordailynews.com/feed/', label: 'Bangor Daily News' },
-    { url: 'https://www.pressherald.com/feed/', label: 'Portland Press Herald' }
-];
+// ==================== MAINE ROUNDUP (daily.md) ====================
+async function loadRoundup() {
+    const box = document.getElementById('roundup-box');
+    const el = document.getElementById('roundup-content');
+    try {
+        const res = await fetch('daily.md?v=' + Date.now()); // cache-bust, changes daily
+        if (!res.ok) throw new Error('no roundup yet');
+        const md = await res.text();
+        el.innerHTML = marked.parse(md);
+        box.style.display = 'block';
+    } catch (e) {
+        box.style.display = 'none';
+    }
+}
 
+// ==================== LIVE WIRE TICKER ====================
+// Reads a static JSON file pre-fetched server-side by
+// .github/workflows/fetch-feeds.yml — no live third-party API calls
+// from the browser, so no rate limits and no CORS risk.
 async function loadTicker() {
     const track = document.getElementById('ticker-track');
-    let items = [];
+    try {
+        const res = await fetch('data/ticker.json');
+        if (!res.ok) throw new Error('missing');
+        let items = await res.json();
 
-    for (const feed of TICKER_FEEDS) {
-        try {
-            const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
-            const data = await res.json();
-            if (data.items) {
-                items = items.concat(data.items.slice(0, 5).map(i => ({
-                    title: i.title,
-                    link: i.link,
-                    source: feed.label
-                })));
-            }
-        } catch (e) {
-            // Skip failed feeds
+        if (!items || items.length === 0) {
+            track.textContent = 'Live feed unavailable — check back soon.';
+            return;
         }
-    }
 
-    if (items.length === 0) {
+        items = [...items].sort(() => Math.random() - 0.5);
+
+        track.innerHTML = items.map(i =>
+            `<a href="${i.link}" target="_blank" rel="noopener">[${i.source}] ${i.title}</a>`
+        ).join(' · ');
+
+        // Scale scroll speed to content length.
+        track.style.animationDuration = `${Math.max(20, items.length * 2.5)}s`;
+    } catch (e) {
         track.textContent = 'Live feed unavailable — check back soon.';
-        return;
     }
-
-    // Shuffle for variety
-    items.sort(() => Math.random() - 0.5);
-
-    track.innerHTML = items.map(i =>
-        `<a href="${i.link}" target="_blank" rel="noopener">[${i.source}] ${i.title}</a>`
-    ).join(' · ');
-
-    // Scale scroll speed to content length: short feeds don't feel rushed,
-    // long feeds don't blur past unreadably fast.
-    track.style.animationDuration = `${Math.max(20, items.length * 2.5)}s`;
 }
 
 // ==================== ORIGINAL REPORTING ====================
@@ -170,58 +176,47 @@ async function loadArticles() {
 }
 
 // ==================== MAINE HEADLINES ====================
-const MAINE_FEEDS = [
-    { url: 'https://www.mainepublic.org/politics.rss', label: 'Maine Public' },
-    { url: 'https://www.bangordailynews.com/feed/', label: 'BDN' },
-    { url: 'https://www.pressherald.com/feed/', label: 'Press Herald' },
-    { url: 'https://www.sunjournal.com/feed/', label: 'Sun Journal' },
-    { url: 'https://www.centralmaine.com/feed/', label: 'Kennebec Journal' }
-];
-
 async function loadMaineHeadlines() {
     const list = document.getElementById('maine-headlines');
-    let items = [];
+    try {
+        const res = await fetch('data/maine-headlines.json');
+        if (!res.ok) throw new Error('missing');
+        let items = await res.json();
 
-    for (const feed of MAINE_FEEDS) {
-        try {
-            const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
-            const data = await res.json();
-            if (data.items) {
-                items = items.concat(data.items.slice(0, 4).map(i => ({
-                    title: i.title,
-                    link: i.link,
-                    source: feed.label
-                })));
-            }
-        } catch (e) {}
-    }
+        if (!items || items.length === 0) {
+            list.innerHTML = '<span class="loading">Headlines unavailable.</span>';
+            return;
+        }
 
-    if (items.length === 0) {
+        items = [...items].sort(() => Math.random() - 0.5);
+
+        list.innerHTML = items.slice(0, 15).map((i, idx) => `
+            <a class="story-link ${idx === 0 ? 'top-story' : ''}" href="${i.link}" target="_blank" rel="noopener">${i.title}</a>
+            <div class="story-meta">${i.source}</div>
+        `).join('');
+    } catch (e) {
         list.innerHTML = '<span class="loading">Headlines unavailable.</span>';
-        return;
     }
-
-    items.sort(() => Math.random() - 0.5);
-
-    list.innerHTML = items.slice(0, 15).map((i, idx) => `
-        <a class="story-link ${idx === 0 ? 'top-story' : ''}" href="${i.link}" target="_blank" rel="noopener">${i.title}</a>
-        <div class="story-meta">${i.source}</div>
-    `).join('');
 }
 
 // ==================== NATIONAL HEADLINES ====================
 async function loadNationalHeadlines() {
     const list = document.getElementById('national-headlines');
     try {
-        const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.npr.org%2F1001%2Frss.xml');
-        const data = await res.json();
-        if (!data.items) {
+        const res = await fetch('data/national-headlines.json');
+        if (!res.ok) throw new Error('missing');
+        let items = await res.json();
+
+        if (!items || items.length === 0) {
             list.innerHTML = '<span class="loading">Headlines unavailable.</span>';
             return;
         }
-        list.innerHTML = data.items.slice(0, 10).map((i, idx) => `
+
+        items = [...items].sort(() => Math.random() - 0.5);
+
+        list.innerHTML = items.slice(0, 10).map((i, idx) => `
             <a class="story-link ${idx === 0 ? 'top-story' : ''}" href="${i.link}" target="_blank" rel="noopener">${i.title}</a>
-            <div class="story-meta">NPR Politics</div>
+            <div class="story-meta">${i.source}</div>
         `).join('');
     } catch (e) {
         list.innerHTML = '<span class="loading">Headlines unavailable.</span>';
@@ -247,7 +242,7 @@ async function loadOpinionPreview() {
 }
 
 // ==================== ROUTER ====================
-// Runs last, after all functions and const feed arrays above are defined.
+// Runs last, after all functions above are defined.
 const params = new URLSearchParams(window.location.search);
 const articleId = params.get('id');
 
@@ -261,6 +256,7 @@ if (articleId) {
     document.getElementById('home-view').style.display = 'block';
     document.getElementById('article-view').style.display = 'none';
     loadTicker();
+    loadRoundup();
     loadArticles();
     loadMaineHeadlines();
     loadNationalHeadlines();
