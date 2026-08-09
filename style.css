@@ -324,3 +324,45 @@ body {
         font-size: 16px;
     }
 }
+/* ============ MAINE ROUNDUP ============ */
+.roundup-box {
+    background: #fdfaf3;
+    border: 1px solid #e8dfc8;
+    border-left: 4px solid #c00;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+
+.roundup-box .section-title {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.roundup-box .story-body {
+    font-size: 16px;
+}
+
+.roundup-box .story-body h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.roundup-box .story-body h2 {
+    font-size: 18px;
+    margin: 16px 0 8px 0;
+}
+
+.roundup-box .story-body ul {
+    margin: 0 0 12px 0;
+    padding-left: 22px;
+}
+
+.roundup-box .story-body li {
+    margin-bottom: 6px;
+}
+
+.roundup-box .story-body p {
+    margin: 0 0 12px 0;
+}
