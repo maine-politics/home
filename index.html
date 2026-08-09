@@ -150,7 +150,7 @@ async function loadTicker() {
         ).join(' · ');
 
         // Scale scroll speed to content length.
-        track.style.animationDuration = `${Math.max(20, items.length * 2.5)}s`;
+        track.style.animationDuration = `${Math.max(45, items.length * 5)}s`;
     } catch (e) {
         track.textContent = 'Live feed unavailable — check back soon.';
     }
