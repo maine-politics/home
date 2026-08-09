@@ -77,6 +77,8 @@ body {
 
 /* ============ TICKER ============ */
 .ticker-wrap {
+    display: flex;
+    align-items: center;
     background: #f0f0ed;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -84,16 +86,37 @@ body {
     margin: 20px 0;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
     font-size: 12px;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .ticker-label {
+    flex-shrink: 0;
     font-weight: 700;
     color: #c00;
     margin-right: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.ticker-scroll {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticker-track {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: ticker-scroll 35s linear infinite;
+}
+
+.ticker-scroll:hover .ticker-track {
+    animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
 }
 
 .ticker-track a {
