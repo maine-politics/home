@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion — Maine Politics</title>
+    <meta name="description" content="Commentary and opinion on Maine politics. Clearly separated from straight news reporting.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1><a href="index.html">MAINE POLITICS</a></h1>
+    <p>Free · No paywall · Straight reporting, sourced directly from the record</p>
+</div>
+
+<div class="site-nav">
+    <a href="index.html">HOME</a>
+    <a href="local.html">LOCAL</a>
+    <a href="governor.html">GOVERNOR</a>
+    <a href="legislature.html">LEGISLATURE</a>
+    <a href="elections.html">ELECTIONS</a>
+    <a href="opinion.html">OPINION</a>
+    <a href="about.html">ABOUT</a>
+</div>
+
+<div class="container">
+    <div class="column" style="flex: 2;">
+        <div class="opinion-banner">
+            <strong>OPINION</strong> — commentary, not straight news. Views are the author's own.
+        </div>
+        <div class="section-title" style="margin-top:20px;">All Opinion Pieces</div>
+        <div id="opinion-list"><span class="loading">Loading opinion pieces…</span></div>
+    </div>
+    <div class="column">
+        <div class="section-title">Resources</div>
+        <a class="story-link" href="https://legislature.maine.gov/bills/" target="_blank" rel="noopener">Bill Tracker (Maine Legislature)</a>
+        <a class="story-link" href="https://www.mainecampaignfinancedisclosure.com/" target="_blank" rel="noopener">Campaign Finance Disclosure</a>
+        <a class="story-link" href="https://www.maine.gov/portal/subscriptions/rss.html" target="_blank" rel="noopener">Maine.gov Public Meeting Calendar</a>
+        <a class="story-link" href="about.html">About This Site</a>
+    </div>
+</div>
+
+<div class="footer">
+    Maine Politics — an independent outlet covering Maine state and local government. Reported and built from Bucksport, Maine.<br>
+    Wire headlines are aggregated from public RSS feeds and link directly to the original source.
+</div>
+
+<script>
+async function loadOpinionList() {
+    const list = document.getElementById('opinion-list');
+    try {
+        const res = await fetch('data/opinion.json');
+        const pieces = await res.json();
+        if (pieces.length === 0) {
+            list.innerHTML = '<span class="loading">No opinion pieces yet.</span>';
+            return;
+        }
+        list.innerHTML = pieces.map((p, i) => `
+            <a class="story-link ${i === 0 ? 'top-story' : ''}" href="opinion/${p.id}.html"><span class="opinion-tag">Opinion</span> ${p.headline}</a>
+            <div class="story-meta">By ${p.byline} · ${p.date}</div>
+            <div style="margin-bottom:10px;color:#555;font-size:0.95em;">${p.dek || ''}</div>
+        `).join('');
+    } catch (e) {
+        list.innerHTML = '<span class="loading">Could not load opinion pieces.</span>';
+    }
+}
+loadOpinionList();
+</script>
+
+</body>
+</html>
