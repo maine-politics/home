@@ -28,11 +28,11 @@
 <div id="home-view">
 
     <div class="ticker-wrap">
-    <span class="ticker-label">LIVE WIRE</span>
-    <div class="ticker-scroll">
-        <span class="ticker-track" id="ticker-track">Loading live feed…</span>
+        <span class="ticker-label">LIVE WIRE</span>
+        <div class="ticker-scroll">
+            <span class="ticker-track" id="ticker-track">Loading live feed…</span>
+        </div>
     </div>
-</div>
 
     <div class="container">
         <!-- LEFT COLUMN: Original reporting -->
@@ -164,6 +164,10 @@ async function loadTicker() {
     track.innerHTML = items.map(i =>
         `<a href="${i.link}" target="_blank" rel="noopener">[${i.source}] ${i.title}</a>`
     ).join(' · ');
+
+    // Scale scroll speed to content length: short feeds don't feel rushed,
+    // long feeds don't blur past unreadably fast.
+    track.style.animationDuration = `${Math.max(20, items.length * 2.5)}s`;
 }
 
 // ==================== ORIGINAL REPORTING ====================
