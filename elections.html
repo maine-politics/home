@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elections — Maine Politics</title>
+    <meta name="description" content="Coverage of Maine campaigns, candidates, and election results.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1><a href="index.html">MAINE POLITICS</a></h1>
+    <p>Free · No paywall · Straight reporting, sourced directly from the record</p>
+</div>
+
+<div class="site-nav">
+    <a href="index.html">HOME</a>
+    <a href="local.html">LOCAL</a>
+    <a href="governor.html">GOVERNOR</a>
+    <a href="legislature.html">LEGISLATURE</a>
+    <a href="elections.html">ELECTIONS</a>
+    <a href="opinion.html">OPINION</a>
+    <a href="about.html">ABOUT</a>
+</div>
+
+<div id="beat-view">
+    <div class="container">
+        <div class="column" style="flex: 2;">
+            <div class="section-title">Elections</div>
+            <div id="beat-articles"><span class="loading">Loading articles…</span></div>
+        </div>
+        <div class="column">
+            <div class="section-title">Resources</div>
+            <a class="story-link" href="https://legislature.maine.gov/bills/" target="_blank" rel="noopener">Bill Tracker (Maine Legislature)</a>
+            <a class="story-link" href="https://www.mainecampaignfinancedisclosure.com/" target="_blank" rel="noopener">Campaign Finance Disclosure</a>
+            <a class="story-link" href="https://www.maine.gov/portal/subscriptions/rss.html" target="_blank" rel="noopener">Maine.gov Public Meeting Calendar</a>
+            <a class="story-link" href="about.html">About This Site</a>
+        </div>
+    </div>
+</div>
+
+<article class="story" id="article-view" style="display:none;">
+    <div id="article-content"><span class="loading">Loading article…</span></div>
+    <p style="margin-top:30px;"><a href="elections.html">← Back to Elections</a></p>
+</article>
+
+<div class="footer">
+    Maine Politics — an independent outlet covering Maine state and local government. Reported and built from Bucksport, Maine.<br>
+    Wire headlines are aggregated from public RSS feeds and link directly to the original source.
+</div>
+
+<script>
+const BEAT = "Elections";
+const params = new URLSearchParams(window.location.search);
+const articleId = params.get('id');
+
+if (articleId) {
+    document.getElementById('beat-view').style.display = 'none';
+    document.getElementById('article-view').style.display = 'block';
+    loadArticle(articleId);
+} else {
+    loadBeatArticles();
+}
+
+async function loadBeatArticles() {
+    const list = document.getElementById('beat-articles');
+    try {
+        const res = await fetch('articles/index.json');
+        const articles = await res.json();
+        const filtered = articles.filter(a => a.beat === BEAT);
+        if (filtered.length === 0) {
+            list.innerHTML = '<span class="loading">No ' + BEAT.toLowerCase() + ' stories published yet.</span>';
+            return;
+        }
+        list.innerHTML = filtered.map((a, i) => `
+            <a class="story-link ${i === 0 ? 'top-story' : ''}" href="elections.html?id=${a.id}">${a.headline}</a>
+            <div class="story-meta">${a.beat} · ${a.byline} · ${a.date}</div>
+        `).join('');
+    } catch (e) {
+        list.innerHTML = '<span class="loading">Could not load articles.</span>';
+    }
+}
+
+async function loadArticle(id) {
+    const el = document.getElementById('article-content');
+    try {
+        const indexRes = await fetch('articles/index.json');
+        const index = await indexRes.json();
+        const entry = index.find(a => a.id === id);
+        if (!entry) {
+            el.innerHTML = '<div class="story-header"><h1>Not Found</h1></div><p>Article not found.</p>';
+            return;
+        }
+        const articleRes = await fetch(entry.file);
+        const article = await articleRes.json();
+        document.title = `${article.headline} — Maine Politics`;
+        el.innerHTML = `
+            <div class="story-header">
+                <span class="story-beat">${article.beat}</span>
+                <h1>${article.headline}</h1>
+                <div class="story-meta">By ${article.byline} · ${article.date}</div>
+            </div>
+            <div class="story-body">${article.body}</div>
+        `;
+    } catch (e) {
+        el.innerHTML = '<p>Could not load article.</p>';
+    }
+}
+</script>
+
+</body>
+</html>
