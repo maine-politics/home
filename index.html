@@ -38,6 +38,11 @@
         <div id="roundup-content" class="story-body"></div>
     </div>
 
+    <div class="spotlight-box" id="spotlight-box" style="display:none;">
+        <div class="section-title">Local Politician Spotlight</div>
+        <div id="spotlight-content"></div>
+    </div>
+
     <div class="container">
         <!-- LEFT COLUMN: Original reporting -->
         <div class="column" style="flex: 2;">
@@ -119,6 +124,36 @@ async function loadRoundup() {
         if (!res.ok) throw new Error('no roundup yet');
         const md = await res.text();
         el.innerHTML = marked.parse(md);
+        box.style.display = 'block';
+    } catch (e) {
+        box.style.display = 'none';
+    }
+}
+
+// ==================== LOCAL POLITICIAN SPOTLIGHT ====================
+async function loadSpotlight() {
+    const box = document.getElementById('spotlight-box');
+    const el = document.getElementById('spotlight-content');
+    try {
+        const res = await fetch('data/politicians.json');
+        if (!res.ok) throw new Error('missing');
+        const people = await res.json();
+        if (!people || people.length === 0) throw new Error('empty');
+
+        // Rotate daily so the same face isn't stuck there for weeks.
+        const dayIndex = Math.floor(Date.now() / 86400000) % people.length;
+        const p = people[dayIndex];
+
+        el.innerHTML = `
+            <div class="spotlight-card">
+                <img class="spotlight-photo" src="${p.photo}" alt="${p.name}">
+                <div>
+                    <a class="spotlight-name" href="${p.file}">${p.name}</a>
+                    <div class="spotlight-office">${p.office}${p.party ? ' · ' + p.party : ''}</div>
+                    <div class="spotlight-blurb">${p.blurb}</div>
+                </div>
+            </div>
+        `;
         box.style.display = 'block';
     } catch (e) {
         box.style.display = 'none';
@@ -255,6 +290,7 @@ if (articleId) {
     document.getElementById('article-view').style.display = 'none';
     loadTicker();
     loadRoundup();
+    loadSpotlight();
     loadArticles();
     loadMaineHeadlines();
     loadNationalHeadlines();
