@@ -18,8 +18,13 @@ body {
 /* ============ HEADER ============ */
 .header {
     text-align: center;
-    padding: 30px 0 15px 0;
+    padding: 70px 20px 45px 20px;
     border-bottom: 2px solid #1a1a1a;
+    border-radius: 6px 6px 0 0;
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
 }
 
 .header h1 {
@@ -31,18 +36,18 @@ body {
 }
 
 .header h1 a {
-    color: #1a1a1a;
+    color: #fff;
     text-decoration: none;
 }
 
 .header h1 a:hover {
-    color: #555;
+    color: #ddd;
 }
 
 .header p {
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
     font-size: 13px;
-    color: #777;
+    color: #eee;
     margin-top: 4px;
 }
 
@@ -314,6 +319,9 @@ body {
         gap: 12px;
         font-size: 10px;
     }
+    .header {
+        padding: 40px 15px 25px 15px;
+    }
     .header h1 {
         font-size: 28px;
     }
@@ -365,22 +373,4 @@ body {
 
 .roundup-box .story-body p {
     margin: 0 0 12px 0;
-}
-/* ============ BANNER ============ */
-.banner-band {
-    margin: 20px 0 0 0;
-}
-
-.banner-img {
-    display: block;
-    width: 100%;
-    max-height: 220px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-@media (max-width: 700px) {
-    .banner-img {
-        max-height: 130px;
-    }
 }
