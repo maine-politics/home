@@ -21,7 +21,7 @@ body {
     padding: 70px 20px 45px 20px;
     border-bottom: 2px solid #1a1a1a;
     border-radius: 6px 6px 0 0;
-    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('images/banner.png');
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('images/background.png');
     background-size: cover;
     background-position: center;
     margin-top: 20px;
