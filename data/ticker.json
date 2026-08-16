@@ -1,13 +1,23 @@
 [
   {
-    "title": "Racing to keep up with my crawling son &#124; Victoria Hugo-Vidal",
-    "link": "https://www.pressherald.com/2026/08/16/racing-to-keep-up-to-my-crawling-son-victoria-hugo-vidal/",
+    "title": "Eastport enacts pause on data center development",
+    "link": "https://www.mainepublic.org/climate/2026-08-14/eastport-enacts-pause-on-data-center-development",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Pictures: Cooper and Ace Flagg host basketball camp for hundreds of Maine kids",
+    "link": "https://www.bangordailynews.com/2026/08/16/sports/professional-basketball/flagg-brothers-maine-basketball-camp/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Cape Elizabeth considers new uses for old school building",
+    "link": "https://www.pressherald.com/2026/08/16/cape-elizabeth-considers-new-uses-for-old-school-building/",
     "source": "Portland Press Herald"
   },
   {
-    "title": "What 3 educators told us about the problems facing Maine schools",
-    "link": "https://www.bangordailynews.com/2026/08/16/mainefocus/mainefocus-education/educators-problems-facing-maine-schools-joam40zk0w/",
-    "source": "Bangor Daily News"
+    "title": "Commissioner Makin’s DOE is built on delusion &#124; Opinion",
+    "link": "https://www.pressherald.com/2026/08/16/commissioner-makins-doe-is-built-on-delusion-opinion/",
+    "source": "Portland Press Herald"
   },
   {
     "title": "Eastport united in opposition to underwater data center proposal",
@@ -15,48 +25,8 @@
     "source": "Maine Public"
   },
   {
-    "title": "NH man charged after 14 callers report car going over 100 mph on Maine highway",
-    "link": "https://www.bangordailynews.com/2026/08/16/bangor/bangor-police-courts/nh-man-charged-14-callers-car-100-mph-maine-highway/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Eastport enacts pause on data center development",
-    "link": "https://www.mainepublic.org/climate/2026-08-14/eastport-enacts-pause-on-data-center-development",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Photos: Riley Green plays Bangor&#8217;s waterfront with &#8216;As Cowboy as it Gets’",
-    "link": "https://www.bangordailynews.com/2026/08/16/bangor/bangor-culture/photos-riley-green-bangors-waterfront-concert/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Protestors target Senator Susan Collins for voting to support $70 billion dollar ICE funding package",
-    "link": "https://www.mainepublic.org/news/2026-08-11/protestors-target-senator-susan-collins-for-voting-to-support-70-billion-dollar-ice-funding-package",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Editor’s note on the BDN’s Kids Project",
-    "link": "https://www.bangordailynews.com/2026/08/16/mainefocus/mainefocus-education/editors-note-bd-kids-project-joam40zk0w/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Training program helps Aroostook shelter dogs find – and keep – homes",
-    "link": "https://www.bangordailynews.com/2026/08/16/aroostook/aroostook-shelter-rescue-dog-training-joam40zk0w/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Collins is a co-conspirator in Trump’s war on Maine children &#124; Letter",
-    "link": "https://www.pressherald.com/2026/08/16/collins-is-a-co-conspirator-in-trumps-war-on-maine-children-letter/",
-    "source": "Portland Press Herald"
-  },
-  {
     "title": "Reworking questions on peace in the Middle East &#124; Letter",
     "link": "https://www.pressherald.com/2026/08/16/reworking-questions-on-peace-in-the-middle-east-letter/",
-    "source": "Portland Press Herald"
-  },
-  {
-    "title": "Democrats need focused messaging in Maine Senate race &#124; Letter",
-    "link": "https://www.pressherald.com/2026/08/16/democrats-need-focused-messaging-in-maine-senate-race-letter/",
     "source": "Portland Press Herald"
   },
   {
@@ -65,13 +35,43 @@
     "source": "Maine Public"
   },
   {
-    "title": "Commissioner Makin’s DOE is built on delusion &#124; Opinion",
-    "link": "https://www.pressherald.com/2026/08/16/commissioner-makins-doe-is-built-on-delusion-opinion/",
-    "source": "Portland Press Herald"
+    "title": "NH man charged after 14 callers report car going over 100 mph on Maine highway",
+    "link": "https://www.bangordailynews.com/2026/08/16/bangor/bangor-police-courts/nh-man-charged-14-callers-car-100-mph-maine-highway/",
+    "source": "Bangor Daily News"
   },
   {
     "title": "Maine DHHS sanctions Medicaid providers over fraud allegations",
     "link": "https://www.mainepublic.org/maine/2026-08-06/maine-dhhs-sanctions-but-wont-identify-medicaid-providers-over-fraud-allegations",
     "source": "Maine Public"
+  },
+  {
+    "title": "UpStart Maine announces Blitz 2026 Entrepreneurship Conference",
+    "link": "https://www.bangordailynews.com/2026/08/16/bdn-maine/upstart-maine-announces-blitz-2026-entrepreneurship-conference/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Protestors target Senator Susan Collins for voting to support $70 billion dollar ICE funding package",
+    "link": "https://www.mainepublic.org/news/2026-08-11/protestors-target-senator-susan-collins-for-voting-to-support-70-billion-dollar-ice-funding-package",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Photos: Riley Green plays Bangor&#8217;s waterfront with &#8216;As Cowboy as it Gets’",
+    "link": "https://www.bangordailynews.com/2026/08/16/bangor/bangor-culture/photos-riley-green-bangors-waterfront-concert/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "What 3 educators told us about the problems facing Maine schools",
+    "link": "https://www.bangordailynews.com/2026/08/16/mainefocus/mainefocus-education/educators-problems-facing-maine-schools-joam40zk0w/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Democrats need focused messaging in Maine Senate race &#124; Letter",
+    "link": "https://www.pressherald.com/2026/08/16/democrats-need-focused-messaging-in-maine-senate-race-letter/",
+    "source": "Portland Press Herald"
+  },
+  {
+    "title": "Collins is a co-conspirator in Trump’s war on Maine children &#124; Letter",
+    "link": "https://www.pressherald.com/2026/08/16/collins-is-a-co-conspirator-in-trumps-war-on-maine-children-letter/",
+    "source": "Portland Press Herald"
   }
 ]
