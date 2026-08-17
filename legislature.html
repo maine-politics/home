@@ -3,111 +3,420 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legislature — Maine Politics</title>
-    <meta name="description" content="Coverage of the Maine Legislature — bills, votes, committee work.">
+    <title>Legislature War Room — Maine Politics</title>
+    <meta name="description" content="Maine Legislature war room: Senate and House composition, leadership, and district maps">
     <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --war-bg: #0a0f0a;
+            --war-card: #111811;
+            --war-border: #2d5a27;
+            --war-text: #e0e0d0;
+            --war-muted: #889988;
+            --dem-blue: #4488ff;
+            --rep-red: #ff4444;
+            --ind-green: #44ff44;
+            --gold: #ffaa00;
+            --hot-orange: #ff6622;
+        }
+        
+        body {
+            background: var(--war-bg);
+        }
+        
+        .war-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            color: var(--war-text);
+            font-family: 'Courier New', monospace;
+        }
+        
+        /* Header */
+        .war-header {
+            text-align: center;
+            margin: 30px 0;
+            padding: 40px;
+            background: linear-gradient(180deg, #0d120d 0%, #111811 100%);
+            border: 2px solid var(--war-border);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .war-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--dem-blue), var(--rep-red), var(--ind-green));
+        }
+        
+        .war-title {
+            font-size: 3em;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: #ffffff;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(45, 90, 39, 0.5);
+        }
+        
+        .war-subtitle {
+            color: var(--war-muted);
+            margin-top: 10px;
+            font-size: 1em;
+            letter-spacing: 2px;
+        }
+        
+        /* Chamber Cards */
+        .chamber-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .chamber-card {
+            background: var(--war-card);
+            border: 2px solid var(--war-border);
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chamber-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(45, 90, 39, 0.4);
+            border-color: var(--gold);
+        }
+        
+        .chamber-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--dem-blue), var(--rep-red));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .chamber-card:hover::before {
+            opacity: 1;
+        }
+        
+        .chamber-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        .chamber-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .chamber-seats {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+        
+        .chamber-breakdown {
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .breakdown-item {
+            font-size: 0.9em;
+        }
+        
+        .breakdown-d {
+            color: var(--dem-blue);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .breakdown-r {
+            color: var(--rep-red);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .breakdown-i {
+            color: var(--ind-green);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .chamber-arrow {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--war-muted);
+            font-size: 1em;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+        }
+        
+        .chamber-card:hover .chamber-arrow {
+            color: var(--gold);
+            transform: translateX(10px);
+        }
+        
+        /* Leadership Section */
+        .leadership-section {
+            background: var(--war-card);
+            border: 2px solid var(--war-border);
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 1.5em;
+            color: #ffffff;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+        
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .leader-card {
+            background: #0d120d;
+            border: 1px solid var(--war-border);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .leader-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            background: #1a241a;
+            border: 2px solid var(--war-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+        
+        .leader-name {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .leader-role {
+            color: var(--gold);
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        
+        .leader-party {
+            font-size: 0.8em;
+        }
+        
+        .leader-district {
+            color: var(--war-muted);
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
+        
+        /* Quick Links */
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .quick-link {
+            background: var(--war-card);
+            border: 1px solid var(--war-border);
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .quick-link:hover {
+            background: #1a241a;
+            border-color: var(--gold);
+        }
+        
+        @media (max-width: 768px) {
+            .chamber-cards {
+                grid-template-columns: 1fr;
+            }
+            .war-title {
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+        }
+    </style>
 </head>
 <body>
 
 <div class="header">
-    <h1><a href="index.html">MAINE POLITICS</a></h1>
-    <p>Free · No paywall · Straight reporting, sourced directly from the record</p>
+    <a href="index.html"><img src="images/banner.png" alt="Maine Politics" class="header-banner-img"></a>
 </div>
 
 <div class="site-nav">
     <a href="index.html">HOME</a>
     <a href="local.html">LOCAL</a>
     <a href="governor.html">GOVERNOR</a>
-    <a href="legislature.html">LEGISLATURE</a>
+    <a href="legislature.html" style="font-weight:bold;background:#2d5a27;color:#fff;">LEGISLATURE</a>
     <a href="elections.html">ELECTIONS</a>
     <a href="opinion.html">OPINION</a>
     <a href="about.html">ABOUT</a>
 </div>
 
-<div id="beat-view">
-    <div class="container">
-        <div class="column" style="flex: 2;">
-            <div class="section-title">Legislature</div>
-            <div id="beat-articles"><span class="loading">Loading articles…</span></div>
+<div class="war-container">
+    <!-- Header -->
+    <div class="war-header">
+        <div class="war-title">⚔️ Legislative War Room</div>
+        <div class="war-subtitle">132nd Maine Legislature — Session 2025-2026</div>
+    </div>
+    
+    <!-- Chamber Cards -->
+    <div class="chamber-cards">
+        <a href="senate.html" class="chamber-card">
+            <div class="chamber-icon">🏛️</div>
+            <div class="chamber-name">Senate</div>
+            <div class="chamber-seats">35 Seats</div>
+            <div class="chamber-breakdown">
+                <div class="breakdown-item">
+                    <span class="breakdown-d">20</span><br>Democrats
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-r">14</span><br>Republicans
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-i">1</span><br>Independent
+                </div>
+            </div>
+            <div class="chamber-arrow">ENTER SENATE WAR ROOM →</div>
+        </a>
+        
+        <a href="house.html" class="chamber-card">
+            <div class="chamber-icon">🏠</div>
+            <div class="chamber-name">House of Representatives</div>
+            <div class="chamber-seats">151 Seats</div>
+            <div class="chamber-breakdown">
+                <div class="breakdown-item">
+                    <span class="breakdown-d">76</span><br>Democrats
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-r">73</span><br>Republicans
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-i">2</span><br>Independent
+                </div>
+            </div>
+            <div class="chamber-arrow">ENTER HOUSE WAR ROOM →</div>
+        </a>
+    </div>
+    
+    <!-- Leadership -->
+    <div class="leadership-section">
+        <div class="section-title">🎯 Senate Leadership</div>
+        <div class="leadership-grid">
+            <div class="leader-card">
+                <div class="leader-photo">D</div>
+                <div class="leader-name">Troy Jackson</div>
+                <div class="leader-role">Senate President</div>
+                <div class="leader-party party-d">Democrat</div>
+                <div class="leader-district">District 1 — Aroostook County</div>
+            </div>
+            <div class="leader-card">
+                <div class="leader-photo">D</div>
+                <div class="leader-name">Eloise Vitelli</div>
+                <div class="leader-role">Majority Leader</div>
+                <div class="leader-party party-d">Democrat</div>
+                <div class="leader-district">District 23 — Sagadahoc County</div>
+            </div>
+            <div class="leader-card">
+                <div class="leader-photo">R</div>
+                <div class="leader-name">Trey Stewart</div>
+                <div class="leader-role">Minority Leader</div>
+                <div class="leader-party party-r">Republican</div>
+                <div class="leader-district">District 2 — Aroostook County</div>
+            </div>
         </div>
-        <div class="column">
-            <div class="section-title">Resources</div>
-            <a class="story-link" href="https://legislature.maine.gov/bills/" target="_blank" rel="noopener">Bill Tracker (Maine Legislature)</a>
-            <a class="story-link" href="https://www.mainecampaignfinancedisclosure.com/" target="_blank" rel="noopener">Campaign Finance Disclosure</a>
-            <a class="story-link" href="https://www.maine.gov/portal/subscriptions/rss.html" target="_blank" rel="noopener">Maine.gov Public Meeting Calendar</a>
-            <a class="story-link" href="about.html">About This Site</a>
+    </div>
+    
+    <div class="leadership-section">
+        <div class="section-title">🏠 House Leadership</div>
+        <div class="leadership-grid">
+            <div class="leader-card">
+                <div class="leader-photo">D</div>
+                <div class="leader-name">Rachel Talbot Ross</div>
+                <div class="leader-role">Speaker of the House</div>
+                <div class="leader-party party-d">Democrat</div>
+                <div class="leader-district">District 118 — Portland</div>
+            </div>
+            <div class="leader-card">
+                <div class="leader-photo">D</div>
+                <div class="leader-name">Kristen Cloutier</div>
+                <div class="leader-role">Majority Leader</div>
+                <div class="leader-party party-d">Democrat</div>
+                <div class="leader-district">District 94 — Lewiston</div>
+            </div>
+            <div class="leader-card">
+                <div class="leader-photo">R</div>
+                <div class="leader-name">Billy Bob Faulkingham</div>
+                <div class="leader-role">Minority Leader</div>
+                <div class="leader-party party-r">Republican</div>
+                <div class="leader-district">District 12 — Winter Harbor</div>
+            </div>
         </div>
+    </div>
+    
+    <!-- Quick Links -->
+    <div class="quick-links">
+        <a href="https://legislature.maine.gov/bills/" target="_blank" rel="noopener" class="quick-link">
+            📋 Bill Tracker
+        </a>
+        <a href="https://legislature.maine.gov/committee/" target="_blank" rel="noopener" class="quick-link">
+            👥 Committees
+        </a>
+        <a href="https://legislature.maine.gov/legis/bills/calendar/" target="_blank" rel="noopener" class="quick-link">
+            📅 Calendar
+        </a>
+        <a href="https://legislature.maine.gov/senate" target="_blank" rel="noopener" class="quick-link">
+            🏛️ Senate Site
+        </a>
+        <a href="https://legislature.maine.gov/house" target="_blank" rel="noopener" class="quick-link">
+            🏠 House Site
+        </a>
     </div>
 </div>
 
-<article class="story" id="article-view" style="display:none;">
-    <div id="article-content"><span class="loading">Loading article…</span></div>
-    <p style="margin-top:30px;"><a href="legislature.html">← Back to Legislature</a></p>
-</article>
-
 <div class="footer">
-    Maine Politics — an independent outlet covering Maine state and local government. Reported and built from Bucksport, Maine.<br>
-    Wire headlines are aggregated from public RSS feeds and link directly to the original source.
+    Maine Politics — an independent outlet covering Maine state and local government.<br>
+    War room data compiled from public records and legislative sources.
 </div>
-
-<script>
-const BEAT = "Legislature";
-const params = new URLSearchParams(window.location.search);
-const articleId = params.get('id');
-
-if (articleId) {
-    document.getElementById('beat-view').style.display = 'none';
-    document.getElementById('article-view').style.display = 'block';
-    loadArticle(articleId);
-} else {
-    loadBeatArticles();
-}
-
-async function loadBeatArticles() {
-    const list = document.getElementById('beat-articles');
-    try {
-        const res = await fetch('articles/index.json');
-        const articles = await res.json();
-        const filtered = articles.filter(a => a.beat === BEAT);
-        if (filtered.length === 0) {
-            list.innerHTML = '<span class="loading">No ' + BEAT.toLowerCase() + ' stories published yet.</span>';
-            return;
-        }
-        list.innerHTML = filtered.map((a, i) => `
-            <a class="story-link ${i === 0 ? 'top-story' : ''}" href="legislature.html?id=${a.id}">${a.headline}</a>
-            <div class="story-meta">${a.beat} · ${a.byline} · ${a.date}</div>
-        `).join('');
-    } catch (e) {
-        list.innerHTML = '<span class="loading">Could not load articles.</span>';
-    }
-}
-
-async function loadArticle(id) {
-    const el = document.getElementById('article-content');
-    try {
-        const indexRes = await fetch('articles/index.json');
-        const index = await indexRes.json();
-        const entry = index.find(a => a.id === id);
-        if (!entry) {
-            el.innerHTML = '<div class="story-header"><h1>Not Found</h1></div><p>Article not found.</p>';
-            return;
-        }
-        const articleRes = await fetch(entry.file);
-        const article = await articleRes.json();
-        document.title = `${article.headline} — Maine Politics`;
-        el.innerHTML = `
-            <div class="story-header">
-                <span class="story-beat">${article.beat}</span>
-                <h1>${article.headline}</h1>
-                <div class="story-meta">By ${article.byline} · ${article.date}</div>
-            </div>
-            <div class="story-body">${article.body}</div>
-        `;
-    } catch (e) {
-        el.innerHTML = '<p>Could not load article.</p>';
-    }
-}
-</script>
 
 </body>
 </html>
