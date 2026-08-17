@@ -1,144 +1,212 @@
-// Fetches Maine Legislature data and saves as JSON for the war room
-import { writeFileSync, mkdirSync } from 'fs';
-import { resolve, dirname } from 'path';
-import { fileURLToPath } from 'url';
+// scripts/fetch-legislature.mjs
+//
+// Fetches Maine Legislature data server-side (run on a schedule via
+// .github/workflows/fetch-feeds.yml) and writes static JSON files to
+// data/legislature/. legislature.html reads those JSON files instead of
+// calling the legislature API live in visitors' browsers.
+//
+// Data sources: https://legislature.maine.gov/api/
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = resolve(__dirname, '../data/legislature');
-
-// Ensure directory exists
-mkdirSync(DATA_DIR, { recursive: true });
+import { writeFile, mkdir } from 'fs/promises';
 
 const API_BASE = 'https://legislature.maine.gov/api';
+
+// Current legislature number — update when a new session starts
+const CURRENT_LEGISLATURE = 132; // 132nd Legislature (2025-2026)
 
 async function fetchJSON(url) {
     const res = await fetch(url, {
         headers: {
-            'User-Agent': 'MainePoliticsBot/1.0 (contact@mainepolitics.org)',
+            'User-Agent': 'Mozilla/5.0 (compatible; MainePoliticsBot/1.0; +https://maine-politics.github.io)',
             'Accept': 'application/json'
-        }
+        },
+        signal: AbortSignal.timeout(15000)
     });
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
 }
 
-async function fetchLegislatureData() {
-    console.log('Fetching Maine Legislature data...');
-    
+function textOf(value) {
+    if (value == null) return '';
+    if (typeof value === 'string') return value.trim();
+    if (typeof value === 'object' && '#text' in value) return String(value['#text']).trim();
+    return String(value).trim();
+}
+
+async function safeFetch(url, label) {
     try {
-        // Get current legislature info
-        const legislatures = await fetchJSON(`${API_BASE}/legislatures/`);
-        const current = legislatures.results?.find(l => l.is_current) || legislatures.results?.[0];
-        
-        if (!current) throw new Error('No legislature found');
-        
-        console.log(`Current legislature: ${current.name}`);
-        
-        // Fetch bills
-        console.log('Fetching bills...');
-        const bills = await fetchJSON(`${API_BASE}/bills/?legislature=${current.id}&limit=100`);
-        
-        // Fetch legislators
-        console.log('Fetching legislators...');
-        const legislators = await fetchJSON(`${API_BASE}/legislators/?legislature=${current.id}`);
-        
-        // Fetch committees
-        console.log('Fetching committees...');
-        const committees = await fetchJSON(`${API_BASE}/committees/?legislature=${current.id}`);
-        
-        // Process and save data
-        const warRoomData = {
-            updated: new Date().toISOString(),
-            legislature: {
-                id: current.id,
-                name: current.name,
-                session_start: current.start_date,
-                session_end: current.end_date
-            },
-            stats: {
-                total_bills: bills.count || bills.results?.length || 0,
-                active_bills: bills.results?.filter(b => 
-                    !['ENACTED', 'DEAD', 'VETOED'].includes(b.status)
-                ).length || 0,
-                passed_bills: bills.results?.filter(b => 
-                    ['ENACTED', 'PASSED_TO_BE_ENGROSSED'].includes(b.status)
-                ).length || 0,
-                total_legislators: legislators.count || legislators.results?.length || 0,
-                committees: committees.count || committees.results?.length || 0
-            },
-            hot_bills: processBills(bills.results || []),
-            legislator_activity: processLegislators(legislators.results || []),
-            committee_watch: processCommittees(committees.results || [])
-        };
-        
-        // Save main war room data
-        writeFileSync(
-            resolve(DATA_DIR, 'war-room.json'),
-            JSON.stringify(warRoomData, null, 2)
-        );
-        
-        // Save raw data for potential future use
-        writeFileSync(
-            resolve(DATA_DIR, 'bills-raw.json'),
-            JSON.stringify(bills.results || [], null, 2)
-        );
-        
-        console.log('✅ Legislature data saved successfully');
-        console.log(`   Bills: ${warRoomData.stats.total_bills}`);
-        console.log(`   Active: ${warRoomData.stats.active_bills}`);
-        console.log(`   Legislators: ${warRoomData.stats.total_legislators}`);
-        
-    } catch (error) {
-        console.error('Error fetching legislature data:', error.message);
-        // Don't fail the workflow, just log the error
-        // This way your news feeds still update even if legislature API is down
+        console.log(`Fetching ${label}...`);
+        const data = await fetchJSON(url);
+        console.log(`  ✓ got ${label}`);
+        return data;
+    } catch (e) {
+        console.error(`  ✗ ${label}: ${e.message}`);
+        return null;
     }
 }
 
+function normalizeBill(bill) {
+    return {
+        ld: textOf(bill.ld_number || bill.ldNumber),
+        title: textOf(bill.title),
+        status: textOf(bill.status || bill.bill_status),
+        sponsor: textOf(bill.sponsor?.name || bill.primary_sponsor?.name || 'Unknown'),
+        party: textOf(bill.sponsor?.party || bill.primary_sponsor?.party || '?'),
+        district: textOf(bill.sponsor?.district || bill.primary_sponsor?.district || ''),
+        committee: textOf(bill.committee || bill.current_committee || 'TBD'),
+        last_action: textOf(bill.last_action || bill.latest_action || 'No action yet'),
+        documents: Array.isArray(bill.documents) ? bill.documents.length : 0,
+        amendments: Array.isArray(bill.amendments) ? bill.amendments.length : 0,
+        votes: Array.isArray(bill.votes) ? bill.votes.length : 0,
+        introduced: textOf(bill.date_introduced || bill.introduced_date || '')
+    };
+}
+
+function normalizeLegislator(leg) {
+    return {
+        name: textOf(leg.name || leg.member_name),
+        party: textOf(leg.party || leg.party_affiliation),
+        district: textOf(leg.district || leg.district_number),
+        chamber: textOf(leg.chamber || leg.member_type),
+        committee: textOf(leg.committee || leg.committee_assignment || 'None'),
+        sponsored_bills: Array.isArray(leg.sponsored_bills) ? leg.sponsored_bills.length : 0,
+        title: textOf(leg.title || '')
+    };
+}
+
+function normalizeCommittee(comm) {
+    return {
+        name: textOf(comm.name || comm.committee_name),
+        chair: textOf(comm.chair || comm.chair_name || 'TBD'),
+        members: Array.isArray(comm.members) ? comm.members.length : 0,
+        bills: Array.isArray(comm.bills) ? comm.bills.length : 0,
+        next_meeting: textOf(comm.next_meeting || comm.next_meeting_date || '')
+    };
+}
+
 function processBills(bills) {
+    if (!Array.isArray(bills)) return [];
+    
     return bills
-        .filter(bill => bill.title && bill.ld_number)
-        .slice(0, 10)
-        .map(bill => ({
-            ld: bill.ld_number,
-            title: bill.title,
-            status: bill.status || 'UNKNOWN',
-            sponsor: bill.sponsor?.name || 'Unknown',
-            party: bill.sponsor?.party || '?',
-            committee: bill.committee || 'TBD',
-            documents: bill.documents?.length || 0,
-            votes: bill.votes?.length || 0,
-            last_action: bill.last_action || 'No action yet'
-        }));
+        .filter(bill => bill && (bill.ld_number || bill.ldNumber) && bill.title)
+        .map(normalizeBill)
+        .sort((a, b) => {
+            // Sort by recent activity first
+            const aActive = !['ENACTED', 'DEAD', 'VETOED', 'LD_NOT_YET_ASSIGNED'].includes(a.status);
+            const bActive = !['ENACTED', 'DEAD', 'VETOED', 'LD_NOT_YET_ASSIGNED'].includes(b.status);
+            if (aActive !== bActive) return aActive ? -1 : 1;
+            return parseInt(a.ld) - parseInt(b.ld);
+        });
 }
 
 function processLegislators(legislators) {
+    if (!Array.isArray(legislators)) return [];
+    
     return legislators
-        .filter(leg => leg.name)
-        .slice(0, 186) // Maine has 186 legislators
-        .map(leg => ({
-            name: leg.name,
-            party: leg.party || 'I',
-            district: leg.district || 'Unknown',
-            chamber: leg.chamber || 'Unknown',
-            committee: leg.committee || 'None',
-            sponsored_bills: leg.sponsored_bills?.length || 0
-        }))
+        .filter(leg => leg && (leg.name || leg.member_name))
+        .map(normalizeLegislator)
         .sort((a, b) => b.sponsored_bills - a.sponsored_bills);
 }
 
 function processCommittees(committees) {
+    if (!Array.isArray(committees)) return [];
+    
     return committees
-        .filter(comm => comm.name)
-        .map(comm => ({
-            name: comm.name,
-            chair: comm.chair || 'TBD',
-            members: comm.members?.length || 0,
-            bills: comm.bills?.length || 0,
-            next_meeting: comm.next_meeting || null
-        }))
+        .filter(comm => comm && (comm.name || comm.committee_name))
+        .map(normalizeCommittee)
         .sort((a, b) => b.bills - a.bills);
 }
 
-// Run it
-fetchLegislatureData();
+async function buildWarRoomData() {
+    console.log('Building Maine Legislature war room data...');
+    await mkdir('data/legislature', { recursive: true });
+    
+    // Try multiple endpoint formats since the API documentation is spotty
+    const billsData = await safeFetch(
+        `${API_BASE}/bills/?legislature=${CURRENT_LEGISLATURE}&limit=100`,
+        'bills'
+    ) || await safeFetch(
+        `${API_BASE}/bills/`,
+        'bills (fallback)'
+    );
+    
+    const legislatorsData = await safeFetch(
+        `${API_BASE}/legislators/?legislature=${CURRENT_LEGISLATURE}`,
+        'legislators'
+    ) || await safeFetch(
+        `${API_BASE}/legislators/`,
+        'legislators (fallback)'
+    );
+    
+    const committeesData = await safeFetch(
+        `${API_BASE}/committees/?legislature=${CURRENT_LEGISLATURE}`,
+        'committees'
+    ) || await safeFetch(
+        `${API_BASE}/committees/`,
+        'committees (fallback)'
+    );
+    
+    // Extract arrays from different possible response shapes
+    const bills = billsData?.results || billsData?.bills || billsData || [];
+    const legislators = legislatorsData?.results || legislatorsData?.legislators || legislatorsData || [];
+    const committees = committeesData?.results || committeesData?.committees || committeesData || [];
+    
+    const processedBills = processBills(Array.isArray(bills) ? bills : [bills]);
+    const processedLegislators = processLegislators(Array.isArray(legislators) ? legislators : [legislators]);
+    const processedCommittees = processCommittees(Array.isArray(committees) ? committees : [committees]);
+    
+    const warRoom = {
+        updated: new Date().toISOString(),
+        legislature: {
+            number: CURRENT_LEGISLATURE,
+            name: `${CURRENT_LEGISLATURE}th Maine Legislature`,
+            session: '2025-2026'
+        },
+        stats: {
+            total_bills: processedBills.length,
+            active_bills: processedBills.filter(b => 
+                !['ENACTED', 'DEAD', 'VETOED', 'LD_NOT_YET_ASSIGNED'].includes(b.status)
+            ).length,
+            passed_bills: processedBills.filter(b => 
+                ['ENACTED', 'PASSED_TO_BE_ENGROSSED', 'PASSED'].includes(b.status)
+            ).length,
+            total_legislators: processedLegislators.length,
+            committees: processedCommittees.length,
+            hot_bills: processedBills.slice(0, 15),
+            top_sponsors: processedLegislators.slice(0, 25),
+            committee_watch: processedCommittees.slice(0, 20)
+        }
+    };
+    
+    // Write main war room data
+    await writeFile(
+        'data/legislature/war-room.json',
+        JSON.stringify(warRoom, null, 2) + '\n'
+    );
+    
+    // Write raw data for potential future use (larger dataset)
+    await writeFile(
+        'data/legislature/bills-full.json',
+        JSON.stringify(processedBills, null, 2) + '\n'
+    );
+    
+    console.log(`  ✓ wrote war room data`);
+    console.log(`    Bills: ${warRoom.stats.total_bills} (${warRoom.stats.active_bills} active)`);
+    console.log(`    Legislators: ${warRoom.stats.total_legislators}`);
+    console.log(`    Committees: ${warRoom.stats.committees}`);
+    
+    if (processedBills.length === 0) {
+        console.warn('  ⚠ No bill data found — API might be down or format changed');
+    }
+}
+
+async function main() {
+    await buildWarRoomData();
+}
+
+main().catch(e => {
+    console.error('Legislature fetch failed:');
+    console.error(e);
+    // Don't exit with error code — keep feed workflow running even if this fails
+    process.exit(0);
+});
