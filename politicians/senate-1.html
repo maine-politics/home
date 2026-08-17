@@ -7,6 +7,7 @@
     <meta name="description" content="Susan Bernard — Republican State Senator for Maine Senate District 1 (Aroostook County)">
     <link rel="stylesheet" href="../style.css">
     <style>
+        /* ============ PROFILE PAGE ============ */
         .profile-container {
             max-width: 800px;
             margin: 30px auto;
@@ -28,6 +29,7 @@
             text-decoration: underline;
         }
         
+        /* Header */
         .profile-header {
             display: flex;
             gap: 30px;
@@ -98,6 +100,7 @@
             color: #555;
         }
         
+        /* Info Sections */
         .info-section {
             background: #fff;
             border: 1px solid #ddd;
@@ -178,6 +181,19 @@
             font-size: 13px;
             line-height: 1.8;
             color: #555;
+        }
+        
+        /* District Map */
+        .district-map {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .district-map img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
         }
         
         @media (max-width: 700px) {
@@ -262,6 +278,16 @@
         <ul class="committee-list">
             <li class="committee-item">Appropriations and Financial Affairs</li>
         </ul>
+    </div>
+    
+    <!-- District Map -->
+    <div class="info-section">
+        <div class="section-title">District Map</div>
+        <div class="district-map">
+            <img src="../images/maps/senate-district-1.png" 
+                 alt="Maine Senate District 1 Map"
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<p class=\'towns-text\'>Map coming soon.</p>'">
+        </div>
     </div>
     
     <!-- District Towns -->
