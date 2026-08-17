@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legislature War Room — Maine Politics</title>
-    <meta name="description" content="Maine Legislature war room: Senate and House composition, leadership, and district maps">
+    <title>Senate War Room — Maine Politics</title>
+    <meta name="description" content="Maine Senate: all 35 districts, senators, and party composition">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* ============ LEGISLATURE WAR ROOM ============ */
+        /* ============ SENATE WAR ROOM ============ */
         .legislature-container {
             max-width: 1100px;
             margin: 30px auto;
@@ -40,6 +40,59 @@
             letter-spacing: 1px;
         }
         
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-family: 'Helvetica Neue', 'Arial', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #c00;
+            text-decoration: none;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-top: 3px solid #1a1a1a;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-family: 'Helvetica Neue', 'Arial', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            display: block;
+        }
+        
+        .stat-label {
+            font-family: 'Helvetica Neue', 'Arial', sans-serif;
+            font-size: 10px;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stat-dem { color: #1a56db; }
+        .stat-rep { color: #dc2626; }
+        .stat-ind { color: #2d5a27; }
+        .stat-total { color: #1a1a1a; }
+        .stat-majority { color: #c00; }
+        
         /* Chamber Section */
         .chamber-section {
             background: #fff;
@@ -65,22 +118,8 @@
             color: #1a1a1a;
         }
         
-        .chamber-link {
-            font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #c00;
-            text-decoration: none;
-        }
-        
-        .chamber-link:hover {
-            text-decoration: underline;
-        }
-        
         .chart-container {
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
         }
         
@@ -241,6 +280,7 @@
             font-weight: 700;
             color: #1a1a1a;
             margin-bottom: 3px;
+            line-height: 1.3;
         }
         
         .senator-district {
@@ -256,36 +296,13 @@
             margin-top: 3px;
         }
         
-        /* Quick Links */
-        .quick-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px;
-        }
-        
-        .quick-link {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 15px;
-            text-align: center;
-            color: #1a1a1a;
-            text-decoration: none;
-            font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            transition: all 0.2s;
-        }
-        
-        .quick-link:hover {
-            border-color: #c00;
-            color: #c00;
-        }
-        
         @media (max-width: 700px) {
             .war-title {
                 font-size: 28px;
+            }
+            .stats-bar {
+                flex-wrap: wrap;
+                gap: 15px;
             }
             .leadership-grid {
                 grid-template-columns: 1fr;
@@ -313,234 +330,185 @@
 </div>
 
 <div class="legislature-container">
+    <a href="legislature.html" class="back-link">← Back to Legislature War Room</a>
+    
     <!-- Header -->
     <div class="war-header">
-        <div class="war-title">Legislative War Room</div>
-        <div class="war-subtitle">132nd Maine Legislature — 2025-2026 Session</div>
+        <div class="war-title">🏛️ Senate War Room</div>
+        <div class="war-subtitle">132nd Maine Legislature — Updated <span id="data-updated">Loading...</span></div>
     </div>
     
-    <!-- Senate Section -->
-    <div class="chamber-section">
-        <div class="chamber-section-header">
-            <div class="chamber-section-title">🏛️ Maine Senate</div>
-            <a href="senate.html" class="chamber-link">Enter Full Senate War Room →</a>
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <span class="stat-value stat-dem" id="stat-dem">—</span>
+            <span class="stat-label">Democrats</span>
         </div>
+        <div class="stat-item">
+            <span class="stat-value stat-rep" id="stat-rep">—</span>
+            <span class="stat-label">Republicans</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-value stat-ind" id="stat-ind">—</span>
+            <span class="stat-label">Independent</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-value stat-total" id="stat-total">—</span>
+            <span class="stat-label">Total Seats</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-value stat-majority" id="stat-majority">—</span>
+            <span class="stat-label">Majority</span>
+        </div>
+    </div>
+    
+    <!-- Composition Chart -->
+    <div class="chamber-section">
         <div class="chart-container">
             <div id="senate-composition-chart"></div>
         </div>
     </div>
     
-    <!-- House Section (Coming Soon) -->
-    <div class="chamber-section" style="opacity:0.5;">
-        <div class="chamber-section-header">
-            <div class="chamber-section-title">🏠 House of Representatives</div>
-            <span style="font-family: 'Helvetica Neue', 'Arial', sans-serif; font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Coming Soon</span>
-        </div>
-        <p style="text-align:center; color:#999; font-family: 'Helvetica Neue', 'Arial', sans-serif; font-size: 13px;">
-            House war room under construction. Check back soon.
-        </p>
-    </div>
-    
-    <!-- Senate Leadership -->
-    <div class="leadership-section">
-        <div class="section-title">Senate Leadership</div>
-        <div class="leadership-grid">
-            <a href="politicians/senate-23.html" class="leader-card">
-                <div class="leader-photo">
-                    <img src="images/politicians/senate/district-23.jpg" alt="Matthea Daughtry"
-                         onerror="this.parentElement.textContent='MD'">
-                </div>
-                <div class="leader-name">Matthea Daughtry</div>
-                <div class="leader-role">Senate President</div>
-                <div class="leader-party party-D">Democrat</div>
-                <div class="leader-district">District 23 — Cumberland County</div>
-            </a>
-            <a href="politicians/senate-25.html" class="leader-card">
-                <div class="leader-photo">
-                    <img src="images/politicians/senate/district-25.jpg" alt="Teresa Pierce"
-                         onerror="this.parentElement.textContent='TP'">
-                </div>
-                <div class="leader-name">Teresa Pierce</div>
-                <div class="leader-role">Majority Leader</div>
-                <div class="leader-party party-D">Democrat</div>
-                <div class="leader-district">District 25 — Cumberland County</div>
-            </a>
-            <a href="politicians/senate-2.html" class="leader-card">
-                <div class="leader-photo">
-                    <img src="images/politicians/senate/district-2.jpg" alt="Trey Stewart"
-                         onerror="this.parentElement.textContent='TS'">
-                </div>
-                <div class="leader-name">Trey Stewart</div>
-                <div class="leader-role">Minority Leader</div>
-                <div class="leader-party party-R">Republican</div>
-                <div class="leader-district">District 2 — Aroostook County</div>
-            </a>
-            <a href="politicians/senate-27.html" class="leader-card">
-                <div class="leader-photo">
-                    <img src="images/politicians/senate/district-27.jpg" alt="Jill Duson"
-                         onerror="this.parentElement.textContent='JD'">
-                </div>
-                <div class="leader-name">Jill Duson</div>
-                <div class="leader-role">Assistant Majority Leader</div>
-                <div class="leader-party party-D">Democrat</div>
-                <div class="leader-district">District 27 — Cumberland County</div>
-            </a>
-            <a href="politicians/senate-33.html" class="leader-card">
-                <div class="leader-photo">
-                    <img src="images/politicians/senate/district-33.jpg" alt="Matthew Harrington"
-                         onerror="this.parentElement.textContent='MH'">
-                </div>
-                <div class="leader-name">Matthew Harrington</div>
-                <div class="leader-role">Assistant Minority Leader</div>
-                <div class="leader-party party-R">Republican</div>
-                <div class="leader-district">District 33 — York County</div>
-            </a>
-        </div>
-    </div>
-    
-    <!-- All Senators Grid -->
+    <!-- All Senators -->
     <div class="leadership-section">
         <div class="section-title">All 35 Senators</div>
         <div class="senate-grid" id="senate-grid">
-            <!-- Populated by JS -->
-        </div>
-    </div>
-    
-    <!-- Quick Links -->
-    <div class="leadership-section">
-        <div class="section-title">Resources</div>
-        <div class="quick-links">
-            <a href="https://legislature.maine.gov/bills/" target="_blank" rel="noopener" class="quick-link">📋 Bill Tracker</a>
-            <a href="https://legislature.maine.gov/committee/" target="_blank" rel="noopener" class="quick-link">👥 Committees</a>
-            <a href="https://legislature.maine.gov/legis/bills/calendar/" target="_blank" rel="noopener" class="quick-link">📅 Calendar</a>
-            <a href="https://legislature.maine.gov/senate" target="_blank" rel="noopener" class="quick-link">🏛️ Senate Site</a>
+            <p style="color:#999;text-align:center;grid-column:1/-1;">Loading senators...</p>
         </div>
     </div>
 </div>
 
 <div class="footer">
     Maine Politics — an independent outlet covering Maine state and local government.<br>
-    War room data compiled from public records and legislative sources.
+    Data auto-fetched from the Maine Legislature website.
 </div>
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/item-series.js"></script>
 <script>
-// ============ SENATE COMPOSITION CHART ============
-Highcharts.chart('senate-composition-chart', {
-    chart: {
-        backgroundColor: 'transparent',
-        type: 'item',
-        height: 350
-    },
-    title: { text: '' },
-    credits: { enabled: false },
-    legend: { enabled: false },
-    tooltip: {
-        useHTML: true,
-        backgroundColor: '#ffffff',
-        borderColor: '#dddddd',
-        style: { color: '#1a1a1a' },
-        formatter: function() {
-            return '<div style="color: #1a1a1a;">' +
-                '<strong>' + this.point.name + '</strong><br/>' +
-                '<span style="display: inline-block; width: 12px; height: 12px; background-color: ' + this.point.color + '; border-radius: 50%; margin-right: 6px; vertical-align: middle;"></span>' +
-                'Seats: ' + this.point.y +
-                '</div>';
-        }
-    },
-    series: [{
-        name: 'Seats',
-        keys: ['name', 'y', 'color', 'label'],
-        data: [
-            ['Democratic Party', 20, '#1a56db', 'Democrats'],
-            ['Republican Party', 14, '#dc2626', 'Republicans'],
-            ['Independent', 1, '#2d5a27', 'Independent']
-        ],
-        dataLabels: {
-            enabled: true,
+// ============ FETCH SENATE DATA ============
+async function loadSenateData() {
+    try {
+        const res = await fetch('data/legislature/senators.json?v=' + Date.now());
+        if (!res.ok) throw new Error('No data available');
+        
+        const data = await res.json();
+        
+        // Update timestamp
+        document.getElementById('data-updated').textContent = 
+            new Date(data.updated).toLocaleDateString();
+        
+        // Update stats
+        document.getElementById('stat-dem').textContent = data.composition.dem;
+        document.getElementById('stat-rep').textContent = data.composition.rep;
+        document.getElementById('stat-ind').textContent = data.composition.ind;
+        document.getElementById('stat-total').textContent = data.total_seats;
+        
+        const majority = data.composition.dem > data.composition.rep ? 
+            `D+${data.composition.dem - data.composition.rep}` : 
+            `R+${data.composition.rep - data.composition.dem}`;
+        document.getElementById('stat-majority').textContent = majority;
+        
+        // Render chart
+        renderCompositionChart(data.composition);
+        
+        // Render senator grid
+        renderSenateGrid(data.senators);
+        
+    } catch (error) {
+        console.error('Failed to load senate data:', error);
+        document.getElementById('data-updated').textContent = 'Data unavailable';
+        document.getElementById('senate-grid').innerHTML = 
+            '<p style="color:#999;text-align:center;grid-column:1/-1;">Senate data not available yet. Run the fetch script first.</p>';
+    }
+}
+
+// ============ RENDER COMPOSITION CHART ============
+function renderCompositionChart(composition) {
+    Highcharts.chart('senate-composition-chart', {
+        chart: {
+            backgroundColor: 'transparent',
+            type: 'item',
+            height: 350
+        },
+        title: { text: '' },
+        credits: { enabled: false },
+        legend: { enabled: false },
+        tooltip: {
             useHTML: true,
+            backgroundColor: '#ffffff',
+            borderColor: '#dddddd',
+            style: { color: '#1a1a1a' },
             formatter: function() {
-                return '<span style="color: ' + this.point.color + '; font-weight: bold; font-size: 11px;">' + 
-                       this.point.label + ' (' + this.point.y + ')</span>';
-            },
-            style: {
-                textOutline: 'none',
-                fontWeight: 'bold',
-                fontSize: '11px'
+                return '<div style="color: #1a1a1a;">' +
+                    '<strong>' + this.point.name + '</strong><br/>' +
+                    '<span style="display: inline-block; width: 12px; height: 12px; background-color: ' + this.point.color + '; border-radius: 50%; margin-right: 6px; vertical-align: middle;"></span>' +
+                    'Seats: ' + this.point.y +
+                    '</div>';
             }
         },
-        center: ['50%', '85%'],
-        size: '150%',
-        startAngle: -100,
-        endAngle: 100,
-        point: {
-            borderColor: '#000000',
-            borderWidth: 1
-        }
-    }]
-});
-
-// ============ SENATOR DATA ============
-const senators = [
-    { district: 1, name: "Susan Bernard", party: "R", county: "Aroostook" },
-    { district: 2, name: "Trey Stewart", party: "R", county: "Aroostook" },
-    { district: 3, name: "Bradlee Farrin", party: "R", county: "Somerset" },
-    { district: 4, name: "Stacey Guerin", party: "R", county: "Penobscot" },
-    { district: 5, name: "Russell Black", party: "R", county: "Franklin" },
-    { district: 6, name: "Marianne Moore", party: "R", county: "Washington" },
-    { district: 7, name: "Nicole Grohoski", party: "D", county: "Hancock" },
-    { district: 8, name: "Mike Tipping", party: "D", county: "Penobscot" },
-    { district: 9, name: "Joseph Baldacci", party: "D", county: "Penobscot" },
-    { district: 10, name: "David Haggan", party: "R", county: "Penobscot" },
-    { district: 11, name: "Chip Curry", party: "D", county: "Waldo" },
-    { district: 12, name: "Pinny Beebe-Center", party: "D", county: "Knox" },
-    { district: 13, name: "Cameron Reny", party: "D", county: "Lincoln" },
-    { district: 14, name: "Craig Hickman", party: "D", county: "Kennebec" },
-    { district: 15, name: "Richard Bradstreet", party: "R", county: "Kennebec" },
-    { district: 16, name: "Scott Cyrway", party: "R", county: "Kennebec" },
-    { district: 17, name: "Jeffrey Timberlake", party: "R", county: "Androscoggin" },
-    { district: 18, name: "Richard Bennett", party: "I", county: "Oxford" },
-    { district: 19, name: "Joseph Martin", party: "R", county: "Oxford" },
-    { district: 20, name: "Bruce Bickford", party: "R", county: "Androscoggin" },
-    { district: 21, name: "Peggy Rotundo", party: "D", county: "Androscoggin" },
-    { district: 22, name: "James Libby", party: "R", county: "Cumberland" },
-    { district: 23, name: "Matthea Daughtry", party: "D", county: "Cumberland" },
-    { district: 24, name: "Denise Tepler", party: "D", county: "Sagadahoc" },
-    { district: 25, name: "Teresa Pierce", party: "D", county: "Cumberland" },
-    { district: 26, name: "Timothy Nangle", party: "D", county: "Cumberland" },
-    { district: 27, name: "Jill Duson", party: "D", county: "Cumberland" },
-    { district: 28, name: "Rachel Talbot Ross", party: "D", county: "Cumberland" },
-    { district: 29, name: "Anne Carney", party: "D", county: "Cumberland" },
-    { district: 30, name: "Stacy Brenner", party: "D", county: "Cumberland" },
-    { district: 31, name: "Donna Bailey", party: "D", county: "York" },
-    { district: 32, name: "Henry Ingwersen", party: "D", county: "York" },
-    { district: 33, name: "Matthew Harrington", party: "R", county: "York" },
-    { district: 34, name: "Joseph Rafferty", party: "D", county: "York" },
-    { district: 35, name: "Mark Lawrence", party: "D", county: "York" }
-];
+        series: [{
+            name: 'Seats',
+            keys: ['name', 'y', 'color', 'label'],
+            data: [
+                ['Democratic Party', composition.dem, '#1a56db', 'Democrats'],
+                ['Republican Party', composition.rep, '#dc2626', 'Republicans'],
+                ['Independent', composition.ind, '#2d5a27', 'Independent']
+            ],
+            dataLabels: {
+                enabled: true,
+                useHTML: true,
+                formatter: function() {
+                    return '<span style="color: ' + this.point.color + '; font-weight: bold; font-size: 11px;">' + 
+                           this.point.label + ' (' + this.point.y + ')</span>';
+                },
+                style: {
+                    textOutline: 'none',
+                    fontWeight: 'bold',
+                    fontSize: '11px'
+                }
+            },
+            center: ['50%', '85%'],
+            size: '150%',
+            startAngle: -100,
+            endAngle: 100,
+            point: {
+                borderColor: '#000000',
+                borderWidth: 1
+            }
+        }]
+    });
+}
 
 // ============ RENDER SENATE GRID ============
-function renderSenateGrid() {
+function renderSenateGrid(senators) {
     const grid = document.getElementById('senate-grid');
+    
+    if (!senators || senators.length === 0) {
+        grid.innerHTML = '<p style="color:#999;text-align:center;grid-column:1/-1;">No senator data available.</p>';
+        return;
+    }
     
     grid.innerHTML = senators.map(senator => `
         <a href="politicians/senate-${senator.district}.html" class="senator-card">
             <div class="senator-photo">
-                <img src="images/politicians/senate/district-${senator.district}.jpg" 
-                     alt="${senator.name}"
-                     onerror="this.parentElement.textContent='${senator.name.split(' ').map(n => n[0]).join('')}'">
+                ${senator.photo ? 
+                    `<img src="${senator.photo}" alt="${senator.name}" 
+                         onerror="this.parentElement.textContent='${senator.name.split(' ').map(n => n[0]).join('')}'">` : 
+                    senator.name.split(' ').map(n => n[0]).join('')
+                }
             </div>
             <div class="senator-name">${senator.name}</div>
             <div class="senator-district">District ${senator.district}</div>
-            <div class="senator-party party-${senator.party}">
+            <div class="senator-party party-${senator.party || 'I'}">
                 ${senator.party === 'D' ? 'Democrat' : senator.party === 'R' ? 'Republican' : 'Independent'}
             </div>
         </a>
     `).join('');
 }
 
-document.addEventListener('DOMContentLoaded', renderSenateGrid);
+// ============ INITIALIZE ============
+document.addEventListener('DOMContentLoaded', loadSenateData);
 </script>
 
 </body>
