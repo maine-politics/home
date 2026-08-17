@@ -1,40 +1,5 @@
 [
   {
-    "title": "Polls everywhere in primary season. Can they be trusted?",
-    "link": "https://www.npr.org/2026/08/16/nx-s1-5929568/polls-everywhere-in-primary-season-can-they-be-trusted",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Sen. Mark Kelly discusses conditions aboard the USS Lincoln",
-    "link": "https://www.npr.org/2026/08/17/nx-s1-5933015/sen-mark-kelly-discusses-conditions-aboard-the-uss-lincoln",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
-    "link": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Live updates: Trump says US has &#039;total control&#039; in Strait of Hormuz",
-    "link": "https://thehill.com/homenews/administration/6032771-trump-threatens-oman-bombing/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Californians divided on billionaire tax, new poll shows",
-    "link": "https://thehill.com/homenews/campaign/6033661-prop-40-billionair-tax-poll/",
-    "source": "The Hill"
-  },
-  {
-    "title": "In Florida, Congressman Byron Donalds' seat is up for grabs for Republicans",
-    "link": "https://www.npr.org/2026/08/16/nx-s1-5927132/in-florida-congressman-byron-donalds-seat-is-up-for-grabs-for-republicans",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Fauci declines to sit for transcribed interview with Sen. Ron Johnson",
-    "link": "https://thehill.com/policy/healthcare/6033744-fauci-declines-gop-johnson-interview/",
-    "source": "The Hill"
-  },
-  {
     "title": "DHS defends investigating agency critics and giving them warning notices",
     "link": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations",
     "source": "NPR Politics"
@@ -45,9 +10,44 @@
     "source": "The Hill"
   },
   {
+    "title": "Fauci declines to sit for transcribed interview with Sen. Ron Johnson",
+    "link": "https://thehill.com/policy/healthcare/6033744-fauci-declines-gop-johnson-interview/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Sen. Mark Kelly discusses conditions aboard the USS Lincoln",
+    "link": "https://www.npr.org/2026/08/17/nx-s1-5933015/sen-mark-kelly-discusses-conditions-aboard-the-uss-lincoln",
+    "source": "NPR Politics"
+  },
+  {
     "title": "Advocates worry new bans on student IDs will trip up younger voters",
     "link": "https://www.npr.org/2026/08/17/nx-s1-5791740/college-student-voting-voter-id",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Trump says people opposed to ballroom are disloyal to country",
+    "link": "https://thehill.com/homenews/administration/6033726-trump-ballroom-disloyalty-comments/",
+    "source": "The Hill"
+  },
+  {
+    "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
+    "link": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "In Florida, Congressman Byron Donalds' seat is up for grabs for Republicans",
+    "link": "https://www.npr.org/2026/08/16/nx-s1-5927132/in-florida-congressman-byron-donalds-seat-is-up-for-grabs-for-republicans",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Polls everywhere in primary season. Can they be trusted?",
+    "link": "https://www.npr.org/2026/08/16/nx-s1-5929568/polls-everywhere-in-primary-season-can-they-be-trusted",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Californians divided on billionaire tax, new poll shows",
+    "link": "https://thehill.com/homenews/campaign/6033661-prop-40-billionair-tax-poll/",
+    "source": "The Hill"
   },
   {
     "title": "Trump: Released missionary hostage coming home to US",
@@ -55,8 +55,8 @@
     "source": "The Hill"
   },
   {
-    "title": "Trump says people opposed to ballroom are disloyal to country",
-    "link": "https://thehill.com/homenews/administration/6033726-trump-ballroom-disloyalty-comments/",
+    "title": "Live updates: Trump says US has &#039;total control&#039; in Strait of Hormuz",
+    "link": "https://thehill.com/homenews/administration/6032771-trump-threatens-oman-bombing/",
     "source": "The Hill"
   }
 ]
