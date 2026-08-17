@@ -29,15 +29,15 @@ jobs:
       - name: Fetch feeds
         run: node scripts/fetch-feeds.mjs
 
-      - name: Fetch legislature data (every 6 hours)
-        # Only fetch legislature data every 6 hours to avoid hammering the API
-        # The 6-hour check uses the timestamp on data/legislature/war-room.json
+      - name: Fetch Senate profiles (every 6 hours)
+        # Scrape Senate profiles from legislature.maine.gov district pages
+        # Only run every 6 hours to avoid hammering the legislature site
         run: |
-          if [ ! -f data/legislature/war-room.json ] || [ $(find data/legislature/war-room.json -mmin +360 | wc -l) -eq 1 ]; then
-            echo "Fetching legislature data (last fetch was >6 hours ago or never)"
-            node scripts/fetch-legislature.mjs
+          if [ ! -f data/legislature/senators.json ] || [ $(find data/legislature/senators.json -mmin +360 | wc -l) -eq 1 ]; then
+            echo "Fetching Senate profiles (last fetch was >6 hours ago or never)"
+            node scripts/fetch-senate-profiles.mjs
           else
-            echo "Skipping legislature fetch (fetched within last 6 hours)"
+            echo "Skipping Senate profile fetch (fetched within last 6 hours)"
           fi
         shell: bash
 
@@ -46,6 +46,6 @@ jobs:
           git config user.name "feed-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/ticker.json data/maine-headlines.json data/national-headlines.json
-          git add data/legislature/war-room.json data/legislature/bills-full.json 2>/dev/null || true
+          git add data/legislature/senators.json images/politicians/senate/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Update live feeds [automated]"
           git push
