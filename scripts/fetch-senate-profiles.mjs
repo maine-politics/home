@@ -1,5 +1,6 @@
 // Fetches complete Maine Senate profiles from district pages
 // URL pattern: https://legislature.maine.gov/district[NUMBER]
+// Map pattern: https://legislature.maine.gov/uploads/visual_edit/senatedistrict[NUMBER].png
 // Saves to: data/legislature/senators.json
 
 import { writeFile, mkdir } from 'fs/promises';
@@ -7,6 +8,7 @@ import { resolve } from 'path';
 
 const DATA_DIR = 'data/legislature';
 const PHOTOS_DIR = 'images/politicians/senate';
+const MAPS_DIR = 'images/maps';
 const TOTAL_DISTRICTS = 35;
 
 function cleanText(text) {
@@ -34,7 +36,6 @@ function extractPhotoUrl(html) {
 }
 
 function extractName(html) {
-    // Look for "Sen. Name (Party-County)" pattern
     const match = html.match(/Sen\.\s+([^<(]+)\s*\(([DR])-/i) ||
                   html.match(/<h1[^>]*>([^<]+)<\/h1>/i) ||
                   html.match(/<h2[^>]*>([^<]+)<\/h2>/i);
@@ -45,8 +46,7 @@ function extractName(html) {
     return null;
 }
 
-function extractParty(html, name) {
-    // Look for (D-County) or (R-County) or (I-County) after the name
+function extractParty(html) {
     const match = html.match(/Sen\.\s+[^<(]+\s*\(([DRI])-/i);
     if (match && match[1]) {
         return match[1].toUpperCase();
@@ -63,7 +63,6 @@ function extractCounty(html, party) {
 }
 
 function extractDistrictTowns(html) {
-    // Look for "Senate District X: In [County] County: [towns]"
     const match = html.match(/Senate District \d+:([^M]+)Mailing Address/i);
     if (match && match[1]) {
         return cleanText(match[1]);
@@ -107,7 +106,6 @@ function extractLegislativeService(html) {
 }
 
 function extractCommittees(html) {
-    // Look for committee assignments section
     const match = html.match(/Committee Assignments:\s*([\s\S]*?)(?:Maine Government|$)/i);
     if (match && match[1]) {
         const committees = [];
@@ -117,7 +115,6 @@ function extractCommittees(html) {
                 committees.push(cleanText(cm[1]));
             }
         }
-        // Also try plain text
         if (committees.length === 0) {
             const text = cleanText(match[1]);
             if (text && text !== 'None') {
@@ -192,8 +189,28 @@ async function scrapeDistrict(districtNumber) {
                 console.log(`  ✗ Photo download error: ${e.message}`);
                 photoFilename = null;
             }
-        } else {
-            console.log(`  ✗ No photo found`);
+        }
+        
+        // Download district map
+        let mapFilename = null;
+        const mapUrl = `https://legislature.maine.gov/uploads/visual_edit/senatedistrict${districtNumber}.png`;
+        try {
+            const mapRes = await fetch(mapUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (compatible; MainePoliticsBot/1.0)'
+                }
+            });
+            
+            if (mapRes.ok && mapRes.headers.get('content-type')?.includes('image')) {
+                mapFilename = `senate-district-${districtNumber}.png`;
+                const mapBuffer = await mapRes.arrayBuffer();
+                await writeFile(resolve(MAPS_DIR, mapFilename), Buffer.from(mapBuffer));
+                console.log(`  ✓ Map downloaded`);
+            } else {
+                console.log(`  ✗ No map found`);
+            }
+        } catch (e) {
+            console.log(`  ✗ Map download error: ${e.message}`);
         }
         
         // Build profile object
@@ -210,6 +227,7 @@ async function scrapeDistrict(districtNumber) {
             legislative_service: legislativeService,
             committees: committees,
             photo: photoFilename ? `images/politicians/senate/${photoFilename}` : null,
+            map: mapFilename ? `images/maps/${mapFilename}` : null,
             photo_url: photoUrl,
             page_url: url,
             profile_url: `politicians/senate-${districtNumber}.html`
@@ -224,6 +242,7 @@ async function scrapeDistrict(districtNumber) {
 async function main() {
     await mkdir(DATA_DIR, { recursive: true });
     await mkdir(PHOTOS_DIR, { recursive: true });
+    await mkdir(MAPS_DIR, { recursive: true });
     
     console.log(`Scraping all ${TOTAL_DISTRICTS} Senate districts...\n`);
     
@@ -236,14 +255,11 @@ async function main() {
             senators.push(senator);
             success++;
         }
-        // 1 second delay between requests
         await new Promise(resolve => setTimeout(resolve, 1000));
     }
     
-    // Sort by district number
     senators.sort((a, b) => a.district - b.district);
     
-    // Build output object
     const output = {
         updated: new Date().toISOString(),
         legislature: "132nd Maine Legislature",
@@ -265,6 +281,7 @@ async function main() {
     console.log(`\n✓ Scraped ${success}/${TOTAL_DISTRICTS} districts`);
     console.log(`✓ Saved ${senators.length} senator profiles`);
     console.log(`✓ Photos in: ${PHOTOS_DIR}/`);
+    console.log(`✓ Maps in: ${MAPS_DIR}/`);
     console.log(`✓ Data in: ${DATA_DIR}/senators.json`);
 }
 
