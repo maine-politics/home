@@ -7,7 +7,6 @@
     <meta name="description" content="Maine Legislature war room: Senate and House composition, leadership, and district maps">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* ============ LEGISLATURE WAR ROOM ============ */
         .legislature-container {
             max-width: 1100px;
             margin: 30px auto;
@@ -16,7 +15,7 @@
         .war-header {
             text-align: center;
             padding: 30px 20px;
-            background: linear-gradient(180deg, #fff 0%, #f8f8f5 100%);
+            background: #fff;
             border: 1px solid #ddd;
             border-top: 4px solid #1a1a1a;
             border-bottom: 4px solid #1a1a1a;
@@ -40,100 +39,49 @@
             letter-spacing: 1px;
         }
         
-        /* Chamber Cards */
-        .chamber-cards {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .chamber-card {
+        .chamber-section {
             background: #fff;
             border: 1px solid #ddd;
             border-top: 3px solid #1a1a1a;
-            padding: 30px;
-            text-align: center;
-            text-decoration: none;
-            color: #1a1a1a;
-            transition: all 0.2s;
+            padding: 25px;
+            margin-bottom: 25px;
         }
         
-        .chamber-card:hover {
-            border-top-color: #c00;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transform: translateY(-2px);
-        }
-        
-        .chamber-icon {
-            font-size: 40px;
-            margin-bottom: 15px;
-        }
-        
-        .chamber-name {
-            font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
-            color: #1a1a1a;
-        }
-        
-        .chamber-seats {
-            font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 28px;
-            font-weight: 800;
-            color: #c00;
-            margin-bottom: 15px;
-        }
-        
-        .chamber-breakdown {
+        .chamber-section-header {
             display: flex;
-            justify-content: center;
-            gap: 25px;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .chamber-section-title {
             font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 12px;
-        }
-        
-        .breakdown-item {
-            text-align: center;
-        }
-        
-        .breakdown-count {
             font-size: 20px;
             font-weight: 700;
-            display: block;
+            color: #1a1a1a;
         }
         
-        .breakdown-label {
-            color: #777;
-            text-transform: uppercase;
-            font-size: 10px;
-            letter-spacing: 1px;
-        }
-        
-        .count-dem { color: #1a56db; }
-        .count-rep { color: #c00; }
-        .count-ind { color: #2d5a27; }
-        
-        .chamber-arrow {
-            display: inline-block;
+        .chamber-link {
             font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #777;
-            transition: color 0.2s;
-        }
-        
-        .chamber-card:hover .chamber-arrow {
             color: #c00;
+            text-decoration: none;
         }
         
-        /* Leadership Section */
+        .chamber-link:hover {
+            text-decoration: underline;
+        }
+        
+        .chart-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
         .leadership-section {
             background: #fff;
             border: 1px solid #ddd;
@@ -233,10 +181,9 @@
         }
         
         .party-D { color: #1a56db; }
-        .party-R { color: #c00; }
+        .party-R { color: #dc2626; }
         .party-I { color: #2d5a27; }
         
-        /* Quick Links */
         .quick-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -264,9 +211,6 @@
         }
         
         @media (max-width: 700px) {
-            .chamber-cards {
-                grid-template-columns: 1fr;
-            }
             .war-title {
                 font-size: 28px;
             }
@@ -299,49 +243,26 @@
         <div class="war-subtitle">132nd Maine Legislature — 2025-2026 Session</div>
     </div>
     
-    <!-- Chamber Cards -->
-    <div class="chamber-cards">
-        <a href="senate.html" class="chamber-card">
-            <div class="chamber-icon">🏛️</div>
-            <div class="chamber-name">Senate</div>
-            <div class="chamber-seats">35 Seats</div>
-            <div class="chamber-breakdown">
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-dem">20</span>
-                    <span class="breakdown-label">Democrats</span>
-                </div>
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-rep">14</span>
-                    <span class="breakdown-label">Republicans</span>
-                </div>
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-ind">1</span>
-                    <span class="breakdown-label">Independent</span>
-                </div>
-            </div>
-            <span class="chamber-arrow">Enter Senate War Room →</span>
-        </a>
-        
-        <a href="house.html" class="chamber-card">
-            <div class="chamber-icon">🏠</div>
-            <div class="chamber-name">House of Representatives</div>
-            <div class="chamber-seats">151 Seats</div>
-            <div class="chamber-breakdown">
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-dem">76</span>
-                    <span class="breakdown-label">Democrats</span>
-                </div>
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-rep">73</span>
-                    <span class="breakdown-label">Republicans</span>
-                </div>
-                <div class="breakdown-item">
-                    <span class="breakdown-count count-ind">2</span>
-                    <span class="breakdown-label">Independent</span>
-                </div>
-            </div>
-            <span class="chamber-arrow">Enter House War Room →</span>
-        </a>
+    <!-- Senate Composition Chart -->
+    <div class="chamber-section">
+        <div class="chamber-section-header">
+            <div class="chamber-section-title">🏛️ Senate Composition</div>
+            <a href="senate.html" class="chamber-link">Enter Senate War Room →</a>
+        </div>
+        <div class="chart-container">
+            <div id="senate-composition-chart"></div>
+        </div>
+    </div>
+    
+    <!-- House Composition Chart -->
+    <div class="chamber-section">
+        <div class="chamber-section-header">
+            <div class="chamber-section-title">🏠 House Composition</div>
+            <a href="house.html" class="chamber-link">Enter House War Room →</a>
+        </div>
+        <div class="chart-container">
+            <div id="house-composition-chart"></div>
+        </div>
     </div>
     
     <!-- Senate Leadership -->
@@ -349,21 +270,21 @@
         <div class="section-title">Senate Leadership</div>
         <div class="leadership-grid">
             <a href="politicians/senate-1.html" class="leader-card">
-                <div class="leader-photo" id="photo-jackson">TJ</div>
+                <div class="leader-photo">TJ</div>
                 <div class="leader-name">Troy Jackson</div>
                 <div class="leader-role">Senate President</div>
                 <div class="leader-party party-D">Democrat</div>
                 <div class="leader-district">District 1 — Aroostook County</div>
             </a>
             <a href="politicians/senate-23.html" class="leader-card">
-                <div class="leader-photo" id="photo-vitelli">EV</div>
+                <div class="leader-photo">EV</div>
                 <div class="leader-name">Eloise Vitelli</div>
                 <div class="leader-role">Majority Leader</div>
                 <div class="leader-party party-D">Democrat</div>
                 <div class="leader-district">District 23 — Sagadahoc County</div>
             </a>
             <a href="politicians/senate-2.html" class="leader-card">
-                <div class="leader-photo" id="photo-stewart">TS</div>
+                <div class="leader-photo">TS</div>
                 <div class="leader-name">Trey Stewart</div>
                 <div class="leader-role">Minority Leader</div>
                 <div class="leader-party party-R">Republican</div>
@@ -377,21 +298,21 @@
         <div class="section-title">House Leadership</div>
         <div class="leadership-grid">
             <a href="politicians/house-118.html" class="leader-card">
-                <div class="leader-photo" id="photo-talbot">RT</div>
+                <div class="leader-photo">RT</div>
                 <div class="leader-name">Rachel Talbot Ross</div>
                 <div class="leader-role">Speaker of the House</div>
                 <div class="leader-party party-D">Democrat</div>
                 <div class="leader-district">District 118 — Portland</div>
             </a>
             <a href="politicians/house-94.html" class="leader-card">
-                <div class="leader-photo" id="photo-cloutier">KC</div>
+                <div class="leader-photo">KC</div>
                 <div class="leader-name">Kristen Cloutier</div>
                 <div class="leader-role">Majority Leader</div>
                 <div class="leader-party party-D">Democrat</div>
                 <div class="leader-district">District 94 — Lewiston</div>
             </a>
             <a href="politicians/house-12.html" class="leader-card">
-                <div class="leader-photo" id="photo-faulkingham">BF</div>
+                <div class="leader-photo">BF</div>
                 <div class="leader-name">Billy Bob Faulkingham</div>
                 <div class="leader-role">Minority Leader</div>
                 <div class="leader-party party-R">Republican</div>
@@ -417,6 +338,168 @@
     Maine Politics — an independent outlet covering Maine state and local government.<br>
     War room data compiled from public records and legislative sources.
 </div>
+
+<script>
+// Maine Legislature Composition Charts
+(function() {
+    function initMaineLegislatureChart() {
+        function loadHighcharts(callback) {
+            if (typeof Highcharts === 'undefined') {
+                var script1 = document.createElement('script');
+                script1.src = 'https://code.highcharts.com/highcharts.js';
+                script1.onload = function() {
+                    var script2 = document.createElement('script');
+                    script2.src = 'https://code.highcharts.com/modules/item-series.js';
+                    script2.onload = callback;
+                    document.head.appendChild(script2);
+                };
+                document.head.appendChild(script1);
+            } else {
+                callback();
+            }
+        }
+        
+        function createSenateChart() {
+            Highcharts.chart('senate-composition-chart', {
+                chart: {
+                    backgroundColor: 'transparent',
+                    type: 'item',
+                    height: 350
+                },
+                title: {
+                    text: ''
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: false
+                },
+                tooltip: {
+                    useHTML: true,
+                    backgroundColor: '#ffffff',
+                    borderColor: '#dddddd',
+                    style: {
+                        color: '#1a1a1a'
+                    },
+                    formatter: function() {
+                        return '<div style="color: #1a1a1a;">' +
+                            '<strong>' + this.point.name + '</strong><br/>' +
+                            '<span style="display: inline-block; width: 12px; height: 12px; background-color: ' + this.point.color + '; border-radius: 50%; margin-right: 6px; vertical-align: middle;"></span>' +
+                            'Seats: ' + this.point.y +
+                            '</div>';
+                    }
+                },
+                series: [{
+                    name: 'Seats',
+                    keys: ['name', 'y', 'color', 'label'],
+                    data: [
+                        ['Democratic Party', 20, '#1a56db', 'Democrats'],
+                        ['Republican Party', 14, '#dc2626', 'Republicans'],
+                        ['Independent', 1, '#2d5a27', 'Independent']
+                    ],
+                    dataLabels: {
+                        enabled: true,
+                        useHTML: true,
+                        formatter: function() {
+                            return '<span style="color: ' + this.point.color + '; font-weight: bold; font-size: 11px;">' + 
+                                   this.point.label + ' (' + this.point.y + ')</span>';
+                        },
+                        style: {
+                            textOutline: 'none',
+                            fontWeight: 'bold',
+                            fontSize: '11px'
+                        }
+                    },
+                    center: ['50%', '85%'],
+                    size: '150%',
+                    startAngle: -100,
+                    endAngle: 100,
+                    point: {
+                        borderColor: '#000000',
+                        borderWidth: 1
+                    }
+                }]
+            });
+        }
+        
+        function createHouseChart() {
+            Highcharts.chart('house-composition-chart', {
+                chart: {
+                    backgroundColor: 'transparent',
+                    type: 'item',
+                    height: 400
+                },
+                title: {
+                    text: ''
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: false
+                },
+                tooltip: {
+                    useHTML: true,
+                    backgroundColor: '#ffffff',
+                    borderColor: '#dddddd',
+                    style: {
+                        color: '#1a1a1a'
+                    },
+                    formatter: function() {
+                        return '<div style="color: #1a1a1a;">' +
+                            '<strong>' + this.point.name + '</strong><br/>' +
+                            '<span style="display: inline-block; width: 12px; height: 12px; background-color: ' + this.point.color + '; border-radius: 50%; margin-right: 6px; vertical-align: middle;"></span>' +
+                            'Seats: ' + this.point.y +
+                            '</div>';
+                    }
+                },
+                series: [{
+                    name: 'Seats',
+                    keys: ['name', 'y', 'color', 'label'],
+                    data: [
+                        ['Democratic Party', 76, '#1a56db', 'Democrats'],
+                        ['Republican Party', 73, '#dc2626', 'Republicans'],
+                        ['Independent', 2, '#2d5a27', 'Independent']
+                    ],
+                    dataLabels: {
+                        enabled: true,
+                        useHTML: true,
+                        formatter: function() {
+                            return '<span style="color: ' + this.point.color + '; font-weight: bold; font-size: 11px;">' + 
+                                   this.point.label + ' (' + this.point.y + ')</span>';
+                        },
+                        style: {
+                            textOutline: 'none',
+                            fontWeight: 'bold',
+                            fontSize: '11px'
+                        }
+                    },
+                    center: ['50%', '88%'],
+                    size: '160%',
+                    startAngle: -100,
+                    endAngle: 100,
+                    point: {
+                        borderColor: '#000000',
+                        borderWidth: 1
+                    }
+                }]
+            });
+        }
+        
+        loadHighcharts(function() {
+            createSenateChart();
+            createHouseChart();
+        });
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMaineLegislatureChart);
+    } else {
+        initMaineLegislatureChart();
+    }
+})();
+</script>
 
 </body>
 </html>
