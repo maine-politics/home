@@ -1,32 +1,12 @@
 [
   {
-    "title": "Rubio announces sanctions on International Criminal Court president",
+    "title": "Former federal prosecutor is suing DOJ for 'unlawful and retaliatory' firing",
+    "link": "https://www.npr.org/2026/08/17/g-s1-138997/former-federal-prosecutor-sue-doj-retaliatory-firing",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Rubio announces sanctions on ICC president",
     "link": "https://thehill.com/policy/international/6036022-rubio-sanctions-icc-president/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Florida GOP race draws accusations of carpetbagging",
-    "link": "https://www.npr.org/2026/08/17/nx-s1-5913672/florida-gop-race-draws-accusations-of-carpetbagging",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Live updates: California, 28 other states lay out case against Meta; Florida, Alaska voters head to polls",
-    "link": "https://thehill.com/homenews/administration/6034642-live-updates-florida-alaska-primary-elections-meta-trial-trump-iran/",
-    "source": "The Hill"
-  },
-  {
-    "title": "DHS defends investigating agency critics and giving them warning notices",
-    "link": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Minnesota sues Texas governor to force extradition of ICE agent involved in shooting",
-    "link": "https://thehill.com/regulation/court-battles/6035849-minnesota-texas-lawsuit-ice-shooting-extradition/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Whistleblowers accuse Trump administration of &#039;predetermined&#039; outcomes in Ivy League antisemitism investigations",
-    "link": "https://thehill.com/homenews/administration/6035835-doj-whistleblower-ivy-league-probes/",
     "source": "The Hill"
   },
   {
@@ -35,9 +15,24 @@
     "source": "NPR Politics"
   },
   {
-    "title": "This crowded Republican primary in Florida has drawn a unique cast of candidates",
-    "link": "https://www.npr.org/2026/08/18/nx-s1-5930699/florida-republican-19th-district-carpetbaggers",
+    "title": "DHS defends investigating agency critics and giving them warning notices",
+    "link": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Psaki questions Ossoff on White House aide remark",
+    "link": "https://thehill.com/homenews/administration/6035782-psaki-ossoff-natalie-harp-comments/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Iran&#039;s Speaker says Bessent and Hegseth are &#039;way out of their league&#039;",
+    "link": "https://thehill.com/homenews/administration/6036181-iranian-speaker-bashes-bessent-hegseth/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Person convicted in Bessent assassination attempt gets more than 6 years in prison",
+    "link": "https://thehill.com/regulation/court-battles/6036131-assassination-attempt-scott-bessent-sentence/",
+    "source": "The Hill"
   },
   {
     "title": "Former DNC official: &#039;DSA candidates don&#039;t represent my party&#039;",
@@ -45,18 +40,23 @@
     "source": "The Hill"
   },
   {
-    "title": "Former federal prosecutor is suing DOJ for 'unlawful and retaliatory' firing",
-    "link": "https://www.npr.org/2026/08/17/g-s1-138997/former-federal-prosecutor-sue-doj-retaliatory-firing",
+    "title": "Florida GOP race draws accusations of carpetbagging",
+    "link": "https://www.npr.org/2026/08/17/nx-s1-5913672/florida-gop-race-draws-accusations-of-carpetbagging",
     "source": "NPR Politics"
   },
   {
-    "title": "UAE says it detected 2 missiles fired from Iran; both fell into water",
-    "link": "https://thehill.com/policy/defense/6035824-uae-detects-iranian-missiles/",
+    "title": "Sen. Mark Kelly says 'very difficult situation' unfolding for USS Lincoln sailors",
+    "link": "https://www.npr.org/2026/08/17/nx-s1-5933015/mark-kelly-navy-lincoln-sailors-investigation",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Fox News shifts Texas, Michigan races to &#039;toss-up&#039; in Senate forecast",
+    "link": "https://thehill.com/homenews/campaign/6035946-fox-news-michigan-texas-tossups/",
     "source": "The Hill"
   },
   {
-    "title": "Sen. Mark Kelly says USS Lincoln sailors 'can't get basic needs met'",
-    "link": "https://www.npr.org/2026/08/17/nx-s1-5933015/mark-kelly-navy-lincoln-sailors-investigation",
+    "title": "This crowded Republican primary in Florida has drawn a unique cast of candidates",
+    "link": "https://www.npr.org/2026/08/18/nx-s1-5930699/florida-republican-19th-district-carpetbaggers",
     "source": "NPR Politics"
   }
 ]
