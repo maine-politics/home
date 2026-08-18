@@ -1,13 +1,8 @@
 [
   {
-    "title": "Local man dies from injuries received in 2-vehicle crash in Auburn",
-    "link": "https://www.sunjournal.com/2026/08/18/local-man-dies-from-injuries-received-in-2-vehicle-crash-in-auburn/",
-    "source": "Sun Journal"
-  },
-  {
-    "title": "Brunswick delays fuel station project after residents raise concerns",
-    "link": "https://www.pressherald.com/2026/08/18/brunswick-delays-fuel-station-project-after-residents-raise-concerns/",
-    "source": "Press Herald"
+    "title": "Houlton schools face staff shortages as new year nears",
+    "link": "https://www.bangordailynews.com/2026/08/18/aroostook/aroostook-government/houlton-school-staff-shortages/",
+    "source": "BDN"
   },
   {
     "title": "Investigation into police shooting of Brownfield man to receive multiple reviews as wife disputes claims",
@@ -20,24 +15,14 @@
     "source": "Maine Public"
   },
   {
-    "title": "Eastport enacts pause on data center development",
-    "link": "https://www.mainepublic.org/climate/2026-08-14/eastport-enacts-pause-on-data-center-development",
+    "title": "Bridgton man back home in Maine after nearly seven months in ICE detention",
+    "link": "https://www.mainepublic.org/immigration/2026-08-18/bridgton-man-back-home-in-maine-after-nearly-seven-months-in-ice-detention",
     "source": "Maine Public"
   },
   {
-    "title": "House Speaker Mike Johnson stumps for Paul LePage in 2nd District race",
-    "link": "https://www.mainepublic.org/politics/2026-08-18/house-speaker-mike-johnson-stumps-for-paul-lepage-in-2nd-district-race",
-    "source": "Maine Public"
-  },
-  {
-    "title": "State ends Medicaid contract with provider run by immigration attorney with suspended law license",
-    "link": "https://www.centralmaine.com/2026/08/18/state-ends-medicaid-contract-with-provider-run-by-immigration-attorney-with-suspended-law-license/",
-    "source": "Kennebec Journal"
-  },
-  {
-    "title": "Local business community invited to Ellsworth Area Chamber of  Commerce Business After Hours Block Party on Thursday",
-    "link": "https://www.bangordailynews.com/2026/08/18/bdn-maine/local-business-community-invited-to-ellsworth-area-chamber-of-commerce-business-after-hours-block-party-on-thursday/",
-    "source": "BDN"
+    "title": "Auburn passes ordinance limiting mobile home park lot rent increases",
+    "link": "https://www.sunjournal.com/2026/08/18/auburn-passes-ordinance-limiting-mobile-home-park-lot-rent-increases/",
+    "source": "Sun Journal"
   },
   {
     "title": "Maine’s top court denies appeal of controversial Bar Harbor aquaculture lease",
@@ -45,24 +30,9 @@
     "source": "BDN"
   },
   {
-    "title": "‘Tired situations,’ linebacker love, and more we learned at Waterville football practice Tuesday",
-    "link": "https://www.centralmaine.com/2026/08/18/tired-situations-linebacker-love-and-more-we-learned-at-waterville-football-practice-tuesday/",
+    "title": "Skowhegan-area school district gathers community to envision educational future",
+    "link": "https://www.centralmaine.com/2026/08/18/skowhegan-area-school-district-gathers-community-to-envision-future/",
     "source": "Kennebec Journal"
-  },
-  {
-    "title": "Bridgton man back home in Maine after nearly seven months in ICE detention",
-    "link": "https://www.mainepublic.org/immigration/2026-08-18/bridgton-man-back-home-in-maine-after-nearly-seven-months-in-ice-detention",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Rhode Island native Eddie Buehler wins UMaine’s starting quarterback job",
-    "link": "https://www.bangordailynews.com/2026/08/18/sports/college-football/eddie-buehler-umaine-starting-quarterback/",
-    "source": "BDN"
-  },
-  {
-    "title": "Young hearts pine for soccer in Lewiston",
-    "link": "https://www.sunjournal.com/2026/08/18/young-hearts-pine-for-soccer-in-lewiston/",
-    "source": "Sun Journal"
   },
   {
     "title": "Records fall at Maine state youth track meet",
@@ -70,8 +40,38 @@
     "source": "Kennebec Journal"
   },
   {
-    "title": "Guilford man charged with murder in deadly assault",
-    "link": "https://www.pressherald.com/2026/08/18/guilford-man-charged-with-murder-in-deadly-assault/",
+    "title": "State ends Medicaid contract with provider run by immigration attorney with suspended law license",
+    "link": "https://www.centralmaine.com/2026/08/18/state-ends-medicaid-contract-with-provider-run-by-immigration-attorney-with-suspended-law-license/",
+    "source": "Kennebec Journal"
+  },
+  {
+    "title": "Brunswick delays fuel station project after residents raise concerns",
+    "link": "https://www.pressherald.com/2026/08/18/brunswick-delays-fuel-station-project-after-residents-raise-concerns/",
     "source": "Press Herald"
+  },
+  {
+    "title": "‘Tired situations,’ linebacker love, and more we learned at Waterville football practice Tuesday",
+    "link": "https://www.centralmaine.com/2026/08/18/tired-situations-linebacker-love-and-more-we-learned-at-waterville-football-practice-tuesday/",
+    "source": "Kennebec Journal"
+  },
+  {
+    "title": "Portland schools employee detained by ICE",
+    "link": "https://www.pressherald.com/2026/08/18/portland-schools-employee-detained-by-ice/",
+    "source": "Press Herald"
+  },
+  {
+    "title": "Young hearts pine for soccer in Lewiston",
+    "link": "https://www.sunjournal.com/2026/08/18/young-hearts-pine-for-soccer-in-lewiston/",
+    "source": "Sun Journal"
+  },
+  {
+    "title": "House Speaker Mike Johnson stumps for Paul LePage in 2nd District race",
+    "link": "https://www.mainepublic.org/politics/2026-08-18/house-speaker-mike-johnson-stumps-for-paul-lepage-in-2nd-district-race",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Eastport enacts pause on data center development",
+    "link": "https://www.mainepublic.org/climate/2026-08-14/eastport-enacts-pause-on-data-center-development",
+    "source": "Maine Public"
   }
 ]
