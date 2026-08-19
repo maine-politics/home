@@ -1,11 +1,11 @@
 [
     {
-        "id": "2026-election-preview",
-        "headline": "Maine Politics Heats Up: A Look at the Key Races Shaping the 2026 Election",
+        "id": "2026-election-preview-updated",
+        "headline": "Maine's 2026 Election: Where the Races Stand as Campaign Season Intensifies",
         "beat": "Elections",
         "byline": "Maine Politics Staff",
-        "date": "August 8, 2026",
-        "file": "data/articles/2026-election-preview.json"
+        "date": "August 19, 2026",
+        "file": "data/articles/2026-election-preview-updated.json"
     },
     {
         "id": "lewiston-memorial-bill",
