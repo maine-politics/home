@@ -79,17 +79,35 @@
     <p style="margin-top:30px;"><a href="index.html">← Back to Home</a></p>
 </article>
 
+<!-- ============ OPINION VIEW ============ -->
+<article class="story" id="opinion-view" style="display:none;">
+    <div id="opinion-content"><span class="loading">Loading opinion piece…</span></div>
+    <p style="margin-top:30px;"><a href="opinion.html">← Back to Opinion</a></p>
+</article>
+
 <div class="footer">
     Maine Politics — an independent outlet covering Maine state and local government. Reported and built from Bucksport, Maine.<br>
     Wire headlines are aggregated from public RSS feeds and link directly to the original source.
 </div>
 
 <script>
+// ==================== DATA PATHS ====================
+const DATA = {
+    articles: 'data/articles.json',
+    articleBodies: 'data/articles/',
+    opinion: 'data/opinion.json',
+    ticker: 'data/ticker.json',
+    maineHeadlines: 'data/maine-headlines.json',
+    nationalHeadlines: 'data/national-headlines.json',
+    politicians: 'data/politicians.json',
+    senators: 'data/legislature/senators.json'
+};
+
 // ==================== ARTICLE READER ====================
 async function loadArticle(id) {
     const el = document.getElementById('article-content');
     try {
-        const indexRes = await fetch('articles/index.json');
+        const indexRes = await fetch(DATA.articles);
         const index = await indexRes.json();
         const entry = index.find(a => a.id === id);
         
@@ -115,12 +133,42 @@ async function loadArticle(id) {
     }
 }
 
+// ==================== OPINION READER ====================
+async function loadOpinionPiece(id) {
+    const el = document.getElementById('opinion-content');
+    try {
+        const res = await fetch(DATA.opinion);
+        const pieces = await res.json();
+        const piece = pieces.find(p => p.id === id);
+        
+        if (!piece) {
+            el.innerHTML = '<div class="story-header"><h1>Not Found</h1></div><p>Opinion piece not found.</p>';
+            return;
+        }
+
+        const bodyRes = await fetch(piece.file);
+        const body = await bodyRes.text();
+        document.title = `${piece.headline} — Maine Politics`;
+
+        el.innerHTML = `
+            <div class="story-header">
+                <span class="story-beat" style="background:#c00;">Opinion</span>
+                <h1>${piece.headline}</h1>
+                <div class="story-meta">By ${piece.byline} · ${piece.date}</div>
+            </div>
+            <div class="story-body">${body}</div>
+        `;
+    } catch (e) {
+        el.innerHTML = '<p>Could not load opinion piece.</p>';
+    }
+}
+
 // ==================== MAINE ROUNDUP (daily.md) ====================
 async function loadRoundup() {
     const box = document.getElementById('roundup-box');
     const el = document.getElementById('roundup-content');
     try {
-        const res = await fetch('daily.md?v=' + Date.now()); // cache-bust, changes daily
+        const res = await fetch('daily.md?v=' + Date.now());
         if (!res.ok) throw new Error('no roundup yet');
         const md = await res.text();
         el.innerHTML = marked.parse(md);
@@ -135,12 +183,11 @@ async function loadSpotlight() {
     const box = document.getElementById('spotlight-box');
     const el = document.getElementById('spotlight-content');
     try {
-        const res = await fetch('data/politicians.json');
+        const res = await fetch(DATA.politicians);
         if (!res.ok) throw new Error('missing');
         const people = await res.json();
         if (!people || people.length === 0) throw new Error('empty');
 
-        // Rotate daily so the same face isn't stuck there for weeks.
         const dayIndex = Math.floor(Date.now() / 86400000) % people.length;
         const p = people[dayIndex];
 
@@ -161,13 +208,10 @@ async function loadSpotlight() {
 }
 
 // ==================== LIVE WIRE TICKER ====================
-// Reads a static JSON file pre-fetched server-side by
-// .github/workflows/fetch-feeds.yml — no live third-party API calls
-// from the browser, so no rate limits and no CORS risk.
 async function loadTicker() {
     const track = document.getElementById('ticker-track');
     try {
-        const res = await fetch('data/ticker.json');
+        const res = await fetch(DATA.ticker);
         if (!res.ok) throw new Error('missing');
         let items = await res.json();
 
@@ -182,7 +226,6 @@ async function loadTicker() {
             `<a href="${i.link}" target="_blank" rel="noopener">[${i.source}] ${i.title}</a>`
         ).join(' · ');
 
-        // Scale scroll speed to content length.
         track.style.animationDuration = `${Math.max(45, items.length * 5)}s`;
     } catch (e) {
         track.textContent = 'Live feed unavailable — check back soon.';
@@ -193,7 +236,7 @@ async function loadTicker() {
 async function loadArticles() {
     const list = document.getElementById('articles-list');
     try {
-        const res = await fetch('articles/index.json');
+        const res = await fetch(DATA.articles);
         const articles = await res.json();
         if (articles.length === 0) {
             list.innerHTML = '<span class="loading">No articles published yet.</span>';
@@ -212,7 +255,7 @@ async function loadArticles() {
 async function loadMaineHeadlines() {
     const list = document.getElementById('maine-headlines');
     try {
-        const res = await fetch('data/maine-headlines.json');
+        const res = await fetch(DATA.maineHeadlines);
         if (!res.ok) throw new Error('missing');
         let items = await res.json();
 
@@ -236,7 +279,7 @@ async function loadMaineHeadlines() {
 async function loadNationalHeadlines() {
     const list = document.getElementById('national-headlines');
     try {
-        const res = await fetch('data/national-headlines.json');
+        const res = await fetch(DATA.nationalHeadlines);
         if (!res.ok) throw new Error('missing');
         let items = await res.json();
 
@@ -260,14 +303,14 @@ async function loadNationalHeadlines() {
 async function loadOpinionPreview() {
     const el = document.getElementById('opinion-preview');
     try {
-        const res = await fetch('data/opinion.json');
+        const res = await fetch(DATA.opinion);
         const pieces = await res.json();
         if (pieces.length === 0) {
             el.innerHTML = '<span class="loading">No opinion pieces yet.</span>';
             return;
         }
         el.innerHTML = pieces.slice(0, 2).map(p => `
-            <a class="opinion-link" href="opinion/${p.id}.html"><span class="opinion-tag">Opinion</span>${p.headline}</a>
+            <a class="opinion-link" href="index.html?opinion=${p.id}"><span class="opinion-tag">Opinion</span>${p.headline}</a>
         `).join('');
     } catch (e) {
         el.innerHTML = '';
@@ -275,19 +318,27 @@ async function loadOpinionPreview() {
 }
 
 // ==================== ROUTER ====================
-// Runs last, after all functions above are defined.
 const params = new URLSearchParams(window.location.search);
 const articleId = params.get('id');
+const opinionId = params.get('opinion');
 
 if (articleId) {
     // Show article view
     document.getElementById('home-view').style.display = 'none';
     document.getElementById('article-view').style.display = 'block';
+    document.getElementById('opinion-view').style.display = 'none';
     loadArticle(articleId);
+} else if (opinionId) {
+    // Show opinion view
+    document.getElementById('home-view').style.display = 'none';
+    document.getElementById('article-view').style.display = 'none';
+    document.getElementById('opinion-view').style.display = 'block';
+    loadOpinionPiece(opinionId);
 } else {
     // Show homepage
     document.getElementById('home-view').style.display = 'block';
     document.getElementById('article-view').style.display = 'none';
+    document.getElementById('opinion-view').style.display = 'none';
     loadTicker();
     loadRoundup();
     loadSpotlight();
