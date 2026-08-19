@@ -4,6 +4,47 @@
         "headline": "Maine Politics Heats Up: A Look at the Key Races Shaping the 2026 Election",
         "beat": "Elections",
         "byline": "Maine Politics Staff",
-        "date": "August 8, 2026"
+        "date": "August 8, 2026",
+        "file": "data/articles/2026-election-preview.json"
+    },
+    {
+        "id": "lewiston-memorial-bill",
+        "headline": "Lewiston Memorial Bill Clears Committee Unanimously, Heads to Full Legislature",
+        "beat": "Legislature",
+        "byline": "Matthew Hogan",
+        "date": "August 19, 2026",
+        "file": "data/articles/lewiston-memorial-bill.json"
+    },
+    {
+        "id": "lepage-2nd-district-lead",
+        "headline": "LePage Widens Lead in 2nd District as Dunlap Struggles with Turnout",
+        "beat": "Elections",
+        "byline": "Matthew Hogan",
+        "date": "August 19, 2026",
+        "file": "data/articles/lepage-2nd-district-lead.json"
+    },
+    {
+        "id": "collins-jackson-logging",
+        "headline": "Collins Campaign Hits Jackson on Logging Stance as Labor Unions Rally",
+        "beat": "Elections",
+        "byline": "Matthew Hogan",
+        "date": "August 19, 2026",
+        "file": "data/articles/collins-jackson-logging.json"
+    },
+    {
+        "id": "voter-registration-august-2026",
+        "headline": "Maine Voter Registration Numbers Show Republican Gains",
+        "beat": "Elections",
+        "byline": "Maine Politics Staff",
+        "date": "August 19, 2026",
+        "file": "data/articles/voter-registration-august-2026.json"
+    },
+    {
+        "id": "eastport-data-center-pause",
+        "headline": "Eastport Enacts Pause on Data Center Development",
+        "beat": "Local",
+        "byline": "Maine Politics Staff",
+        "date": "August 19, 2026",
+        "file": "data/articles/eastport-data-center-pause.json"
     }
 ]
