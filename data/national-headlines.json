@@ -1,47 +1,7 @@
 [
   {
-    "title": "Why is one WNBA team calling in national security experts?",
-    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
-    "link": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "DHS confirms Milo Yiannopoulos was deported to UK",
-    "link": "https://thehill.com/homenews/administration/6059100-milo-yiannopoulos-deported-uk/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Walmart settles DOJ opioid crisis lawsuit for $50 million",
-    "link": "https://thehill.com/regulation/court-battles/6059138-walmart-opioid-lawsuit-settlement/",
-    "source": "The Hill"
-  },
-  {
-    "title": "AI could become conscious. What if it wants us dead?",
-    "link": "https://thehill.com/opinion/technology/6056562-ai-consciousness-societal-impact/",
-    "source": "The Hill"
-  },
-  {
     "title": "How Democrats in Congress are preparing for Trump midterm election interference",
     "link": "https://www.npr.org/2026/08/28/nx-s1-5940881/democrats-congress-midterm-elections-trump",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump admin unjustly revoked pro-Palestinian foreign students&#039; visas, judge finds",
-    "link": "https://thehill.com/regulation/court-battles/6059009-federal-judge-trump-visa-activist-ruling/",
-    "source": "The Hill"
-  },
-  {
-    "title": "The Pentagon&#039;s new nuclear doctrine needs congressional guardrails",
-    "link": "https://thehill.com/opinion/national-security/6057538-dod-shifts-focus-tactical-nukes/",
-    "source": "The Hill"
-  },
-  {
-    "title": "The Social Security trust fund is running out, and yet it's not a top campaign issue",
-    "link": "https://www.npr.org/2026/08/28/nx-s1-5898447/social-security-trust-fund-voters",
     "source": "NPR Politics"
   },
   {
@@ -50,13 +10,53 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump signs order renaming Lake Ontario to Lake America",
-    "link": "https://www.npr.org/2026/08/28/nx-s1-5946811/trump-signs-order-renaming-lake-ontario-to-lake-america",
+    "title": "Why is one WNBA team calling in national security experts?",
+    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
     "source": "NPR Politics"
   },
   {
     "title": "Democrats sound alarm on US-Venezuela oil deal: &#039;This isn&#039;t a win&#039;",
     "link": "https://thehill.com/homenews/senate/6059052-democrats-slam-trump-venezuela-oil-deal/",
+    "source": "The Hill"
+  },
+  {
+    "title": "AI could become conscious. What if it wants us dead?",
+    "link": "https://thehill.com/opinion/technology/6056562-ai-consciousness-societal-impact/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Walmart settles DOJ opioid crisis lawsuit for $50 million",
+    "link": "https://thehill.com/regulation/court-battles/6059138-walmart-opioid-lawsuit-settlement/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump admin unjustly revoked pro-Palestinian foreign students&#039; visas, judge finds",
+    "link": "https://thehill.com/regulation/court-battles/6059009-federal-judge-trump-visa-activist-ruling/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
+    "link": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "The Social Security trust fund is running out, and yet it's not a top campaign issue",
+    "link": "https://www.npr.org/2026/08/28/nx-s1-5898447/social-security-trust-fund-voters",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Trump signs order renaming Lake Ontario to Lake America",
+    "link": "https://www.npr.org/2026/08/28/nx-s1-5946811/trump-signs-order-renaming-lake-ontario-to-lake-america",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "The Pentagon&#039;s new nuclear doctrine needs congressional guardrails",
+    "link": "https://thehill.com/opinion/national-security/6057538-dod-shifts-focus-tactical-nukes/",
+    "source": "The Hill"
+  },
+  {
+    "title": "DHS confirms Milo Yiannopoulos was deported to UK",
+    "link": "https://thehill.com/homenews/administration/6059100-milo-yiannopoulos-deported-uk/",
     "source": "The Hill"
   }
 ]
