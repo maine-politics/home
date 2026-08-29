@@ -1,37 +1,12 @@
 [
   {
-    "title": "Abbott bars Texas agencies from funding Flock cameras",
-    "link": "https://thehill.com/homenews/state-watch/6058974-abbott-halts-texas-flock-agencies-funding/",
+    "title": "The Pentagon&#039;s new nuclear doctrine needs congressional guardrails",
+    "link": "https://thehill.com/opinion/national-security/6057538-dod-shifts-focus-tactical-nukes/",
     "source": "The Hill"
-  },
-  {
-    "title": "How Democrats in Congress are preparing for Trump midterm election interference",
-    "link": "https://www.npr.org/2026/08/28/nx-s1-5940881/democrats-congress-midterm-elections-trump",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Electric vehicles are flaming out —let&#039;s ‘Make Internal Combustion Engines Great Again’",
-    "link": "https://thehill.com/opinion/energy-environment/6058256-ev-safety-battery-risks/",
-    "source": "The Hill"
-  },
-  {
-    "title": "NOAA, almanacs release fall weather predictions: What could it be like near you?",
-    "link": "https://thehill.com/homenews/state-watch/6053265-noaa-almanacs-release-fall-weather-predictions-what-could-it-be-like-near-you/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump signs order renaming Lake Ontario to Lake America",
-    "link": "https://www.npr.org/2026/08/28/nx-s1-5946811/trump-signs-order-renaming-lake-ontario-to-lake-america",
-    "source": "NPR Politics"
   },
   {
     "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
     "link": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Why is one WNBA team calling in national security experts?",
-    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
     "source": "NPR Politics"
   },
   {
@@ -40,14 +15,19 @@
     "source": "The Hill"
   },
   {
-    "title": "Operation Economic Outcast needs an off-ramp, not just a noose",
-    "link": "https://thehill.com/opinion/international/6056167-trump-besent-iran-sanctions/",
+    "title": "Trump admin unjustly revoked pro-Palestinian foreign students&#039; visas, judge finds",
+    "link": "https://thehill.com/regulation/court-battles/6059009-federal-judge-trump-visa-activist-ruling/",
     "source": "The Hill"
   },
   {
-    "title": "The Social Security trust fund is running out, and yet it's not a top campaign issue",
-    "link": "https://www.npr.org/2026/08/28/nx-s1-5898447/social-security-trust-fund-voters",
+    "title": "Trump signs order renaming Lake Ontario to Lake America",
+    "link": "https://www.npr.org/2026/08/28/nx-s1-5946811/trump-signs-order-renaming-lake-ontario-to-lake-america",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Electric vehicles are flaming out —let&#039;s ‘Make Internal Combustion Engines Great Again’",
+    "link": "https://thehill.com/opinion/energy-environment/6058256-ev-safety-battery-risks/",
+    "source": "The Hill"
   },
   {
     "title": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
@@ -55,8 +35,28 @@
     "source": "NPR Politics"
   },
   {
-    "title": "White House teleprompter operator who placed bets on Trump’s speeches ordered to pay $172K",
-    "link": "https://thehill.com/homenews/administration/6058917-white-house-teleprompter-speech-bets-fined/",
+    "title": "Why is one WNBA team calling in national security experts?",
+    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "How Democrats in Congress are preparing for Trump midterm election interference",
+    "link": "https://www.npr.org/2026/08/28/nx-s1-5940881/democrats-congress-midterm-elections-trump",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Abbott bars Texas agencies from funding Flock cameras",
+    "link": "https://thehill.com/homenews/state-watch/6058974-abbott-halts-texas-flock-agencies-funding/",
     "source": "The Hill"
+  },
+  {
+    "title": "NOAA, almanacs release fall weather predictions: What could it be like near you?",
+    "link": "https://thehill.com/homenews/state-watch/6053265-noaa-almanacs-release-fall-weather-predictions-what-could-it-be-like-near-you/",
+    "source": "The Hill"
+  },
+  {
+    "title": "The Social Security trust fund is running out, and yet it's not a top campaign issue",
+    "link": "https://www.npr.org/2026/08/28/nx-s1-5898447/social-security-trust-fund-voters",
+    "source": "NPR Politics"
   }
 ]
