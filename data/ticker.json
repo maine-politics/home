@@ -1,53 +1,8 @@
 [
   {
-    "title": "Maine’s healthcare affordability crisis is bigger than prior authorization &#124; Opinion",
-    "link": "https://www.pressherald.com/2026/08/30/maines-healthcare-affordability-crisis-is-bigger-than-prior-authorization-opinion/",
-    "source": "Portland Press Herald"
-  },
-  {
-    "title": "Investors prosper and consumers pay as the Iran war exacts an uneven economic toll 6 months in",
-    "link": "https://www.bangordailynews.com/2026/08/30/nation/investors-prosper-and-consumers-pay-as-the-iran-war-exacts-an-uneven-economic-toll-6-months-in/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Bobby Charles says he'll ask Trump's border chief to send ICE agents to Maine polls",
-    "link": "https://www.mainepublic.org/politics/2026-08-26/bobby-charles-says-hell-ask-trumps-border-chief-to-send-ice-agents-to-maine-polls",
-    "source": "Maine Public"
-  },
-  {
-    "title": "New greenhouse awaits Holden-area elementary school students this fall",
-    "link": "https://www.bangordailynews.com/2026/08/30/bangor/bangor-education/new-greenhouse-holden-area-elementary-school-joam40zk0w/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Canada's retaliatory tariffs target states with important midterm contests, including Maine",
-    "link": "https://www.mainepublic.org/politics/2026-08-26/canadas-retaliatory-tariffs-target-states-with-important-midterm-contests-including-maine",
-    "source": "Maine Public"
-  },
-  {
-    "title": "CMMC could use a little TLC &#124; Victoria Hugo-Vidal",
-    "link": "https://www.pressherald.com/2026/08/30/cmmc-could-use-a-little-tlc-victoria-hugo-vidal/",
-    "source": "Portland Press Herald"
-  },
-  {
-    "title": "Housing costs seen as a top concern for Maine voters, survey says",
-    "link": "https://www.mainepublic.org/business-and-economy/2026-08-26/housing-costs-seen-as-a-top-concern-for-maine-voters-survey-says",
-    "source": "Maine Public"
-  },
-  {
     "title": "Environmental groups urge opposition to big oil immunity bills",
     "link": "https://www.mainepublic.org/climate/2026-08-27/environmental-groups-urge-opposition-to-big-oil-immunity-bills",
     "source": "Maine Public"
-  },
-  {
-    "title": "These Mainers spend their Saturdays shopping in stranger’s yards",
-    "link": "https://www.pressherald.com/2026/08/30/these-mainers-spend-their-saturdays-shopping-in-strangers-yards/",
-    "source": "Portland Press Herald"
-  },
-  {
-    "title": "The suburban trap: Why Troy Jackson’s path to victory runs through Scarborough, not Allagash &#124; Opinion",
-    "link": "https://www.pressherald.com/2026/08/30/the-suburban-trap-why-troy-jacksons-path-to-victory-runs-through-scarborough-not-allagash-opinion/",
-    "source": "Portland Press Herald"
   },
   {
     "title": "Council meeting attendees worry Maine will be left 'holding the bag' when AI bubble bursts",
@@ -55,8 +10,13 @@
     "source": "Maine Public"
   },
   {
-    "title": "Volunteers rescue climber stranded on small ledge in California&#8217;s Sierra Nevada",
-    "link": "https://www.bangordailynews.com/2026/08/30/nation/volunteers-rescue-climber-stranded-on-small-ledge-in-californias-sierra-nevada/",
+    "title": "Housing costs seen as a top concern for Maine voters, survey says",
+    "link": "https://www.mainepublic.org/business-and-economy/2026-08-26/housing-costs-seen-as-a-top-concern-for-maine-voters-survey-says",
+    "source": "Maine Public"
+  },
+  {
+    "title": "New greenhouse awaits Holden-area elementary school students this fall",
+    "link": "https://www.bangordailynews.com/2026/08/30/bangor/bangor-education/new-greenhouse-holden-area-elementary-school-joam40zk0w/",
     "source": "Bangor Daily News"
   },
   {
@@ -70,8 +30,48 @@
     "source": "Portland Press Herald"
   },
   {
+    "title": "The suburban trap: Why Troy Jackson’s path to victory runs through Scarborough, not Allagash &#124; Opinion",
+    "link": "https://www.pressherald.com/2026/08/30/the-suburban-trap-why-troy-jacksons-path-to-victory-runs-through-scarborough-not-allagash-opinion/",
+    "source": "Portland Press Herald"
+  },
+  {
+    "title": "CMMC could use a little TLC &#124; Victoria Hugo-Vidal",
+    "link": "https://www.pressherald.com/2026/08/30/cmmc-could-use-a-little-tlc-victoria-hugo-vidal/",
+    "source": "Portland Press Herald"
+  },
+  {
+    "title": "Bobby Charles says he'll ask Trump's border chief to send ICE agents to Maine polls",
+    "link": "https://www.mainepublic.org/politics/2026-08-26/bobby-charles-says-hell-ask-trumps-border-chief-to-send-ice-agents-to-maine-polls",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Canada's retaliatory tariffs target states with important midterm contests, including Maine",
+    "link": "https://www.mainepublic.org/politics/2026-08-26/canadas-retaliatory-tariffs-target-states-with-important-midterm-contests-including-maine",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Volunteers rescue climber stranded on small ledge in California&#8217;s Sierra Nevada",
+    "link": "https://www.bangordailynews.com/2026/08/30/nation/volunteers-rescue-climber-stranded-on-small-ledge-in-californias-sierra-nevada/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "These Mainers spend their Saturdays shopping in stranger’s yards",
+    "link": "https://www.pressherald.com/2026/08/30/these-mainers-spend-their-saturdays-shopping-in-strangers-yards/",
+    "source": "Portland Press Herald"
+  },
+  {
+    "title": "Investors prosper and consumers pay as the Iran war exacts an uneven economic toll 6 months in",
+    "link": "https://www.bangordailynews.com/2026/08/30/nation/investors-prosper-and-consumers-pay-as-the-iran-war-exacts-an-uneven-economic-toll-6-months-in/",
+    "source": "Bangor Daily News"
+  },
+  {
     "title": "How a Maine community came together to save its arts center",
     "link": "https://www.bangordailynews.com/2026/08/30/aroostook/aroostook-culture/fort-kent-saves-arts-center-joam40zk0w/",
     "source": "Bangor Daily News"
+  },
+  {
+    "title": "Maine’s healthcare affordability crisis is bigger than prior authorization &#124; Opinion",
+    "link": "https://www.pressherald.com/2026/08/30/maines-healthcare-affordability-crisis-is-bigger-than-prior-authorization-opinion/",
+    "source": "Portland Press Herald"
   }
 ]
