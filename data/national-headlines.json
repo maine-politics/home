@@ -5,23 +5,13 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Why is one WNBA team calling in national security experts?",
-    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Republicans ready for &#039;very hasty&#039; &#039;Trump-a-palooza&#039; convention in Texas",
-    "link": "https://thehill.com/homenews/campaign/6058289-rnc-midterm-convention-dallas/",
-    "source": "The Hill"
-  },
-  {
     "title": "Freedom Fuel gas stations sold stolen fuel, lawsuit claims",
     "link": "https://thehill.com/policy/energy-environment/6059912-freedom-fuel-lawsuit-unpaid-gas/",
     "source": "The Hill"
   },
   {
-    "title": "Greene condemns Loomer’s rhetoric: ‘This is Trump’s new MAGA and Republican Party’",
-    "link": "https://thehill.com/homenews/media/6059887-marjorie-taylor-greene-denounces-loomer/",
+    "title": "Markey trounces Moulton in Massachusetts Senate primary poll",
+    "link": "https://thehill.com/homenews/campaign/6060059-markey-leading-moulton-poll/",
     "source": "The Hill"
   },
   {
@@ -30,13 +20,18 @@
     "source": "The Hill"
   },
   {
-    "title": "Politics chat: more tariffs, mail-in voting order, Kushner-Jeffries meeting",
-    "link": "https://www.npr.org/2026/08/30/nx-s1-5948115/politics-chat-more-tariffs-mail-in-voting-order-kushner-jeffries-meeting",
+    "title": "Trump administration deports relative of Afghans who helped US military to Central African Republic",
+    "link": "https://www.npr.org/2026/08/30/nx-s1-5949230/trump-administration-deports-afghan-central-african-republic",
     "source": "NPR Politics"
   },
   {
-    "title": "Trump administration deports relative of Afghans who helped US military to Central African Republic",
-    "link": "https://www.npr.org/2026/08/30/nx-s1-5949230/trump-administration-deports-afghan-central-african-republic",
+    "title": "Greene condemns Loomer’s rhetoric: ‘This is Trump’s new MAGA and Republican Party’",
+    "link": "https://thehill.com/homenews/media/6059887-marjorie-taylor-greene-denounces-loomer/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Politics chat: more tariffs, mail-in voting order, Kushner-Jeffries meeting",
+    "link": "https://www.npr.org/2026/08/30/nx-s1-5948115/politics-chat-more-tariffs-mail-in-voting-order-kushner-jeffries-meeting",
     "source": "NPR Politics"
   },
   {
@@ -45,9 +40,14 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Markey trounces Moulton in Massachusetts Senate primary poll",
-    "link": "https://thehill.com/homenews/campaign/6060059-markey-leading-moulton-poll/",
-    "source": "The Hill"
+    "title": "Why is one WNBA team calling in national security experts?",
+    "link": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
+    "link": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
+    "source": "NPR Politics"
   },
   {
     "title": "This week on the Hill: House aims to pass measure to avert shutdown ahead of midterms",
@@ -55,8 +55,8 @@
     "source": "The Hill"
   },
   {
-    "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
-    "link": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
-    "source": "NPR Politics"
+    "title": "Republicans ready for &#039;very hasty&#039; &#039;Trump-a-palooza&#039; convention in Texas",
+    "link": "https://thehill.com/homenews/campaign/6058289-rnc-midterm-convention-dallas/",
+    "source": "The Hill"
   }
 ]
