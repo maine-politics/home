@@ -1,7 +1,12 @@
 [
   {
-    "title": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
-    "link": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+    "title": "Trump says U.S. struck deal to take control of 65 billion barrels Venezuelan oil",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5949305/trump-says-u-s-struck-deal-to-take-control-of-65-billion-barrels-venezuelan-oil",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Funding bill at the top of the agenda as House returns from recess",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5945760/funding-bill-at-the-top-of-the-agenda-as-house-returns-from-recess",
     "source": "NPR Politics"
   },
   {
@@ -10,33 +15,8 @@
     "source": "The Hill"
   },
   {
-    "title": "Funding bill at the top of the agenda as House returns from recess",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5945760/funding-bill-at-the-top-of-the-agenda-as-house-returns-from-recess",
-    "source": "NPR Politics"
-  },
-  {
     "title": "Rep. Glenn Ivey weighs stopgap spending bill as House returns to Washington",
     "link": "https://www.npr.org/2026/08/31/nx-s1-5947993/glenn-ivey-house-stopgap-spending-bill",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Spanish prime minister points finger at Israel, Russia disinformation over Ceuta migrant crisis",
-    "link": "https://thehill.com/policy/international/6061529-spain-russia-israel-morocco-ceuta-migrant-crisis/",
-    "source": "The Hill"
-  },
-  {
-    "title": "The U.S.-Venezuela oil deal won't lower your gas prices. Here's what you need to know",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5949407/us-venezuelan-oil-deal",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump is using antisemitism claims as a pretext for a cash-grab",
-    "link": "https://thehill.com/opinion/white-house/6061568-title-vi-investigations-college-funding/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Scholar discusses Trump's claims of a new Venezuelan oil agreement",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5949309/scholar-discusses-trumps-claims-of-a-new-venezuelan-oil-agreement",
     "source": "NPR Politics"
   },
   {
@@ -45,18 +25,38 @@
     "source": "The Hill"
   },
   {
-    "title": "Republicans will pay for Trump’s tariffs in the midterms",
-    "link": "https://thehill.com/opinion/campaign/6061519-gop-vulnerable-trade-war-costs/",
-    "source": "The Hill"
+    "title": "Scholar discusses Trump's claims of a new Venezuelan oil agreement",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5949309/scholar-discusses-trumps-claims-of-a-new-venezuelan-oil-agreement",
+    "source": "NPR Politics"
   },
   {
-    "title": "Trump says U.S. struck deal to take control of 65 billion barrels Venezuelan oil",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5949305/trump-says-u-s-struck-deal-to-take-control-of-65-billion-barrels-venezuelan-oil",
-    "source": "NPR Politics"
+    "title": "Trump is using antisemitism claims as a pretext for a cash-grab",
+    "link": "https://thehill.com/opinion/white-house/6061568-title-vi-investigations-college-funding/",
+    "source": "The Hill"
   },
   {
     "title": "Live updates: Trump announces new prescription drug pricing; House returns with shutdown bill on tap",
     "link": "https://thehill.com/homenews/administration/6060538-live-updates-trump-iran-house-spending-cr/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
+    "link": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Pentagon brings on Grok and ChatGPT for military use",
+    "link": "https://thehill.com/policy/defense/6061714-pentagon-adds-grok-chatgpt-ai/",
+    "source": "The Hill"
+  },
+  {
+    "title": "The U.S.-Venezuela oil deal won't lower your gas prices. Here's what you need to know",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5949407/us-venezuelan-oil-deal",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Why we should care about what’s happening with Donald and Natalie",
+    "link": "https://thehill.com/opinion/congress-blog/the-administration/6061597-trump-harp-controversy-analyzed/",
     "source": "The Hill"
   }
 ]
