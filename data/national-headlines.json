@@ -1,7 +1,12 @@
 [
   {
-    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
+    "title": "Trump officials cut political interference ban after unusual Census Bureau report",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5948057/department-commerce-census-bureau-scientific-integrity",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "In Massachusetts, Sen. Ed Markey and Rep. Seth Moulton vie for Senate nomination",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5948069/in-massachusetts-sen-ed-markey-and-rep-seth-moulton-vie-for-senate-nomination",
     "source": "NPR Politics"
   },
   {
@@ -10,29 +15,9 @@
     "source": "The Hill"
   },
   {
-    "title": "In Massachusetts, Sen. Ed Markey and Rep. Seth Moulton vie for Senate nomination",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5948069/in-massachusetts-sen-ed-markey-and-rep-seth-moulton-vie-for-senate-nomination",
-    "source": "NPR Politics"
-  },
-  {
     "title": "GLP-1s may work by activating an unlikely weight loss ally",
     "link": "https://thehill.com/policy/healthcare/6062638-glp-1s-unlikely-weight-loss-ally/",
     "source": "The Hill"
-  },
-  {
-    "title": "New Apple CEO John Ternus takes over from Tim Cook, ending 15-year tenure",
-    "link": "https://thehill.com/policy/technology/6062715-apple-ceo-john-ternus-takes-reins-tim-cook-resigns/",
-    "source": "The Hill"
-  },
-  {
-    "title": "New turbulence upends stability of Iran war for Trump",
-    "link": "https://thehill.com/homenews/analysis/6062071-trump-iran-conflict-us-volatility-strait-hormuz/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Judge to decide if Tyler Robinson will go to trial in Charlie Kirk murder case",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950452/tyler-robinson-charlie-kirk-murder-hearing",
-    "source": "NPR Politics"
   },
   {
     "title": "Kalshi bans former congressman George Santos for life after State of the Union trades",
@@ -45,8 +30,23 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump officials cut political interference ban after unusual Census Bureau report",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5948057/department-commerce-census-bureau-scientific-integrity",
+    "title": "New Apple CEO John Ternus takes over from Tim Cook, ending 15-year tenure",
+    "link": "https://thehill.com/policy/technology/6062715-apple-ceo-john-ternus-takes-reins-tim-cook-resigns/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Judge to decide if Tyler Robinson will go to trial in Charlie Kirk murder case",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950452/tyler-robinson-charlie-kirk-murder-hearing",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Is recalled Argentine beef connected to Trump&#039;s beef import plan?",
+    "link": "https://thehill.com/policy/international/6062087-recalled-argentine-beef-donald-trump-beef-tariff-pause/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
     "source": "NPR Politics"
   },
   {
@@ -55,8 +55,8 @@
     "source": "The Hill"
   },
   {
-    "title": "Is recalled Argentine beef connected to Trump&#039;s beef import plan?",
-    "link": "https://thehill.com/policy/international/6062087-recalled-argentine-beef-donald-trump-beef-tariff-pause/",
+    "title": "Untangle Washington&#039;s strings on grants to states",
+    "link": "https://thehill.com/opinion/finance/6061087-trump-omb-cuts-grant-strings/",
     "source": "The Hill"
   }
 ]
