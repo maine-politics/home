@@ -1,17 +1,7 @@
 [
   {
-    "title": "A new answer to America’s growing elder-care challenges",
-    "link": "https://thehill.com/opinion/congress-blog/6061619-american-caregivers-act-elder-care/",
-    "source": "The Hill"
-  },
-  {
     "title": "Trump officials cut political interference ban after unusual Census Bureau report",
     "link": "https://www.npr.org/2026/08/31/nx-s1-5948057/department-commerce-census-bureau-scientific-integrity",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Kalshi bans former congressman George Santos for life after State of the Union trades",
-    "link": "https://www.npr.org/2026/08/31/nx-s1-5950432/george-santos-kalshi-ban-prediction-markets",
     "source": "NPR Politics"
   },
   {
@@ -20,13 +10,13 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
-    "source": "NPR Politics"
+    "title": "Bessent slams US supporters of socialism as &#039;underachievers&#039;",
+    "link": "https://thehill.com/business/6063570-treasury-scott-bessent-socialism-underachievers/",
+    "source": "The Hill"
   },
   {
-    "title": "America&#039;s expats are still waiting for tax reform",
-    "link": "https://thehill.com/opinion/international/6062027-us-citizenship-taxation-reform/",
+    "title": "Putin and Trump refuse to accept the realities of their wars",
+    "link": "https://thehill.com/opinion/national-security/6062270-presidents-rejecting-bad-news/",
     "source": "The Hill"
   },
   {
@@ -35,19 +25,24 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Paxton allies plan $15 million ad campaign",
-    "link": "https://thehill.com/homenews/campaign/6063549-paxton-super-pac-texas-ads/",
-    "source": "The Hill"
-  },
-  {
     "title": "Judge to decide if Tyler Robinson will go to trial in Charlie Kirk murder case",
     "link": "https://www.npr.org/2026/09/01/nx-s1-5950452/tyler-robinson-charlie-kirk-murder-hearing",
     "source": "NPR Politics"
   },
   {
-    "title": "OpenAI: Apple&#039;s trade secret theft accusation is baseless",
-    "link": "https://thehill.com/policy/technology/6063525-openai-denies-apple-trade-theft-allegation/",
+    "title": "Live updates: House faction aims to freeze Johnson&#039;s agenda; US strikes Iran targets",
+    "link": "https://thehill.com/homenews/administration/6062462-live-updates-trump-energy-iran-house/",
     "source": "The Hill"
+  },
+  {
+    "title": "Hakeem Jeffries calls Laura Loomer a ‘stone-cold racist,’ demands Republicans denounce her",
+    "link": "https://thehill.com/homenews/house/6063637-hakeem-jeffries-denounces-loomer-racism/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Kalshi bans former congressman George Santos for life after State of the Union trades",
+    "link": "https://www.npr.org/2026/08/31/nx-s1-5950432/george-santos-kalshi-ban-prediction-markets",
+    "source": "NPR Politics"
   },
   {
     "title": "Army Secretary Dan Driscoll steps down — with a warning",
@@ -55,8 +50,13 @@
     "source": "The Hill"
   },
   {
-    "title": "Court strikes down New York law that sought to hold fossil fuel companies liable for climate change",
-    "link": "https://thehill.com/policy/energy-environment/6063511-new-york-fossil-fuels-climate-change-law/",
+    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Paxton allies plan $15 million ad campaign",
+    "link": "https://thehill.com/homenews/campaign/6063549-paxton-super-pac-texas-ads/",
     "source": "The Hill"
   }
 ]
