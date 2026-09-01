@@ -1,8 +1,8 @@
 [
   {
-    "title": "Lancaster coroner investigating child measles death amid Trump admin scrutiny",
-    "link": "https://thehill.com/homenews/state-watch/6064071-lancaster-measles-death-investigation/",
-    "source": "The Hill"
+    "title": "ICE says it has enough body cameras now, after series of deadly shootings",
+    "link": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration",
+    "source": "NPR Politics"
   },
   {
     "title": "Congress averts a government shutdown ahead of the midterms",
@@ -10,33 +10,23 @@
     "source": "NPR Politics"
   },
   {
+    "title": "Trump names pastor as tobacco health adviser at CDC",
+    "link": "https://thehill.com/policy/healthcare/6063936-trump-cdc-tobacco-health-adviser-hhs-fda/",
+    "source": "The Hill"
+  },
+  {
     "title": "El-Sayed says Trump is making him &#039;main character of the midterms&#039;",
     "link": "https://thehill.com/homenews/campaign/6063937-el-sayed-trump-main-character-midterms/",
     "source": "The Hill"
   },
   {
-    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "ICE says it has enough body cameras now, after series of deadly shootings",
-    "link": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration",
-    "source": "NPR Politics"
+    "title": "Democratic leaders blindsided by two members who bailed out Johnson",
+    "link": "https://thehill.com/homenews/house/6064088-house-democrats-blindsided-perez-golden-votes/",
+    "source": "The Hill"
   },
   {
     "title": "Tim Cook hands over reins of Apple, but remains Trump whisperer",
     "link": "https://thehill.com/policy/technology/6063963-cook-hands-over-apple-ceo-role/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Judge to decide if Tyler Robinson will go to trial in Charlie Kirk murder case",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950452/tyler-robinson-charlie-kirk-murder-hearing",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "MapQuest tops Apple, Google Maps in downloads after refusing Trump&#039;s &#039;Lake America&#039; change",
-    "link": "https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change/",
     "source": "The Hill"
   },
   {
@@ -45,8 +35,13 @@
     "source": "The Hill"
   },
   {
-    "title": "Affordability is the centerpiece of Democrats' message in Pennsylvania swing district",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5938774/affordability-is-the-centerpiece-of-democrats-message-in-pennsylvania-swing-district",
+    "title": "Whistleblower claims USPS plan for Trump's mail voting order could 'derail' midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Judge to decide if Tyler Robinson will go to trial in Charlie Kirk murder case",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950452/tyler-robinson-charlie-kirk-murder-hearing",
     "source": "NPR Politics"
   },
   {
@@ -55,8 +50,13 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Democratic leaders blindsided by two members who bailed out Johnson",
-    "link": "https://thehill.com/homenews/house/6064088-house-democrats-blindsided-perez-golden-votes/",
+    "title": "Lancaster coroner investigating child measles death amid Trump admin scrutiny",
+    "link": "https://thehill.com/homenews/state-watch/6064071-lancaster-measles-death-investigation/",
     "source": "The Hill"
+  },
+  {
+    "title": "Affordability is the centerpiece of Democrats' message in Pennsylvania swing district",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5938774/affordability-is-the-centerpiece-of-democrats-message-in-pennsylvania-swing-district",
+    "source": "NPR Politics"
   }
 ]
