@@ -1,47 +1,7 @@
 [
   {
-    "title": "How will tariffs affect the midterms? In this Michigan border town, it's complicated",
-    "link": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for U.S. Senate",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump attempts to combat high gas prices as affordability crisis looms over midterms",
-    "link": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Personalized pricing can benefit the consumers who need it most",
-    "link": "https://thehill.com/opinion/finance/6064241-ai-surveillance-pricing-debate/",
-    "source": "The Hill"
-  },
-  {
-    "title": "USS Abraham Lincoln arrives in Thailand",
-    "link": "https://thehill.com/policy/defense/6065845-uss-abraham-lincoln-thailand-visit/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Ocasio-Cortez on if she&#039;d date a Republican: &#039;No, no foul to people who do&#039;",
-    "link": "https://thehill.com/homenews/house/6065920-ocasio-cortez-dating-values/",
-    "source": "The Hill"
-  },
-  {
     "title": "Kennedy Center removing landmark sculpture from grounds",
     "link": "https://thehill.com/blogs/in-the-know/6066023-kennedy-center-blue-sculpture-removal-trump-renovations/",
-    "source": "The Hill"
-  },
-  {
-    "title": "North Carolina Rep. Chuck Edwards is formally censured over harassment allegations",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Dallas police shutting down hundreds of Flock cameras after funding pause",
-    "link": "https://thehill.com/policy/technology/6065838-dallas-police-flock-camera-funding-freeze/",
     "source": "The Hill"
   },
   {
@@ -50,13 +10,53 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump's pro-data center stance is putting pressure on Republicans ahead of midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms",
+    "title": "Trumpisms are the Republicans&#039; biggest messaging problem",
+    "link": "https://thehill.com/opinion/campaign/6064397-trump-endangers-gop-midterms/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump attempts to combat high gas prices as affordability crisis looms over midterms",
+    "link": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "USS Abraham Lincoln arrives in Thailand",
+    "link": "https://thehill.com/policy/defense/6065845-uss-abraham-lincoln-thailand-visit/",
+    "source": "The Hill"
+  },
+  {
+    "title": "North Carolina Rep. Chuck Edwards is formally censured over harassment allegations",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for U.S. Senate",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton",
     "source": "NPR Politics"
   },
   {
     "title": "Map shows where the 2026 &#039;super&#039; El Niño could bring lots of rain, extreme drought",
     "link": "https://thehill.com/policy/energy-environment/6062125-map-shows-where-the-2026-super-el-nino-could-bring-lots-of-rain-extreme-drought/",
+    "source": "The Hill"
+  },
+  {
+    "title": "How will tariffs affect the midterms? In this Michigan border town, it's complicated",
+    "link": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "OpenAI: New model needs more safety measures before launch",
+    "link": "https://thehill.com/policy/technology/6065937-openai-astra-requires-stronger-safeguards/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump's pro-data center stance is putting pressure on Republicans ahead of midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Personalized pricing can benefit the consumers who need it most",
+    "link": "https://thehill.com/opinion/finance/6064241-ai-surveillance-pricing-debate/",
     "source": "The Hill"
   }
 ]
