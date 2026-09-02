@@ -1,12 +1,7 @@
 [
   {
-    "title": "ICE says it has enough body cameras now, after series of deadly shootings",
-    "link": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Hegseth removes 6 Army officers from promotion list",
-    "link": "https://thehill.com/policy/defense/6065013-hegseth-again-removes-army-officer-promotions/",
+    "title": "Haley tells Vance to &#039;choose a side&#039;: Israel or Tucker Carlson",
+    "link": "https://thehill.com/homenews/administration/6064915-haley-vance-israel-tucker-carlson-choose/",
     "source": "The Hill"
   },
   {
@@ -15,34 +10,29 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Majority of Americans against Lake Ontario name change, Canada tariffs: Poll",
-    "link": "https://thehill.com/homenews/administration/6064850-americans-against-lake-america-canada-tariffs/",
-    "source": "The Hill"
-  },
-  {
-    "title": "USPS 'carefully reviewing' whistleblower claim on plan for Trump's mail in voting order",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Haley tells Vance to &#039;choose a side&#039;: Israel or Tucker Carlson",
-    "link": "https://thehill.com/homenews/administration/6064915-haley-vance-israel-tucker-carlson-choose/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump's pro-data center stance is putting pressure on Republicans ahead of midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms",
-    "source": "NPR Politics"
-  },
-  {
     "title": "President Trump nominates Hung Cao as Navy Secretary",
     "link": "https://thehill.com/policy/defense/6065087-trump-nominates-hung-cao-navy/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Hegseth removes 6 Army officers from promotion list",
+    "link": "https://thehill.com/policy/defense/6065013-hegseth-again-removes-army-officer-promotions/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Former Biden official wins primary for open Moulton House seat in Massachusetts",
+    "link": "https://thehill.com/homenews/campaign/6061098-koh-wins-massachusetts-house-primary/",
     "source": "The Hill"
   },
   {
     "title": "Healey faces off against Minogue in quest for second term as Massachusetts governor",
     "link": "https://thehill.com/homenews/6061077-healey-minogue-massachusetts-governor/",
     "source": "The Hill"
+  },
+  {
+    "title": "Congress averts a government shutdown ahead of the midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+    "source": "NPR Politics"
   },
   {
     "title": "Markey defeats Moulton in Massachusetts Democratic Senate primary",
@@ -55,8 +45,18 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Congress averts a government shutdown ahead of the midterms",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+    "title": "ICE says it has enough body cameras now, after series of deadly shootings",
+    "link": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "USPS 'carefully reviewing' whistleblower claim on plan for Trump's mail in voting order",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Trump's pro-data center stance is putting pressure on Republicans ahead of midterms",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms",
     "source": "NPR Politics"
   }
 ]
