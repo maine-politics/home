@@ -1,17 +1,22 @@
 [
   {
-    "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump takes the risk on data centers",
-    "link": "https://thehill.com/newsletters/technology/6070307-trump-takes-the-risk-on-data-centers/",
+    "title": "Judge halts EPA effort to overturn California car rules",
+    "link": "https://thehill.com/newsletters/energy-environment/6070522-judge-halts-epa-effort-to-overturn-california-car-rules/",
     "source": "The Hill"
   },
   {
-    "title": "Trump asks Supreme Court to lift block on USPS plan to restrict mail voting",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+    "title": "Benchmark mortgage rate hits highest mark in more than a year",
+    "link": "https://thehill.com/business/6070374-mortgage-rates-hit-yearly-high/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Lindsay Clancy trial jurors excused again after defense blames one for deadlock",
+    "link": "https://thehill.com/regulation/court-battles/6070230-lindsay-clancy-defense-juror-deadlock-blame/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Democrats demand Homeland Security officials fund election security ahead of midterms",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats",
     "source": "NPR Politics"
   },
   {
@@ -25,13 +30,8 @@
     "source": "The Hill"
   },
   {
-    "title": "Trade deficit ticks up",
-    "link": "https://thehill.com/newsletters/business-economy/6070375-trade-deficit-ticks-up/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Leon Black defies subpoena to testify in Epstein inquiry and sues House panel",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955643/leon-black-jeffrey-epstein-lawsuit",
+    "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
     "source": "NPR Politics"
   },
   {
@@ -40,19 +40,19 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Lindsay Clancy trial jurors excused again after defense blames one for deadlock",
-    "link": "https://thehill.com/regulation/court-battles/6070230-lindsay-clancy-defense-juror-deadlock-blame/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Democrats demand Homeland Security officials fund election security ahead of midterms",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats",
+    "title": "Trump asks Supreme Court to lift block on USPS plan to restrict mail voting",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
     "source": "NPR Politics"
   },
   {
-    "title": "Jim Justice considering run for West Virginia governor",
-    "link": "https://thehill.com/homenews/campaign/6070220-jim-justice-considers-wv-governor-run/",
+    "title": "Trade deficit ticks up",
+    "link": "https://thehill.com/newsletters/business-economy/6070375-trade-deficit-ticks-up/",
     "source": "The Hill"
+  },
+  {
+    "title": "Leon Black defies subpoena to testify in Epstein inquiry and sues House panel",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955643/leon-black-jeffrey-epstein-lawsuit",
+    "source": "NPR Politics"
   },
   {
     "title": "Forest Service closing 23 research sites",
