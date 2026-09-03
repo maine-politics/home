@@ -1,32 +1,12 @@
 [
   {
+    "title": "Mine safety commissioner fired by Trump gives up legal fight, citing Supreme Court",
+    "link": "https://thehill.com/regulation/court-battles/6068303-donald-trump-mine-safety-commissioner-legal-fight/",
+    "source": "The Hill"
+  },
+  {
     "title": "Ex-National Security Council director on administration's plan for Venezuela oil",
     "link": "https://www.npr.org/2026/09/03/nx-s1-5954063/ex-national-security-council-director-on-administrations-plan-for-venezuela-oil",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "On the Ballot: The provocateur both parties can’t stop talking about",
-    "link": "https://thehill.com/newsletters/on-the-ballot/6066962-on-the-ballot-hasan-piker-democrats-michigan/",
-    "source": "The Hill"
-  },
-  {
-    "title": "He tried to eliminate FEMA. Now he says the Trump administration has changed course",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5943052/fema-trump-flood-wildfire-hurricane-disaster",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "How much can we believe the polls?",
-    "link": "https://thehill.com/newsletters/morning-report/6068234-political-campaign-polls-trust-midterms/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump urges Republicans in tight races to run on his record",
-    "link": "https://thehill.com/homenews/administration/6068248-donald-trump-gop-voting-record-midterms/",
-    "source": "The Hill"
-  },
-  {
-    "title": "How will tariffs affect the midterms? In this Michigan border town, it's complicated",
-    "link": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump",
     "source": "NPR Politics"
   },
   {
@@ -40,23 +20,43 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Veteran political journalist on division among Democrats over Democratic Socialism",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5910644/veteran-political-journalist-on-division-among-democrats-over-democratic-socialism",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Iran is no Vietnam, but Trump is mimicking Lyndon Johnson&#039;s failed approach",
-    "link": "https://thehill.com/opinion/national-security/6066434-avoiding-vietnam-mistake-iran-conflict/",
-    "source": "The Hill"
-  },
-  {
     "title": "The Tibet-Nepal flood is a warning against defying nature",
     "link": "https://thehill.com/opinion/international/6063748-tibet-nepal-flood-warning/",
     "source": "The Hill"
   },
   {
-    "title": "Honoring the &#039;butcher of Bosnia&#039; would be a crude endorsement of genocide",
-    "link": "https://thehill.com/opinion/international/6066759-serbian-leaders-deny-bosnian-genocide/",
+    "title": "On the Ballot: The provocateur both parties can’t stop talking about",
+    "link": "https://thehill.com/newsletters/on-the-ballot/6066962-on-the-ballot-hasan-piker-democrats-michigan/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Inside the failed mission to eliminate FEMA",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5943052/fema-trump-flood-wildfire-hurricane-disaster",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Veteran political journalist on division among Democrats over Democratic Socialism",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5910644/veteran-political-journalist-on-division-among-democrats-over-democratic-socialism",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Watch live: Vance headlines opening of school to &#039;rebuild American manufacturing&#039;",
+    "link": "https://thehill.com/video-clips/6068299-watch-live-jd-vance-marco-rubio-donald-trump-domestic-manufacturing-school-opening/",
+    "source": "The Hill"
+  },
+  {
+    "title": "America&#039;s data center insurrection was entirely predictable",
+    "link": "https://thehill.com/opinion/technology/6067496-ai-data-center-pushback/",
+    "source": "The Hill"
+  },
+  {
+    "title": "How will tariffs affect the midterms? In this Michigan border town, it's complicated",
+    "link": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Trump urges Republicans in tight races to run on his record",
+    "link": "https://thehill.com/homenews/administration/6068248-donald-trump-gop-voting-record-midterms/",
     "source": "The Hill"
   }
 ]
