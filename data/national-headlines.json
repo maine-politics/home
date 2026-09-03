@@ -1,30 +1,5 @@
 [
   {
-    "title": "Political consultant on how the cost-of-living is affecting Trump's approval rating",
-    "link": "https://www.npr.org/2026/09/02/nx-s1-5951679/political-consultant-on-how-the-cost-of-living-is-affecting-trumps-approval-rating",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "2 people killed, suspect dead after shooting in Minneapolis apartment building",
-    "link": "https://thehill.com/homenews/state-watch/6067788-2-people-killed-suspect-dead-after-shooting-in-minneapolis-apartment-building/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Protect Our Care targeting 29 House Republicans",
-    "link": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/",
-    "source": "The Hill"
-  },
-  {
-    "title": "North Carolina Rep. Chuck Edwards is formally censured over harassment allegations",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump signs stopgap funding bill into law, temporarily avoiding shutdown",
-    "link": "https://thehill.com/homenews/administration/6067996-trump-stopgap-funding-law-government-shutdown/",
-    "source": "The Hill"
-  },
-  {
     "title": "Biden to attend Ground Zero 9/11 memorial ceremony for 25th anniversary",
     "link": "https://thehill.com/homenews/administration/6067901-biden-ground-zero-sept-11-anniversary/",
     "source": "The Hill"
@@ -35,9 +10,29 @@
     "source": "The Hill"
   },
   {
+    "title": "Political consultant on how the cost-of-living is affecting Trump's approval rating",
+    "link": "https://www.npr.org/2026/09/02/nx-s1-5951679/political-consultant-on-how-the-cost-of-living-is-affecting-trumps-approval-rating",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Protect Our Care targeting 29 House Republicans",
+    "link": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump signs stopgap funding bill into law, temporarily avoiding shutdown",
+    "link": "https://thehill.com/homenews/administration/6067996-trump-stopgap-funding-law-government-shutdown/",
+    "source": "The Hill"
+  },
+  {
     "title": "Trump attempts to combat high gas prices as affordability crisis looms over midterms",
     "link": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Vance to give White House&#039;s first press briefing in more than 40 days",
+    "link": "https://thehill.com/homenews/administration/6067880-vance-to-host-white-house-briefing/",
+    "source": "The Hill"
   },
   {
     "title": "Whistleblower's lawyer warns USPS plan for Trump's order could keep ballots from voters",
@@ -50,13 +45,18 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Vance to give White House&#039;s first press briefing in more than 40 days",
-    "link": "https://thehill.com/homenews/administration/6067880-vance-to-host-white-house-briefing/",
+    "title": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for U.S. Senate",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "2 people killed, suspect dead after shooting in Minneapolis apartment building",
+    "link": "https://thehill.com/homenews/state-watch/6067788-2-people-killed-suspect-dead-after-shooting-in-minneapolis-apartment-building/",
     "source": "The Hill"
   },
   {
-    "title": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for U.S. Senate",
-    "link": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton",
+    "title": "North Carolina Rep. Chuck Edwards is formally censured over harassment allegations",
+    "link": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote",
     "source": "NPR Politics"
   }
 ]
