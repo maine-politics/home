@@ -1,25 +1,5 @@
 [
   {
-    "title": "Fetterman stood up disabled veterans; scoffed at children&#039;s hospital&#039;s concerns: Report",
-    "link": "https://thehill.com/homenews/senate/6071560-fetterman-allegedly-dodged-veterans/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Fox News abruptly parts ways with scandal-tarred star Maria Bartiromo",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955645/maria-bartiromo-fox-news",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "The 50 percent problem with Trump&#039;s Canada tariffs",
-    "link": "https://thehill.com/opinion/finance/6069916-legal-challenge-canadian-trade-war/",
-    "source": "The Hill"
-  },
-  {
-    "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
-    "source": "NPR Politics"
-  },
-  {
     "title": "Tributes to Gloria Steinem are flooding in, from Hollywood to Capitol Hill",
     "link": "https://www.npr.org/2026/09/03/nx-s1-5955579/gloria-steinem-tributes",
     "source": "NPR Politics"
@@ -30,13 +10,33 @@
     "source": "NPR Politics"
   },
   {
+    "title": "Jobs rebound, making rate hike more likely",
+    "link": "https://thehill.com/newsletters/1230-report/6071745-trump-economy-august-jobs-report-interest-rate-hikes/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Venezuela is the blueprint for what Washington will demand from Iran",
+    "link": "https://thehill.com/opinion/international/6069947-venezuela-iran-oil-strategy/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Fox News abruptly parts ways with scandal-tarred star Maria Bartiromo",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955645/maria-bartiromo-fox-news",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
+    "source": "NPR Politics"
+  },
+  {
     "title": "Leon Black defies subpoena to testify in Epstein inquiry and sues House panel",
     "link": "https://www.npr.org/2026/09/03/nx-s1-5955643/leon-black-jeffrey-epstein-lawsuit",
     "source": "NPR Politics"
   },
   {
-    "title": "Republicans face a dilemma over Trump&#039;s role in the midterms",
-    "link": "https://thehill.com/opinion/6069504-swing-voters-donald-trump/",
+    "title": "Trump threatens trade war if rates aren&#039;t cut after strong jobs report",
+    "link": "https://thehill.com/business/6071563-trump-trade-war-fed-interest-rates-august-jobs-report/",
     "source": "The Hill"
   },
   {
@@ -45,18 +45,18 @@
     "source": "The Hill"
   },
   {
-    "title": "Trump threatens trade war if rates aren&#039;t cut after strong jobs report",
-    "link": "https://thehill.com/business/6071563-trump-trade-war-fed-interest-rates-august-jobs-report/",
-    "source": "The Hill"
-  },
-  {
     "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
     "link": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
     "source": "NPR Politics"
   },
   {
-    "title": "Hawley expands Flock camera probe to other AI-powered surveillance systems",
-    "link": "https://thehill.com/homenews/senate/6071467-hawley-flock-camera-probe-ai-surveillance/",
+    "title": "Fetterman stood up disabled veterans; scoffed at children&#039;s hospital&#039;s concerns: Report",
+    "link": "https://thehill.com/homenews/senate/6071560-fetterman-allegedly-dodged-veterans/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Republicans face a dilemma over Trump&#039;s role in the midterms",
+    "link": "https://thehill.com/opinion/6069504-swing-voters-donald-trump/",
     "source": "The Hill"
   }
 ]
