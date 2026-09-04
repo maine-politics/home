@@ -1,27 +1,7 @@
 [
   {
-    "title": "Fox News abruptly parts ways with scandal-tarred star Maria Bartiromo",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955645/maria-bartiromo-fox-news",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Tributes to Gloria Steinem are flooding in, from Hollywood to Capitol Hill",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955579/gloria-steinem-tributes",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump threatens trade war if rates aren&#039;t cut after strong jobs report",
-    "link": "https://thehill.com/business/6071563-trump-trade-war-fed-interest-rates-august-jobs-report/",
-    "source": "The Hill"
-  },
-  {
-    "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Nearly a third of AI chatbot replies to voting questions inaccurate, outdated: Study",
-    "link": "https://thehill.com/policy/technology/6071757-ai-chatbots-election-info-inaccuracy/",
+    "title": "The veteran community cannot wait: Pass the take care of America’s Veterans Act now",
+    "link": "https://thehill.com/opinion/6070663-congress-urged-pass-veteran-benefits-bill/",
     "source": "The Hill"
   },
   {
@@ -30,14 +10,24 @@
     "source": "NPR Politics"
   },
   {
+    "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "What to know about the mail-in voting fight at the Supreme Court",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+    "source": "NPR Politics"
+  },
+  {
     "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
     "link": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
     "source": "NPR Politics"
   },
   {
-    "title": "Trump asks Supreme Court to lift block on USPS plan to restrict mail voting",
-    "link": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
-    "source": "NPR Politics"
+    "title": "NC elections officials alter mail ballot rules just before they’re mailed out",
+    "link": "https://thehill.com/homenews/state-watch/6071775-nc-approves-new-mail-in-ballot-guidelines/",
+    "source": "The Hill"
   },
   {
     "title": "Jobs rebound, making rate hike more likely",
@@ -45,18 +35,28 @@
     "source": "The Hill"
   },
   {
-    "title": "The veteran community cannot wait: Pass the take care of America’s Veterans Act now",
-    "link": "https://thehill.com/opinion/6070663-congress-urged-pass-veteran-benefits-bill/",
+    "title": "Tributes to Gloria Steinem are flooding in, from Hollywood to Capitol Hill",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955579/gloria-steinem-tributes",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Fox News abruptly parts ways with scandal-tarred star Maria Bartiromo",
+    "link": "https://www.npr.org/2026/09/03/nx-s1-5955645/maria-bartiromo-fox-news",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Live updates: Judge ready to declare mistrial in Clancy trial; August posts strong jobs numbers",
+    "link": "https://thehill.com/homenews/administration/6070974-live-updates-trump-mail-ballots-jobs-midterms/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Nearly a third of AI chatbot replies to voting questions inaccurate, outdated: Study",
+    "link": "https://thehill.com/policy/technology/6071757-ai-chatbots-election-info-inaccuracy/",
     "source": "The Hill"
   },
   {
     "title": "Venezuela is the blueprint for what Washington will demand from Iran",
     "link": "https://thehill.com/opinion/international/6069947-venezuela-iran-oil-strategy/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Live updates: Judge ready to declare mistrial in Clancy trial; August posts strong jobs numbers",
-    "link": "https://thehill.com/homenews/administration/6070974-live-updates-trump-mail-ballots-jobs-midterms/",
     "source": "The Hill"
   }
 ]
