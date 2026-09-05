@@ -1,33 +1,8 @@
 [
   {
-    "title": "Massabesic survives 6 turnovers to edge Bangor in football opener",
-    "link": "https://www.bangordailynews.com/2026/09/04/sports/high-school-football/massabesic-beats-bangor-football/",
-    "source": "BDN"
-  },
-  {
     "title": "Community Radio",
     "link": "https://www.mainepublic.org/show/maine-calling/2026-09-03/community-radio",
     "source": "Maine Public"
-  },
-  {
-    "title": "Dover-Foxcroft police seek help identifying vehicle in fatal hit-and-run",
-    "link": "https://www.centralmaine.com/2026/09/04/dover-foxcroft-police-seek-help-identifying-vehicle-in-fatal-hit-and-run/",
-    "source": "Kennebec Journal"
-  },
-  {
-    "title": "The former Family Dollar building in Bangor has sold",
-    "link": "https://www.bangordailynews.com/2026/09/04/bangor/bangor-business/former-family-dollar-building-bangor-sold-joam40zk0w/",
-    "source": "BDN"
-  },
-  {
-    "title": "Key moments in the Lindsay Clancy case: the 911 call, mental health care, mistrial",
-    "link": "https://www.bangordailynews.com/2026/09/04/nation/key-moments-in-the-lindsay-clancy-case-the-911-call-mental-health-care-mistrial/",
-    "source": "BDN"
-  },
-  {
-    "title": "Here’s Friday’s Maine high school football scores from Week 1",
-    "link": "https://www.pressherald.com/2026/09/04/heres-fridays-maine-high-school-football-scores-from-week-1/",
-    "source": "Press Herald"
   },
   {
     "title": "High schools Friday: Greely field hockey nips York in OT",
@@ -41,13 +16,23 @@
   },
   {
     "title": "Sea Dogs silenced by Baysox",
+    "link": "https://www.pressherald.com/2026/09/04/sea-dogs-silenced-by-baysox/",
+    "source": "Press Herald"
+  },
+  {
+    "title": "Mickey Gasper homers again to lead Red Sox past Orioles",
+    "link": "https://www.centralmaine.com/2026/09/04/mickey-gasper-homers-again-to-lead-red-sox-past-orioles/",
+    "source": "Kennebec Journal"
+  },
+  {
+    "title": "Sea Dogs silenced by Baysox",
     "link": "https://www.centralmaine.com/2026/09/04/sea-dogs-silenced-by-baysox/",
     "source": "Kennebec Journal"
   },
   {
-    "title": "Thursday, Sept. 3, 2026: Jackson vs. Cicero in the Maine Senate race",
-    "link": "https://www.mainepublic.org/podcast/maines-political-pulse/2026-09-03/thursday-sept-3-2026-jackson-vs-cicero-in-the-maine-senate-race",
-    "source": "Maine Public"
+    "title": "The former Family Dollar building in Bangor has sold",
+    "link": "https://www.bangordailynews.com/2026/09/04/bangor/bangor-business/former-family-dollar-building-bangor-sold-joam40zk0w/",
+    "source": "BDN"
   },
   {
     "title": "Sea Dogs silenced by Baysox",
@@ -55,23 +40,38 @@
     "source": "Sun Journal"
   },
   {
-    "title": "High schools Friday: Monmouth boys soccer opens with big victory over Hall-Dale",
-    "link": "https://www.centralmaine.com/2026/09/04/high-schools-friday-monmouth-boys-soccer-opens-with-big-victory-over-hall-dale/",
-    "source": "Kennebec Journal"
-  },
-  {
-    "title": "Elon Musk's super PAC begins electioneering for Susan Collins",
-    "link": "https://www.mainepublic.org/politics/2026-09-04/elon-musks-super-pac-begins-electioneering-for-susan-collins",
+    "title": "Thursday, Sept. 3, 2026: Jackson vs. Cicero in the Maine Senate race",
+    "link": "https://www.mainepublic.org/podcast/maines-political-pulse/2026-09-03/thursday-sept-3-2026-jackson-vs-cicero-in-the-maine-senate-race",
     "source": "Maine Public"
   },
   {
-    "title": "Friday’s High school football: Cony scores in final seconds to beat Fryeburg in opener",
-    "link": "https://www.centralmaine.com/2026/09/04/fridays-high-school-football-cony-scores-in-final-seconds-to-beat-fryeburg-in-opener/",
-    "source": "Kennebec Journal"
+    "title": "Dover-Foxcroft police seek help identifying vehicle in fatal hit-and-run",
+    "link": "https://www.pressherald.com/2026/09/04/dover-foxcroft-police-seek-help-identifying-vehicle-in-fatal-hit-and-run/",
+    "source": "Press Herald"
+  },
+  {
+    "title": "Friday’s high school football: Edward Little runs to season-opening win over Deering",
+    "link": "https://www.sunjournal.com/2026/09/04/fridays-high-school-football-edward-little-runs-to-season-opening-win-over-deering/",
+    "source": "Sun Journal"
   },
   {
     "title": "A mistrial is declared in the murder case against Lindsay Clancy. Here&#8217;s what could happen next",
     "link": "https://www.bangordailynews.com/2026/09/04/nation/a-mistrial-is-declared-in-the-murder-case-against-lindsay-clancy-heres-what-could-happen-next/",
     "source": "BDN"
+  },
+  {
+    "title": "Mickey Gasper homers again to lead Red Sox past Orioles",
+    "link": "https://www.sunjournal.com/2026/09/04/mickey-gasper-homers-again-to-lead-red-sox-past-orioles/",
+    "source": "Sun Journal"
+  },
+  {
+    "title": "High schools Friday: Freshman scores in OT to lift Monmouth boys soccer to win",
+    "link": "https://www.sunjournal.com/2026/09/04/high-schools-friday-freshman-scores-in-ot-to-lift-monmouth-boys-soccer-to-win/",
+    "source": "Sun Journal"
+  },
+  {
+    "title": "Mickey Gasper homers again to lead Red Sox past Orioles",
+    "link": "https://www.pressherald.com/2026/09/04/mickey-gasper-homers-again-to-lead-red-sox-past-orioles/",
+    "source": "Press Herald"
   }
 ]
