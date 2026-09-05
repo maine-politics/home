@@ -1,18 +1,8 @@
 [
   {
-    "title": "El-Sayed divided Michigan Democrats. Whether they unify could decide Senate control",
-    "link": "https://www.npr.org/2026/09/04/nx-s1-5946840/el-sayed-divided-michigan-democrats-whether-they-unify-could-decide-senate-control",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Tetris suggests White House &#039;Build the Wall&#039; game infringes copyright",
-    "link": "https://thehill.com/homenews/administration/6072786-tetris-white-house-game-copyright-infringement/",
+    "title": "Watchdog issues scathing report on Trump&#039;s former labor secretary",
+    "link": "https://thehill.com/homenews/administration/6072826-labor-secretary-chavez-deremer-workplace-misconduct-report/",
     "source": "The Hill"
-  },
-  {
-    "title": "'Hidden tribunals': Immigration court due process in tumult with new locations",
-    "link": "https://www.npr.org/2026/09/04/g-s1-142042/immigration-court-hidden-tribunals",
-    "source": "NPR Politics"
   },
   {
     "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
@@ -25,19 +15,24 @@
     "source": "The Hill"
   },
   {
+    "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
+    "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+    "source": "NPR Politics"
+  },
+  {
     "title": "Trump's arch may break ground without final approval. Veterans are trying to stop it",
     "link": "https://www.npr.org/2026/09/04/nx-s1-5957459/trump-arch-excavation-lawsuit-veterans",
     "source": "NPR Politics"
   },
   {
-    "title": "Watchdog issues scathing report on Trump&#039;s former labor secretary",
-    "link": "https://thehill.com/homenews/administration/6072826-labor-secretary-chavez-deremer-workplace-misconduct-report/",
-    "source": "The Hill"
+    "title": "'Hidden tribunals': Immigration court due process in tumult with new locations",
+    "link": "https://www.npr.org/2026/09/04/g-s1-142042/immigration-court-hidden-tribunals",
+    "source": "NPR Politics"
   },
   {
-    "title": "Trump considers narrowing water pollution protections",
-    "link": "https://thehill.com/newsletters/energy-environment/6072675-trump-considers-narrowing-water-pollution-protections/",
-    "source": "The Hill"
+    "title": "El-Sayed divided Michigan Democrats. Whether they unify could decide Senate control",
+    "link": "https://www.npr.org/2026/09/04/nx-s1-5946840/el-sayed-divided-michigan-democrats-whether-they-unify-could-decide-senate-control",
+    "source": "NPR Politics"
   },
   {
     "title": "Federal judge declines to halt firings of Stars and Stripes staffers",
@@ -45,9 +40,9 @@
     "source": "The Hill"
   },
   {
-    "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
-    "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
-    "source": "NPR Politics"
+    "title": "Tetris suggests White House &#039;Build the Wall&#039; game infringes copyright",
+    "link": "https://thehill.com/homenews/administration/6072786-tetris-white-house-game-copyright-infringement/",
+    "source": "The Hill"
   },
   {
     "title": "How are AI chatbots answering voting questions?",
@@ -58,5 +53,10 @@
     "title": "Wesleyan president calls Trump's tax-exempt proposal 'extraordinary overreach'",
     "link": "https://www.npr.org/2026/09/04/nx-s1-5955592/wesleyan-president-trump-tax-exempt-race-programs",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Trump considers narrowing water pollution protections",
+    "link": "https://thehill.com/newsletters/energy-environment/6072675-trump-considers-narrowing-water-pollution-protections/",
+    "source": "The Hill"
   }
 ]
