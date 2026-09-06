@@ -5,8 +5,13 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Live updates: Energy secretary downplays rising gas prices as US, Iran trade strikes",
-    "link": "https://thehill.com/homenews/administration/6073694-live-updates-wright-us-iran-strikes/",
+    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "The hidden cost of losing your community bank: disruptive innovation",
+    "link": "https://thehill.com/opinion/finance/6071850-mega-bank-dominance-risks-growth/",
     "source": "The Hill"
   },
   {
@@ -15,28 +20,33 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Energy secretary: &#039;I don&#039;t want to have an opinion&#039; on rising gas prices",
-    "link": "https://thehill.com/policy/energy-environment/6073803-wright-gas-prices-outlook-iran/",
-    "source": "The Hill"
-  },
-  {
     "title": "Former Air Force secretary questions &#039;advice&#039; Trump received before starting Iran war",
     "link": "https://thehill.com/policy/defense/6073796-kendall-questions-trump-iran-war/",
     "source": "The Hill"
   },
   {
-    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
-    "source": "NPR Politics"
+    "title": "DOJ makes new appeal for Supreme Court to allow mail voting changes",
+    "link": "https://thehill.com/regulation/court-battles/6073865-trump-administration-asks-scotus-mailballot-restriction/",
+    "source": "The Hill"
   },
   {
-    "title": "Don&#039;t panic about the national debt — the US has the wealth to handle it",
-    "link": "https://thehill.com/opinion/finance/6067230-measuring-debt-vs-wealth/",
-    "source": "The Hill"
+    "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+    "source": "NPR Politics"
   },
   {
     "title": "White House faces mifepristone test",
     "link": "https://thehill.com/policy/healthcare/6072639-trump-louisiana-mifepristone-test/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Wright says Iran war worth it to &#039;reset&#039; Middle East",
+    "link": "https://thehill.com/homenews/administration/6073908-wright-says-iran-war-necessary/",
     "source": "The Hill"
   },
   {
@@ -45,18 +55,8 @@
     "source": "NPR Politics"
   },
   {
-    "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump administration makes new appeal for Supreme Court to allow mail voting changes ahead of midterms",
-    "link": "https://thehill.com/regulation/court-battles/6073865-trump-administration-asks-scotus-mailballot-restriction/",
+    "title": "Don&#039;t panic about the national debt — the US has the wealth to handle it",
+    "link": "https://thehill.com/opinion/finance/6067230-measuring-debt-vs-wealth/",
     "source": "The Hill"
   }
 ]
