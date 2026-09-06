@@ -1,12 +1,12 @@
 [
   {
-    "title": "Hunter Biden says \"I may have to\" run in 2028",
-    "link": "https://thehill.com/homenews/campaign/6073586-hunter-biden-says-i-may-have-to-run-in-2028/",
-    "source": "The Hill"
-  },
-  {
     "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
     "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
     "source": "NPR Politics"
   },
   {
@@ -15,13 +15,23 @@
     "source": "The Hill"
   },
   {
-    "title": "Russia calls talks with US envoys &#039;useful&#039;",
-    "link": "https://thehill.com/policy/international/6073550-putin-witkoff-kushner-peace-talks/",
+    "title": "Angie Craig throws her hat in the ring for WNBA commissioner",
+    "link": "https://thehill.com/policy/sports-gaming/6073497-angie-craig-wnba-commissioner/",
     "source": "The Hill"
   },
   {
-    "title": "Controversy swirls around Trump&#039;s Venezuela business partner",
-    "link": "https://thehill.com/policy/energy-environment/6072632-trump-venezuelan-oil-deal/",
+    "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
+    "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Russia calls talks with US envoys &#039;useful&#039;",
+    "link": "https://thehill.com/policy/international/6073550-putin-witkoff-kushner-peace-talks/",
     "source": "The Hill"
   },
   {
@@ -35,28 +45,18 @@
     "source": "NPR Politics"
   },
   {
-    "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
-    "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Angie Craig throws her hat in the ring for WNBA commissioner",
-    "link": "https://thehill.com/policy/sports-gaming/6073497-angie-craig-wnba-commissioner/",
+    "title": "Controversy swirls around Trump&#039;s Venezuela business partner",
+    "link": "https://thehill.com/policy/energy-environment/6072632-trump-venezuelan-oil-deal/",
     "source": "The Hill"
-  },
-  {
-    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
-    "source": "NPR Politics"
   },
   {
     "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
     "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Hunter Biden: &#039;I may have to&#039; run for president in 2028",
+    "link": "https://thehill.com/homenews/campaign/6073586-hunter-biden-says-i-may-have-to-run-in-2028/",
+    "source": "The Hill"
   }
 ]
