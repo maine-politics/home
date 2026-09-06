@@ -1,37 +1,12 @@
 [
   {
-    "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
-    "source": "NPR Politics"
-  },
-  {
     "title": "Iran attacks US ship in Strait of Hormuz",
     "link": "https://thehill.com/policy/international/6073695-iran-attacks-us-vessel-strait-hormuz/",
     "source": "The Hill"
   },
   {
-    "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Wright: US &#039;may not&#039; reach nuclear agreement with Iran",
-    "link": "https://thehill.com/homenews/administration/6073768-wright-iran-nuclear-deal/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Jared Isaacman&#039;s support for Musk&#039;s space data centers did not occur in a vacuum",
-    "link": "https://thehill.com/opinion/technology/6071910-musk-spacex-space-ai-data-centers/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
+    "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
     "source": "NPR Politics"
   },
   {
@@ -40,13 +15,18 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
-    "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
+    "title": "Trump envoys set for Zelensky meeting after Russia-Ukraine peace talks with Putin",
+    "link": "https://thehill.com/policy/international/6073737-trump-envoy-kyiv-peace-talks-zelensky-putin/",
+    "source": "The Hill"
+  },
+  {
+    "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
     "source": "NPR Politics"
   },
   {
-    "title": "Live updates: Energy secretary downplays rising gas prices as US, Iran trade strikes",
-    "link": "https://thehill.com/homenews/administration/6073694-live-updates-wright-us-iran-strikes/",
+    "title": "Jared Isaacman&#039;s support for Musk&#039;s space data centers did not occur in a vacuum",
+    "link": "https://thehill.com/opinion/technology/6071910-musk-spacex-space-ai-data-centers/",
     "source": "The Hill"
   },
   {
@@ -55,8 +35,28 @@
     "source": "The Hill"
   },
   {
-    "title": "Trump envoys set for Zelensky meeting after Russia-Ukraine peace talks with Putin",
-    "link": "https://thehill.com/policy/international/6073737-trump-envoy-kyiv-peace-talks-zelensky-putin/",
+    "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Live updates: Energy secretary downplays rising gas prices as US, Iran trade strikes",
+    "link": "https://thehill.com/homenews/administration/6073694-live-updates-wright-us-iran-strikes/",
     "source": "The Hill"
+  },
+  {
+    "title": "Wright: US &#039;may not&#039; reach nuclear agreement with Iran",
+    "link": "https://thehill.com/homenews/administration/6073768-wright-iran-nuclear-deal/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
+    "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
+    "source": "NPR Politics"
   }
 ]
