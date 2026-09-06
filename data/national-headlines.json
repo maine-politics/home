@@ -1,37 +1,7 @@
 [
   {
-    "title": "The hidden cost of losing your community bank: disruptive innovation",
-    "link": "https://thehill.com/opinion/finance/6071850-mega-bank-dominance-risks-growth/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "White House faces mifepristone test",
-    "link": "https://thehill.com/policy/healthcare/6072639-trump-louisiana-mifepristone-test/",
-    "source": "The Hill"
-  },
-  {
     "title": "Lawler disagrees with Trump on Iran war: &#039;It is certainly not small potatoes&#039;",
     "link": "https://thehill.com/homenews/house/6073941-lawler-disagrees-trump-iran-war-small-potatoes/",
-    "source": "The Hill"
-  },
-  {
-    "title": "DOJ makes new appeal for Supreme Court to allow mail voting changes",
-    "link": "https://thehill.com/regulation/court-battles/6073865-trump-administration-asks-scotus-mailballot-restriction/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Why the golf industry largely supports permanent daylight saving time",
-    "link": "https://thehill.com/policy/energy-environment/6069608-why-the-golf-industry-largely-supports-permanent-daylight-saving-time/",
     "source": "The Hill"
   },
   {
@@ -40,13 +10,23 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
     "source": "NPR Politics"
+  },
+  {
+    "title": "The hidden cost of losing your community bank: disruptive innovation",
+    "link": "https://thehill.com/opinion/finance/6071850-mega-bank-dominance-risks-growth/",
+    "source": "The Hill"
   },
   {
     "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
     "link": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
     "source": "NPR Politics"
   },
   {
@@ -55,8 +35,28 @@
     "source": "NPR Politics"
   },
   {
+    "title": "Why the golf industry largely supports permanent daylight saving time",
+    "link": "https://thehill.com/policy/energy-environment/6069608-why-the-golf-industry-largely-supports-permanent-daylight-saving-time/",
+    "source": "The Hill"
+  },
+  {
+    "title": "DOJ makes new appeal for Supreme Court to allow mail voting changes",
+    "link": "https://thehill.com/regulation/court-battles/6073865-trump-administration-asks-scotus-mailballot-restriction/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Washington&#039;s affordability debate is missing wages",
+    "link": "https://thehill.com/opinion/congress-blog/labor/6072685-national-minimum-wage-future/",
+    "source": "The Hill"
+  },
+  {
     "title": "Wright says Iran war worth it to &#039;reset&#039; Middle East",
     "link": "https://thehill.com/homenews/administration/6073908-wright-says-iran-war-necessary/",
     "source": "The Hill"
+  },
+  {
+    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
+    "source": "NPR Politics"
   }
 ]
