@@ -1,7 +1,12 @@
 [
   {
-    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+    "title": "At least five dead, others hospitalized after plane overshoots Miami runway",
+    "link": "https://thehill.com/policy/transportation/6074224-amazon-cargo-plane-overruns-mia-runway/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
     "source": "NPR Politics"
   },
   {
@@ -15,29 +20,14 @@
     "source": "The Hill"
   },
   {
-    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump to speak at both nights of RNC midterm convention",
-    "link": "https://thehill.com/homenews/administration/6074352-trump-rnc-midterm-convention-two-speeches/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Top House Republican backs Max Miller: &#039;I support anybody with an R by their name&#039;",
-    "link": "https://thehill.com/homenews/house/6074174-mcclain-backs-miller-abuse-allegations/",
-    "source": "The Hill"
-  },
-  {
     "title": "Ohio gubernatorial candidate confronted by armed man at fair",
     "link": "https://thehill.com/homenews/campaign/6074433-ohio-governor-candidate-armed-man-attack/",
     "source": "The Hill"
   },
   {
-    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
-    "source": "NPR Politics"
+    "title": "Trump posts map labeling New Mexico as &#039;New America&#039; after online hoax",
+    "link": "https://thehill.com/homenews/administration/6074249-trump-posts-map-labeling-new-mexico-as-new-america-after-online-hoax/",
+    "source": "The Hill"
   },
   {
     "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
@@ -45,14 +35,24 @@
     "source": "NPR Politics"
   },
   {
-    "title": "At least five dead, others hospitalized after plane overshoots Miami runway",
-    "link": "https://thehill.com/policy/transportation/6074224-amazon-cargo-plane-overruns-mia-runway/",
+    "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Top House Republican backs Max Miller: &#039;I support anybody with an R by their name&#039;",
+    "link": "https://thehill.com/homenews/house/6074174-mcclain-backs-miller-abuse-allegations/",
     "source": "The Hill"
   },
   {
-    "title": "Trump posts map labeling New Mexico as &#039;New America&#039; after online hoax",
-    "link": "https://thehill.com/homenews/administration/6074249-trump-posts-map-labeling-new-mexico-as-new-america-after-online-hoax/",
+    "title": "Trump to speak at both nights of RNC midterm convention",
+    "link": "https://thehill.com/homenews/administration/6074352-trump-rnc-midterm-convention-two-speeches/",
     "source": "The Hill"
+  },
+  {
+    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+    "source": "NPR Politics"
   },
   {
     "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
