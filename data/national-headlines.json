@@ -1,32 +1,27 @@
 [
   {
+    "title": "Trump's construction projects are transforming the capital",
+    "link": "https://www.npr.org/2026/09/07/nx-s1-5958600/trumps-construction-projects-are-transforming-the-capital",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "With the midterms fast approaching, campaign season begins",
+    "link": "https://www.npr.org/2026/09/07/nx-s1-5955739/with-the-midterms-fast-approaching-campaign-season-begins",
+    "source": "NPR Politics"
+  },
+  {
     "title": "Witkoff touts &#039;substantive progress&#039; after peace talks with Ukraine, Russia",
     "link": "https://thehill.com/policy/international/6075212-witkoff-progress-russia-ukraine-talks/",
     "source": "The Hill"
   },
   {
-    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
-    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Fake Republican midterm convention site still redirects to Epstein files",
-    "link": "https://thehill.com/homenews/campaign/6075245-fake-gop-convention-site-epstein-files/",
+    "title": "This week on the Hill: Political spotlight turns to GOP midterm convention in Dallas",
+    "link": "https://thehill.com/newsletters/this-week-on-the-hill/6072342-trump-pentagon-911-anniversary/",
     "source": "The Hill"
   },
   {
     "title": "Trump takes narrow Supreme Court rulings as big wins",
     "link": "https://thehill.com/regulation/court-battles/6072461-trump-white-house-ballroom-supreme-court/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump posts updates about his DC ‘beautification’ projects",
-    "link": "https://thehill.com/homenews/administration/6075345-trump-dc-beautification-projects/",
     "source": "The Hill"
   },
   {
@@ -40,14 +35,9 @@
     "source": "NPR Politics"
   },
   {
-    "title": "With the midterms fast approaching, campaign season begins",
-    "link": "https://www.npr.org/2026/09/07/nx-s1-5955739/with-the-midterms-fast-approaching-campaign-season-begins",
+    "title": "Public backlash against data centers is rising. Politicians are playing catchup",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
     "source": "NPR Politics"
-  },
-  {
-    "title": "This week on the Hill: Political spotlight turns to GOP midterm convention in Dallas",
-    "link": "https://thehill.com/newsletters/this-week-on-the-hill/6072342-trump-pentagon-911-anniversary/",
-    "source": "The Hill"
   },
   {
     "title": "Trump posts map with American flag emblazoned over Canada, Greenland, Mexico",
@@ -55,8 +45,18 @@
     "source": "The Hill"
   },
   {
-    "title": "Trump's construction projects are transforming the capital",
-    "link": "https://www.npr.org/2026/09/07/nx-s1-5958600/trumps-construction-projects-are-transforming-the-capital",
+    "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+    "link": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Fake Republican midterm convention site still redirects to Epstein files",
+    "link": "https://thehill.com/homenews/campaign/6075245-fake-gop-convention-site-epstein-files/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump posts updates about his DC ‘beautification’ projects",
+    "link": "https://thehill.com/homenews/administration/6075345-trump-dc-beautification-projects/",
+    "source": "The Hill"
   }
 ]
