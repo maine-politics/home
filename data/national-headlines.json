@@ -1,35 +1,5 @@
 [
   {
-    "title": "What's next for Senator John Fetterman?",
-    "link": "https://www.npr.org/2026/09/14/nx-s1-5968629/whats-next-for-senator-john-fetterman",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Federal agents may have broken state laws in voter fraud hunt, whistleblower claims",
-    "link": "https://www.npr.org/2026/09/14/nx-s1-5968892/dhs-whistleblower-voter-fraud",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump guts power plant climate rules",
-    "link": "https://thehill.com/newsletters/energy-environment/6089296-trump-guts-power-plant-climate-rules/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Mitch McConnell returns to Senate after fall that led to an extended medical absence",
-    "link": "https://www.npr.org/2026/09/14/nx-s1-5968909/mitch-mcconnell-senate-return",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Inside the unprecedented threats election officials are facing ahead of mid-terms",
-    "link": "https://www.npr.org/2026/09/14/nx-s1-5954286/inside-the-unprecedented-threats-election-officials-are-facing-ahead-of-mid-terms",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Iran strikes on US diplomatic facilities raise war cost",
-    "link": "https://thehill.com/newsletters/defense-national-security/6089323-iran-strikes-on-us-diplomatic-facilities-raise-war-cost/",
-    "source": "The Hill"
-  },
-  {
     "title": "The Supreme Court rejects Trump's mail voting restrictions for this year's midterms",
     "link": "https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump",
     "source": "NPR Politics"
@@ -40,9 +10,14 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Supreme Court won’t restore Trump’s mail-in voting plan for midterms",
-    "link": "https://thehill.com/regulation/court-battles/6089348-supreme-court-rejects-trump-mail-ballots/",
+    "title": "Iran strikes on US diplomatic facilities in 4 Gulf countries cost $184M: IG report",
+    "link": "https://thehill.com/policy/defense/6089324-iranian-strikes-us-diplomatic-damage/",
     "source": "The Hill"
+  },
+  {
+    "title": "Mitch McConnell returns to Senate after fall that led to an extended medical absence",
+    "link": "https://www.npr.org/2026/09/14/nx-s1-5968909/mitch-mcconnell-senate-return",
+    "source": "NPR Politics"
   },
   {
     "title": "Paxton gets $54M boost from Senate Leadership Fund&#039;s Texas PAC",
@@ -50,13 +25,38 @@
     "source": "The Hill"
   },
   {
-    "title": "Iran strikes on US diplomatic facilities in 4 Gulf countries cost $184M: IG report",
-    "link": "https://thehill.com/policy/defense/6089324-iranian-strikes-us-diplomatic-damage/",
+    "title": "Russia sanctions bill passes House Rules Committee",
+    "link": "https://thehill.com/homenews/house/6089480-house-approves-russia-sanctions-bill/",
     "source": "The Hill"
   },
   {
-    "title": "Crypto regulation bill faces Senate vote",
-    "link": "https://thehill.com/newsletters/business-economy/6089318-crypto-regulation-bill-faces-senate-vote/",
+    "title": "Texas Rep. Greg Casar discusses bill to temporarily pause advanced AI development",
+    "link": "https://www.npr.org/2026/09/14/nx-s1-5968058/texas-rep-greg-casar-discusses-bill-to-temporarily-pause-advanced-ai-development",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Federal agents may have broken state laws in voter fraud hunt, whistleblower claims",
+    "link": "https://www.npr.org/2026/09/14/nx-s1-5968892/dhs-whistleblower-voter-fraud",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Blanche to hold press briefing in Rose Garden Tuesday",
+    "link": "https://thehill.com/homenews/administration/6089351-todd-blanche-white-house-briefing/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Supreme Court won’t restore Trump’s mail-in voting plan for midterms",
+    "link": "https://thehill.com/regulation/court-battles/6089348-supreme-court-rejects-trump-mail-ballots/",
+    "source": "The Hill"
+  },
+  {
+    "title": "What's next for Senator John Fetterman?",
+    "link": "https://www.npr.org/2026/09/14/nx-s1-5968629/whats-next-for-senator-john-fetterman",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Nancy Mace calls for public execution of Lindsay Clancy",
+    "link": "https://thehill.com/homenews/state-watch/6089505-nancy-mace-public-execution-clancy/",
     "source": "The Hill"
   }
 ]
