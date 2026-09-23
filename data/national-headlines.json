@@ -1,12 +1,27 @@
 [
   {
-    "title": "Trump set to greet Xi for high-stakes state visit",
-    "link": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china",
+    "title": "10-year Treasury yield spikes to highest point since 2007",
+    "link": "https://thehill.com/business/6107495-us-treasury-yield-19-year-high/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump touts his economy and U.S. actions in Iran in UNGA address",
+    "link": "https://www.npr.org/2026/09/23/nx-s1-5977795/trump-touts-his-economy-and-u-s-actions-in-iran-in-unga-address",
     "source": "NPR Politics"
   },
   {
-    "title": "Judge skeptical of White House press ban on Politico, MS NOW, CNN: Due process &#039;wasn&#039;t followed&#039;",
-    "link": "https://thehill.com/regulation/court-battles/6107336-trump-admin-media-access-lawsuit/",
+    "title": "Five crucial issues lawmakers want Trump to address with China",
+    "link": "https://thehill.com/homenews/administration/6107744-trump-xi-summit-washington/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Wright throws cold water on diesel export ban",
+    "link": "https://thehill.com/newsletters/energy-environment/6107716-wright-opposes-diesel-export-ban/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Fed&#039;s Barr says future interest rate hikes &#039;likely&#039; needed to tame inflation",
+    "link": "https://thehill.com/business/6107670-fed-governor-barr-rate-hike/",
     "source": "The Hill"
   },
   {
@@ -15,18 +30,23 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Collins rips report on pay-for-play allegations: &#039;Partisan hit job&#039;",
-    "link": "https://thehill.com/homenews/senate/6107282-collins-denies-pro-publica-report-pay-for-play/",
+    "title": "Would a diesel export ban actually bring down prices?",
+    "link": "https://thehill.com/policy/energy-environment/6107629-diesel-export-ban-gas-prices-oil-refineries/",
     "source": "The Hill"
   },
   {
-    "title": "Trump pushes to admit 17,500 White Afrikaners from South Africa in 2027 refugee cap",
-    "link": "https://thehill.com/homenews/administration/6107373-trump-proposes-afrikaner-refugee-cap/",
+    "title": "Results are in from the newest NPR/PBS News/Marist poll",
+    "link": "https://www.npr.org/2026/09/23/nx-s1-5978130/results-are-in-from-the-newest-npr-pbs-news-marist-poll",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "House has lame-duck impeachment dilemma with Hegseth",
+    "link": "https://thehill.com/newsletters/defense-national-security/6107715-house-lame-duck-impeachment-dilemma-hegseth/",
     "source": "The Hill"
   },
   {
-    "title": "Trump is on voters' minds in the midterms -- and they're not happy, poll shows",
-    "link": "https://www.npr.org/2026/09/23/nx-s1-5977613/trump-poll-democrats-congress",
+    "title": "Trump and Xi meet at moment of global consequence",
+    "link": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china",
     "source": "NPR Politics"
   },
   {
@@ -35,28 +55,8 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Kaine calls Iran war &#039;triply illegal,&#039; says it should &#039;end immediately&#039;",
-    "link": "https://thehill.com/homenews/senate/6107303-kaine-calls-end-iran-war/",
-    "source": "The Hill"
-  },
-  {
-    "title": "ICE officer who shot Austin man wasn&#039;t wearing body camera: Reports",
-    "link": "https://thehill.com/homenews/state-watch/6107260-ice-officer-shooting-austin-body-camera/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Live updates: Judge skeptical of Trump position on media ban; Trump to greet Xi Jinping in airport welcome",
-    "link": "https://thehill.com/homenews/administration/6105507-live-updates-trump-media-ban-unga-xi-visit/",
-    "source": "The Hill"
-  },
-  {
     "title": "From cybersecurity to AI to Taiwan, what's at stake in Trump's summit with Xi",
     "link": "https://www.npr.org/2026/09/23/nx-s1-5978691/from-cybersecurity-to-ai-what-at-stake-in-trumps-meeting-with-and-president-xiwhy-the-us-and-china-are-at-a-precarious-moment-in-their-relationship",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump touts his economy and U.S. actions in Iran in UNGA address",
-    "link": "https://www.npr.org/2026/09/23/nx-s1-5977795/trump-touts-his-economy-and-u-s-actions-in-iran-in-unga-address",
     "source": "NPR Politics"
   }
 ]
