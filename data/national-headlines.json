@@ -1,45 +1,5 @@
 [
   {
-    "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
-    "link": "https://www.npr.org/2026/10/01/nx-s1-5969830/maine-senate-collins-jackson-aroostook-county",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump visits deep red Oklahoma to campaign for GOP candidates ahead of midterms",
-    "link": "https://www.npr.org/2026/10/01/nx-s1-5985087/trump-visits-deep-red-oklahoma-to-campaign-for-gop-candidates-ahead-of-midterms",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Christa Pike&#039;s failed execution follows another in Tennessee this year",
-    "link": "https://thehill.com/homenews/state-watch/6122593-christa-pike-failed-execution-tennessee/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Latest taxpayer-funded ad promotes Trump war with Iran",
-    "link": "https://thehill.com/homenews/administration/6122506-trump-airing-taxpayer-funded-ads/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Schumer: ‘We’re on the edge of taking back the Senate’",
-    "link": "https://thehill.com/homenews/senate/6122591-schumer-democrats-senate-majority/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trade tensions mean fewer Canadians flocking to South Florida",
-    "link": "https://www.npr.org/2026/10/01/nx-s1-5971507/trade-tensions-fewer-canadians-south-florida",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "FCC chief: Taxpayer-funded ads touting Trump &#039;don&#039;t raise any red flags&#039;",
-    "link": "https://thehill.com/homenews/media/6122576-carr-defends-trump-ads/",
-    "source": "The Hill"
-  },
-  {
-    "title": "COMIC: How the census gives your state power (and what Trump wants to change)",
-    "link": "https://www.npr.org/2026/10/01/nx-s1-5983684/trump-2030-census-overhaul-changes",
-    "source": "NPR Politics"
-  },
-  {
     "title": "En esta ciudad de Pensilvania, los dos partidos políticos buscan el voto latino",
     "link": "https://www.npr.org/2026/10/01/g-s1-145488/en-esta-ciudad-de-pensilvania-los-dos-partidos-politicos-buscan-el-voto-latino",
     "source": "NPR Politics"
@@ -50,13 +10,53 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump economic approval hits new low: Survey",
-    "link": "https://thehill.com/homenews/administration/6122475-donald-trump-us-economy-approval-low-ap-norc-survey/",
+    "title": "Crowley, Tiffany neck and neck in Wisconsin governor&#039;s race: Poll",
+    "link": "https://thehill.com/homenews/campaign/6123950-wisconsin-poll-david-crowley-tom-tiffany-tie/",
     "source": "The Hill"
   },
   {
-    "title": "Supreme Court takes up Trump’s mandatory detention policy",
-    "link": "https://thehill.com/regulation/court-battles/6122542-supreme-court-mandatory-detention-policy-trump/",
+    "title": "AI data centers: How much are ratepayers on the hook for?",
+    "link": "https://www.npr.org/2026/10/01/nx-s1-5984949/data-centers-ai-ratepayers-congress",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "A judge permanently dismisses former Olympian's Reflecting Pool charges",
+    "link": "https://www.npr.org/2026/10/01/nx-s1-5987947/reflecting-pool-vandalism-hearn-charges-dismissed",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "COMIC: How the census gives your state power (and what Trump wants to change)",
+    "link": "https://www.npr.org/2026/10/01/nx-s1-5983684/trump-2030-census-overhaul-changes",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Treasury targets Iranian auto, rail sectors in latest round of sanctions",
+    "link": "https://thehill.com/policy/international/6124127-treasury-targets-iranian-transportation-industry-sanctions/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump says Iran will &#039;either sign a very fair deal&#039; or cease to exist",
+    "link": "https://thehill.com/homenews/administration/6124187-trump-threatens-iran-peace-deal/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump slams Time staff during interview for not asking &#039;one f‑‑‑ing positive question&#039;",
+    "link": "https://thehill.com/homenews/administration/6123793-trump-criticizes-time-interview/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trade tensions mean fewer Canadians flocking to South Florida",
+    "link": "https://www.npr.org/2026/10/01/nx-s1-5971507/trade-tensions-fewer-canadians-south-florida",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Watch live: Trump kicks off red-state campaign swing at Texas truck plant",
+    "link": "https://thehill.com/video-clips/6123945-watch-live-donald-trump-texas-manufacturing-economy-ken-paxton-senate-race/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Peltola tells voters &#039;forget party&#039; in new campaign ad",
+    "link": "https://thehill.com/homenews/campaign/6124020-peltola-alaska-senate-ad/",
     "source": "The Hill"
   }
 ]
