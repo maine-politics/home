@@ -1,22 +1,7 @@
 [
   {
-    "title": "Appeals court to hear lawsuit against RFK Jr. vaccine moves",
-    "link": "https://thehill.com/newsletters/healthcare/6130746-appeals-court-lawsuit-rfk-jr-vaccine-moves/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
-    "link": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Politics chat: Midterm polls, Senate races, Trump in Texas",
-    "link": "https://www.npr.org/2026/10/04/nx-s1-5985905/politics-chat-midterm-polls-senate-races-trump-in-texas",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Week in Politics: Inflation pressure; war in Iran and effect on midterm elections",
-    "link": "https://www.npr.org/2026/10/03/nx-s1-5989415/week-in-politics-inflation-pressure-war-in-iran-and-effect-on-midterm-elections",
+    "title": "Supreme Court's new term kicks off with blockbuster climate change case",
+    "link": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
     "source": "NPR Politics"
   },
   {
@@ -25,9 +10,14 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump announces steps to lower high cost of diesel",
-    "link": "https://thehill.com/policy/energy-environment/6130448-trump-order-high-diesel-prices/",
+    "title": "Tillis says Trump impeachment over Jan 6 was &#039;weighty,&#039; a &#039;vote of no confidence&#039;",
+    "link": "https://thehill.com/homenews/senate/6130895-tillis-trump-impeachment-snap-trial/",
     "source": "The Hill"
+  },
+  {
+    "title": "Politics chat: Midterm polls, Senate races, Trump in Texas",
+    "link": "https://www.npr.org/2026/10/04/nx-s1-5985905/politics-chat-midterm-polls-senate-races-trump-in-texas",
+    "source": "NPR Politics"
   },
   {
     "title": "People are asking ChatGPT to help them decide how to vote in the midterms",
@@ -35,9 +25,9 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Supreme Court's new term kicks off with blockbuster climate change case",
-    "link": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
-    "source": "NPR Politics"
+    "title": "Trump announces steps to lower high cost of diesel",
+    "link": "https://thehill.com/policy/energy-environment/6130448-trump-order-high-diesel-prices/",
+    "source": "The Hill"
   },
   {
     "title": "Tillis calls Hegseth vote his &#039;biggest regret&#039;",
@@ -45,18 +35,28 @@
     "source": "The Hill"
   },
   {
-    "title": "Trump says he will pay for &#039;Patriotic Ads&#039; himself after facing backlash from Democrats",
-    "link": "https://thehill.com/homenews/administration/6130848-trump-to-pay-patriotic-ads-backlash/",
-    "source": "The Hill"
+    "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
+    "link": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
+    "source": "NPR Politics"
   },
   {
-    "title": "Trump hurls anti-trans slurs at Graham&#039;s opponent as South Carolina race tightens",
-    "link": "https://thehill.com/homenews/administration/6130651-trump-slur-graham-senate-race/",
+    "title": "Appeals court to hear lawsuit against RFK Jr. vaccine moves",
+    "link": "https://thehill.com/newsletters/healthcare/6130746-appeals-court-lawsuit-rfk-jr-vaccine-moves/",
     "source": "The Hill"
   },
   {
     "title": "Trump approves death by firing squad for convicted terrorist",
     "link": "https://thehill.com/homenews/administration/6130802-nidal-hasan-death-firing-squad/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Week in Politics: Inflation pressure; war in Iran and effect on midterm elections",
+    "link": "https://www.npr.org/2026/10/03/nx-s1-5989415/week-in-politics-inflation-pressure-war-in-iran-and-effect-on-midterm-elections",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Trump says he will pay for &#039;Patriotic Ads&#039; himself after facing backlash from Democrats",
+    "link": "https://thehill.com/homenews/administration/6130848-trump-to-pay-patriotic-ads-backlash/",
     "source": "The Hill"
   }
 ]
