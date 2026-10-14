@@ -1,63 +1,18 @@
 [
   {
-    "title": "Maine's Race for Governor",
-    "link": "https://www.mainepublic.org/show/maine-calling/2026-10-09/maines-race-for-governor",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Your Vote 2026 Maine Calling candidate interview: Ron Russell, Republican candidate for Congress",
-    "link": "https://www.mainepublic.org/politics/2026-10-13/your-vote-2026-maine-calling-candidate-interview-ron-russell-republican-candidate-for-congress",
-    "source": "Maine Public"
-  },
-  {
-    "title": "23rd annual Maine Chinese Conference to celebrate language, culture and international connections",
-    "link": "https://www.bangordailynews.com/2026/10/14/bdn-maine/23rd-annual-maine-chinese-conference-to-celebrate-language-culture-and-international-connections/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Sheriff King deserves to be reelected in York County &#124; Letter",
-    "link": "https://www.pressherald.com/2026/10/14/sheriff-king-deserves-to-be-reelected-in-york-county-letter/",
+    "title": "Who’s behind ‘The Maine Independent’ newspaper landing in voters’ mailboxes?",
+    "link": "https://www.pressherald.com/2026/10/14/whos-behind-the-maine-independent-newspaper-landing-in-voters-mailboxes/",
     "source": "Portland Press Herald"
   },
   {
-    "title": "Join the 14th annual UMaine March Against Domestic Violence Friday",
-    "link": "https://www.bangordailynews.com/2026/10/14/bdn-maine/join-the-14th-annual-umaine-march-against-domestic-violence-friday/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "UUCB partners with Portland church for concert benefitting Immigrant Legal Advocacy Project",
-    "link": "https://www.pressherald.com/2026/10/14/uucb-partners-with-portland-church-for-concert-benefitting-immigrant-legal-advocacy-project/",
+    "title": "Police investigate fight at youth football game in Livermore Falls",
+    "link": "https://www.pressherald.com/2026/10/14/police-investigate-fight-at-youth-football-game-in-livermore-falls/",
     "source": "Portland Press Herald"
   },
   {
-    "title": "Exhibits at Maine art galleries are full of tricks and treats &#124; Column",
-    "link": "https://www.pressherald.com/2026/10/14/exhibits-at-maine-art-galleries-are-full-of-tricks-and-treats-column/",
+    "title": "Varsity Maine Week 6 high school football picks",
+    "link": "https://www.pressherald.com/2026/10/14/varsity-maine-week-6-high-school-football-picks-3/",
     "source": "Portland Press Herald"
-  },
-  {
-    "title": "Maine home prices rose in September despite sales slump",
-    "link": "https://www.bangordailynews.com/2026/10/14/business/business-housing/maine-home-sales-prices-report-september-2026/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "This week is stacked with debates in Maine's high-stakes races for Senate, 2nd District and governor",
-    "link": "https://www.mainepublic.org/politics/2026-10-13/this-week-is-stacked-with-debates-in-maines-high-stakes-races-for-senate-2nd-district-and-governor",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Knox County courts will close during transition to electronic filing system",
-    "link": "https://www.bangordailynews.com/2026/10/14/midcoast/midcoast-police-courts/rockland-maine-knox-county-courts-closure-electronic-filing-transition/",
-    "source": "Bangor Daily News"
-  },
-  {
-    "title": "Maine's 2nd gubernatorial debate is over. Here's some takeaways",
-    "link": "https://www.mainepublic.org/politics/2026-10-09/maines-2nd-gubernatorial-debate-is-over-heres-some-takeaways",
-    "source": "Maine Public"
-  },
-  {
-    "title": "Social Security recipients to get 3.6% cost of living boost, an average of $75 per month",
-    "link": "https://www.bangordailynews.com/2026/10/14/nation/social-security-recipients-to-get-3-6-cost-of-living-boost-an-average-of-75-per-month/",
-    "source": "Bangor Daily News"
   },
   {
     "title": "Ending the federal 'roadless' rule could threaten these Maine forests",
@@ -65,13 +20,58 @@
     "source": "Maine Public"
   },
   {
-    "title": "Who’s on the ballot in Cape Elizabeth",
-    "link": "https://www.pressherald.com/2026/10/14/whos-on-the-ballot-in-cape-elizabeth/",
+    "title": "This week is stacked with debates in Maine's high-stakes races for Senate, 2nd District and governor",
+    "link": "https://www.mainepublic.org/politics/2026-10-13/this-week-is-stacked-with-debates-in-maines-high-stakes-races-for-senate-2nd-district-and-governor",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Blockbuster-era law governing privacy of video rentals gets a fresh look from the Supreme Court",
+    "link": "https://www.bangordailynews.com/2026/10/14/nation/blockbuster-era-law-governing-privacy-of-video-rentals-gets-a-fresh-look-from-the-supreme-court/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Susan Collins floats Mitt Romney to chart a long-term fix for Social Security",
+    "link": "https://www.bangordailynews.com/2026/10/14/politics/elections/maine-susan-collins-social-security-commission-mitt-romney/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Blue Bliss Dental Wellness brings a spa-inspired approach to oral health at Rock Row Health Campus",
+    "link": "https://www.bangordailynews.com/2026/10/14/bdn-maine/blue-bliss-dental-wellness-brings-a-spa-inspired-approach-to-oral-health-at-rock-row-health-campus/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Your Vote 2026 Maine Calling candidate interview: Ron Russell, Republican candidate for Congress",
+    "link": "https://www.mainepublic.org/politics/2026-10-13/your-vote-2026-maine-calling-candidate-interview-ron-russell-republican-candidate-for-congress",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Cornell president admits he never followed up on gang rape allegation ahead of no-confidence debate",
+    "link": "https://www.bangordailynews.com/2026/10/14/nation/cornell-president-admits-he-never-followed-up-on-gang-rape-allegation-ahead-of-no-confidence-debate/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Concerned by pro-Susan Collins and pro-Trump bias &#124; Letter",
+    "link": "https://www.pressherald.com/2026/10/14/a-call-for-disclaimers-to-combat-spin-letter/",
     "source": "Portland Press Herald"
   },
   {
-    "title": "Social Security recipients to get 3.6% cost of living boost, an average of $75 per month",
-    "link": "https://www.pressherald.com/2026/10/14/social-security-recipients-to-get-3-6-cost-of-living-boost-an-average-of-75-per-month/",
+    "title": "Maine's Race for Governor",
+    "link": "https://www.mainepublic.org/show/maine-calling/2026-10-09/maines-race-for-governor",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Maine's 2nd gubernatorial debate is over. Here's some takeaways",
+    "link": "https://www.mainepublic.org/politics/2026-10-09/maines-2nd-gubernatorial-debate-is-over-heres-some-takeaways",
+    "source": "Maine Public"
+  },
+  {
+    "title": "Augusta water district sues paper mills for PFAS contamination",
+    "link": "https://www.bangordailynews.com/2026/10/14/central-maine/central-maine-police-courts/augusta-water-district-sues-paper-mills-pfas-contamination/",
+    "source": "Bangor Daily News"
+  },
+  {
+    "title": "Midcoast businesses and individuals having real conversations with future leaders &#124; Column",
+    "link": "https://www.pressherald.com/2026/10/14/midcoast-businesses-and-individuals-having-real-conversations-with-future-leaders-column/",
     "source": "Portland Press Herald"
   }
 ]
