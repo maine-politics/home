@@ -1,18 +1,8 @@
 [
   {
-    "title": "Katie Zacharia is out as press secretary, White House says",
-    "link": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
-    "source": "NPR Politics"
-  },
-  {
     "title": "GOP Rep. Scott Perry narrowly behind in Pennsylvania reelection bid: Poll",
     "link": "https://thehill.com/homenews/campaign/6156134-stelson-leads-perry-poll-pennsylvania-house/",
     "source": "The Hill"
-  },
-  {
-    "title": "Amid talk of public execution, public opinion on death penalty is split",
-    "link": "https://www.npr.org/2026/10/16/g-s1-148404/public-opinion-execution-death-penalty",
-    "source": "NPR Politics"
   },
   {
     "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
@@ -25,13 +15,8 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Sen. Graham on Trump waiving Russia sanctions: ‘I look forward to talking to him’",
-    "link": "https://thehill.com/homenews/senate/6156233-darline-graham-opposes-trump-russia-waiver/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-    "link": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
+    "title": "Katie Zacharia is out as press secretary, White House says",
+    "link": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
     "source": "NPR Politics"
   },
   {
@@ -40,9 +25,14 @@
     "source": "The Hill"
   },
   {
-    "title": "Shapiro launches super PAC as presidential speculation mounts",
-    "link": "https://thehill.com/homenews/campaign/6156280-shapiro-launches-super-pac/",
+    "title": "Sunday shows preview: Trump-Zelensky feud escalates; Controversies hit White House before midterms",
+    "link": "https://thehill.com/homenews/sunday-talk-shows/6156133-trump-russia-sanctions-backlash/",
     "source": "The Hill"
+  },
+  {
+    "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
+    "link": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
+    "source": "NPR Politics"
   },
   {
     "title": "Huckabee condemns Israeli settlers&#039; attack on Washington Post photojournalist",
@@ -50,13 +40,23 @@
     "source": "The Hill"
   },
   {
-    "title": "Sunday shows preview: Trump-Zelensky feud escalates; Controversies hit White House before midterms",
-    "link": "https://thehill.com/homenews/sunday-talk-shows/6156133-trump-russia-sanctions-backlash/",
+    "title": "Sen. Graham on Trump waiving Russia sanctions: ‘I look forward to talking to him’",
+    "link": "https://thehill.com/homenews/senate/6156233-darline-graham-opposes-trump-russia-waiver/",
     "source": "The Hill"
+  },
+  {
+    "title": "With an ad aimed at Trump, this Republican exposed GOP angst about Latino voters",
+    "link": "https://www.npr.org/2026/10/18/nx-s1-5978762/maria-elvira-salazar-immigration-trump",
+    "source": "NPR Politics"
   },
   {
     "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
     "link": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Shapiro launches super PAC as presidential speculation mounts",
+    "link": "https://thehill.com/homenews/campaign/6156280-shapiro-launches-super-pac/",
+    "source": "The Hill"
   }
 ]
