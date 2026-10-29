@@ -1,52 +1,7 @@
 [
   {
-    "title": "Senate Democrats drop $500K in Mississippi",
-    "link": "https://thehill.com/homenews/campaign/6179967-dscc-drops-mississippi-senate-funds/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Senate candidates built up massive campaign war chests with out-of-state donations",
-    "link": "https://www.npr.org/2026/10/28/nx-s1-5940017/senate-campaign-fundraising-actblue-winred-ossoff",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Hegseth ousted top military strategist from Pentagon, sources say",
-    "link": "https://thehill.com/policy/defense/6180055-hegseth-ousted-military-strategist-syllia/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Hochul says Trump rallies are &#039;poisoning&#039; Nicki Minaj&#039;s mind",
-    "link": "https://thehill.com/homenews/state-watch/6180077-minaj-trump-rallies-poisoning-mind/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Obama knocks White House&#039;s response to Cheesecake Factory jab: &#039;These are not serious people&#039;",
-    "link": "https://thehill.com/homenews/campaign/6180017-obama-trump-cheesecake-factory-joke/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone",
-    "link": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Why many student voters have a right to choose where to register to vote",
-    "link": "https://www.npr.org/2026/10/28/nx-s1-5793936/college-student-voting",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Hackers expose the identities of more than 40,000 DHS employees",
-    "link": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "El-Sayed responds to Stevens&#039;s fiancée endorsing Rogers",
-    "link": "https://thehill.com/homenews/campaign/6180036-el-sayed-responds-stevens-fiance/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Trump calls alleged Alaska Senate spoiler scheme &#039;voter fraud at the highest level&#039;",
-    "link": "https://thehill.com/homenews/administration/6180002-trump-alaska-senate-voter-fraud/",
+    "title": "On the Ballot: The 5 key money moves in the priciest midterms yet",
+    "link": "https://thehill.com/newsletters/on-the-ballot/6179672-the-5-key-money-moves-in-the-priciest-midterms-yet/",
     "source": "The Hill"
   },
   {
@@ -55,8 +10,53 @@
     "source": "NPR Politics"
   },
   {
-    "title": "A breakthrough for the group on the trail of Chinese hackers",
-    "link": "https://www.npr.org/2026/10/28/nx-s1-6019538/a-breakthrough-for-the-group-on-the-trail-of-chinese-hackers",
+    "title": "GDP report to give insight before Election Day. And, Israel's election is deadlocked",
+    "link": "https://www.npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit",
     "source": "NPR Politics"
+  },
+  {
+    "title": "Trump&#039;s crony diplomacy is marginalizing Marco Rubio",
+    "link": "https://thehill.com/opinion/international/6177370-rubio-crony-diplomacy-venezuela/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Support for Trump among white evangelicals has plummeted, polls reveal",
+    "link": "https://www.npr.org/2026/10/29/nx-s1-6012410/support-for-trump-among-white-evangelicals-has-plummeted-polls-reveal",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Obama adds some zing to Democrats&#039; closing message",
+    "link": "https://thehill.com/newsletters/morning-report/6180294-barack-obama-donald-trump-midterms-sprint/",
+    "source": "The Hill"
+  },
+  {
+    "title": "State ballots let voters decide on abortion, taxes, transgender restrictions",
+    "link": "https://www.npr.org/2026/10/29/nx-s1-6019363/state-ballot-referendum-abortion-taxes",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Hackers expose the identities of more than 40,000 DHS employees",
+    "link": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "These are the House races to watch in the 2026 midterm election on Nov. 3",
+    "link": "https://www.npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Alaska governor orders investigation into Peltola Senate campaign",
+    "link": "https://thehill.com/homenews/campaign/6180334-alaska-mike-dunleavy-mary-peltola-senate-spoiler-candidate-probe/",
+    "source": "The Hill"
+  },
+  {
+    "title": "The data industry has become a full-blown threat to US national security",
+    "link": "https://thehill.com/opinion/cybersecurity/6176825-military-commercial-data-surveillance/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Five minutes to doomsday: US and world leaders&#039; scary talk of looming disaster",
+    "link": "https://thehill.com/opinion/national-security/6178416-doomsday-clock-global-catastrophe/",
+    "source": "The Hill"
   }
 ]
