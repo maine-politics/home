@@ -1,7 +1,12 @@
 [
   {
-    "title": "Van Hollen&#039;s Senate backers lay low as Schumer takes big lead",
-    "link": "https://thehill.com/homenews/senate/6223801-democrats-clash-majority-leader-election/",
+    "title": "Huang says he'd be \"honored\" to return to Nvidia as he agrees to testify to Congress",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6044213/jensen-huang-nvidia-congress",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Skepticism grows within GOP over tech failures: &#039;Americans aren&#039;t stupid&#039;",
+    "link": "https://thehill.com/policy/technology/6225734-lawmakers-skepticism-tech-outages/",
     "source": "The Hill"
   },
   {
@@ -10,23 +15,18 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump arrives in Philippines to kick off Asia trip",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+    "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
+    "link": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+    "link": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
     "source": "NPR Politics"
   },
   {
-    "title": "Democrats seek transformative childcare laws after midterm wins",
-    "link": "https://thehill.com/homenews/education/6223090-democrats-childcare-affordability-promises/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Nationwide Emergency Alert System to be tested Tuesday: What to know",
-    "link": "https://thehill.com/homenews/6223945-nationwide-emergency-alert-test/",
-    "source": "The Hill"
-  },
-  {
-    "title": "For Jeffries, the glide path to Speaker has some bumps",
-    "link": "https://thehill.com/the-120/6223661-jeffries-speakership-challenges-democrats-disputes/",
+    "title": "FBI says Chase outage tracks back to software release, not malicious activity",
+    "link": "https://thehill.com/business/6226179-chase-outage-software-bug/",
     "source": "The Hill"
   },
   {
@@ -35,28 +35,28 @@
     "source": "NPR Politics"
   },
   {
-    "title": "California sues OpenAI over hacking risks",
-    "link": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+    "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
     "source": "NPR Politics"
   },
   {
-    "title": "What Trump, Putin and Xi want from superpower summit",
-    "link": "https://thehill.com/policy/international/6223633-trump-putin-xi-trilateral-summit/",
+    "title": "What to know about Iran&#039;s &#039;dirty bomb&#039; threat",
+    "link": "https://thehill.com/policy/national-security/6226127-iranian-dirty-bomb-threat-warning/",
     "source": "The Hill"
   },
   {
-    "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-    "link": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Watch live: The Bipartisan Blueprint — Advancing Permitting Reform for America&#039;s Future",
-    "link": "https://thehill.com/video-clips/6222716-watch-live-bipartisan-blueprint-advancing-permitting-reform-america-future/",
+    "title": "Judge agrees &#039;vast majority&#039; of Omar investigation should remain sealed",
+    "link": "https://thehill.com/regulation/court-battles/6226144-judge-seals-omar-search-warrant-doj/",
     "source": "The Hill"
   },
   {
-    "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
-    "link": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+    "title": "Trump arrives in Philippines to kick off Asia trip",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
     "source": "NPR Politics"
+  },
+  {
+    "title": "CNBC host presses Mullin on flight to football game amid FAA outage fallout",
+    "link": "https://thehill.com/homenews/administration/6226126-homeland-security-secretary-lsu-game/",
+    "source": "The Hill"
   }
 ]
