@@ -1,32 +1,12 @@
 [
   {
-    "title": "Huang says he'd be \"honored\" to return to Nvidia as he agrees to testify to Congress",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6044213/jensen-huang-nvidia-congress",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Skepticism grows within GOP over tech failures: &#039;Americans aren&#039;t stupid&#039;",
-    "link": "https://thehill.com/policy/technology/6225734-lawmakers-skepticism-tech-outages/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Can Google win the AI race without killing its cash cow?",
-    "link": "https://www.npr.org/sections/planet-money/2026/11/17/g-s1-153933/can-google-win-the-ai-race-without-killing-its-cash-cow",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
-    "link": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/",
-    "source": "The Hill"
-  },
-  {
     "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
     "link": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
     "source": "NPR Politics"
   },
   {
-    "title": "FBI says Chase outage tracks back to software release, not malicious activity",
-    "link": "https://thehill.com/business/6226179-chase-outage-software-bug/",
+    "title": "Judge vacates ESA review underlying offshore mining",
+    "link": "https://thehill.com/homenews/6226829-judge-vacates-esa-review-underlying-offshore-mining/",
     "source": "The Hill"
   },
   {
@@ -35,19 +15,34 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
+    "title": "Senate Intel Vice Chair Warner says AI contributing to network outages",
+    "link": "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Kelly knocks Hun Cao&#039;s analogy about food shortages on Navy ships",
+    "link": "https://thehill.com/homenews/senate/6226889-kelly-criticizes-cao-navy-food/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Murkowski calls midterms ‘a direct pushback to President Trump’",
+    "link": "https://thehill.com/homenews/senate/6226959-murkowski-midterm-rebuke-trump/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6044213/jensen-huang-nvidia-congress",
     "source": "NPR Politics"
   },
   {
-    "title": "What to know about Iran&#039;s &#039;dirty bomb&#039; threat",
-    "link": "https://thehill.com/policy/national-security/6226127-iranian-dirty-bomb-threat-warning/",
+    "title": "Director of National Intelligence offers explanation for tech outages",
+    "link": "https://thehill.com/policy/national-security/6226816-dni-dismisses-outage-cyberattack-theory/",
     "source": "The Hill"
   },
   {
-    "title": "Judge agrees &#039;vast majority&#039; of Omar investigation should remain sealed",
-    "link": "https://thehill.com/regulation/court-battles/6226144-judge-seals-omar-search-warrant-doj/",
-    "source": "The Hill"
+    "title": "Can Google win the AI race without killing its cash cow?",
+    "link": "https://www.npr.org/sections/planet-money/2026/11/17/g-s1-153933/can-google-win-the-ai-race-without-killing-its-cash-cow",
+    "source": "NPR Politics"
   },
   {
     "title": "Trump arrives in Philippines to kick off Asia trip",
@@ -55,8 +50,13 @@
     "source": "NPR Politics"
   },
   {
-    "title": "CNBC host presses Mullin on flight to football game amid FAA outage fallout",
-    "link": "https://thehill.com/homenews/administration/6226126-homeland-security-secretary-lsu-game/",
+    "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "White House pulls nomination of Heidi Overton to lead FDA",
+    "link": "https://thehill.com/policy/healthcare/6226487-white-house-withdraws-fda-nomination/",
     "source": "The Hill"
   }
 ]
