@@ -1,43 +1,13 @@
 [
   {
-    "title": "California man found guilty of sparking blaze that became deadly Palisades Fire",
-    "link": "https://thehill.com/homenews/state-watch/6234829-uber-driver-palisades-fire-conviction/",
-    "source": "The Hill"
-  },
-  {
-    "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
+    "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
     "source": "NPR Politics"
   },
   {
-    "title": "Sotomayor suggests Supreme Court colleagues may applaud midterm results as safeguard",
-    "link": "https://thehill.com/regulation/court-battles/6234774-justice-sotomayor-midterm-safeguards/",
-    "source": "The Hill"
-  },
-  {
-    "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
-    "link": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+    "title": "An effort to circumvent the Electoral College may be within reach. But hurdles remain",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044237/electoral-college-national-popular-vote-interstate-compact",
     "source": "NPR Politics"
-  },
-  {
-    "title": "Former Jackson, Mississippi, mayor sentenced to federal prison for bribery",
-    "link": "https://thehill.com/homenews/state-watch/6234903-jackson-mayor-lumumba-sentenced/",
-    "source": "The Hill"
-  },
-  {
-    "title": "The latest from Trump's press conference",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Trump touts meeting with Xi and Putin but offers little results",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
-    "source": "NPR Politics"
-  },
-  {
-    "title": "Dem senators want ‘swift’ response to Russian airspace incursions",
-    "link": "https://thehill.com/newsletters/defense-national-security/6234868-dem-senators-want-swift-response-to-russian-airspace-incursions/",
-    "source": "The Hill"
   },
   {
     "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
@@ -45,8 +15,23 @@
     "source": "NPR Politics"
   },
   {
-    "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
+    "title": "The latest from Trump's press conference",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Virginia reports first measles-related death of 2026",
+    "link": "https://thehill.com/policy/healthcare/6234958-virginia-child-measles-death-elimination-status/",
+    "source": "The Hill"
+  },
+  {
+    "title": "The 6 House races that will determine Democrats’ final majority",
+    "link": "https://thehill.com/homenews/state-watch/6234415-house-recounts-runoffs-democrat-majority/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Trump touts meeting with Xi and Putin but offers little results",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
     "source": "NPR Politics"
   },
   {
@@ -55,8 +40,23 @@
     "source": "The Hill"
   },
   {
-    "title": "Permitting reform bill clears major hurdle toward becoming law",
-    "link": "https://thehill.com/newsletters/energy-environment/6234873-senate-baaja-permitting-reform-energy-infrastructure/",
+    "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
+    "source": "NPR Politics"
+  },
+  {
+    "title": "Former Jackson, Mississippi, mayor sentenced to federal prison for bribery",
+    "link": "https://thehill.com/homenews/state-watch/6234903-jackson-mayor-lumumba-sentenced/",
+    "source": "The Hill"
+  },
+  {
+    "title": "Democrats want &#039;Medicare for More.&#039; Then comes the hard part",
+    "link": "https://thehill.com/policy/healthcare/6231776-democrats-expand-medicare-coverage/",
+    "source": "The Hill"
+  },
+  {
+    "title": "California man found guilty of sparking blaze that became deadly Palisades Fire",
+    "link": "https://thehill.com/homenews/state-watch/6234829-uber-driver-palisades-fire-conviction/",
     "source": "The Hill"
   }
 ]
